@@ -1,0 +1,68 @@
+\hypertarget{parser_8h}{}\doxysection{parser.\+h File Reference}
+\label{parser_8h}\index{parser.h@{parser.h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}stack.\+h\char`\"{}}\newline
+Include dependency graph for parser.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{parser_8h_a70ed59adcb4159ac551058053e649640}{S\+I\+ZE}}~25000
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{parser_8h_aa8029a6204077c4c9b8e4a1778db1ddd}{parse}} (char $\ast$\mbox{\hyperlink{stack_8h_a87da3d8264af1c9427605148f20dd9c4a6b30bda829e4fe673ed1afb7101a4746}{string}}, \mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados)
+\begin{DoxyCompactList}\small\item\em Funcao responsavel por ler a String e colocar-\/la dentro da estrutura de dados já com o token. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{parser_8h_a558a91b1a1aa2a48173e72b396c03c32}{juntar\+Strings}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados)
+\begin{DoxyCompactList}\small\item\em Funcao responsavel juntar Strings. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{parser_8h_a70ed59adcb4159ac551058053e649640}\label{parser_8h_a70ed59adcb4159ac551058053e649640}} 
+\index{parser.h@{parser.h}!SIZE@{SIZE}}
+\index{SIZE@{SIZE}!parser.h@{parser.h}}
+\doxysubsubsection{\texorpdfstring{SIZE}{SIZE}}
+{\footnotesize\ttfamily \#define S\+I\+ZE~25000}
+
+Tamanho Padrão usado em todo o código 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{parser_8h_a558a91b1a1aa2a48173e72b396c03c32}\label{parser_8h_a558a91b1a1aa2a48173e72b396c03c32}} 
+\index{parser.h@{parser.h}!juntarStrings@{juntarStrings}}
+\index{juntarStrings@{juntarStrings}!parser.h@{parser.h}}
+\doxysubsubsection{\texorpdfstring{juntarStrings()}{juntarStrings()}}
+{\footnotesize\ttfamily void juntar\+Strings (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados }\end{DoxyParamCaption})}
+
+
+
+Funcao responsavel juntar Strings. 
+
+Esta funcao existe pelo simples facto que o Str\+Tok pode cortar uma string baseada no limite = \char`\"{} \char`\"{}. Isto causaria enormes problemas pois \char`\"{}\+Ola Mundo\char`\"{} seria considerado 2 strings, então esta função\+: Sempre que encontra uma string só com \char`\"{} no inicio, vai percorrer a stack até encontrar uma string com \char`\"{} no fim Junta tudo e forma as strings pretendidas
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{parser_8h_aa8029a6204077c4c9b8e4a1778db1ddd}\label{parser_8h_aa8029a6204077c4c9b8e4a1778db1ddd}} 
+\index{parser.h@{parser.h}!parse@{parse}}
+\index{parse@{parse}!parser.h@{parser.h}}
+\doxysubsubsection{\texorpdfstring{parse()}{parse()}}
+{\footnotesize\ttfamily void parse (\begin{DoxyParamCaption}\item[{char $\ast$}]{string,  }\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados }\end{DoxyParamCaption})}
+
+
+
+Funcao responsavel por ler a String e colocar-\/la dentro da estrutura de dados já com o token. 
+
+Esta funcao recebe a string e corta a string em parcelas (sendo os limitadores \char`\"{} \textbackslash{}t\textbackslash{}n\char`\"{}) Cada vez que corta a string, e dado um token a funcao
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & String recebida do input do utilizador \\
+\hline
+{\em dados} & receber a stack \\
+\hline
+\end{DoxyParams}

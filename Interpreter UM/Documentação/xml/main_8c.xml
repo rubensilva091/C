@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="main_8c" kind="file" language="C++">
+    <compoundname>main.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes refid="string_8h" local="no">string.h</includes>
+    <includes local="no">math.h</includes>
+    <includes local="no">assert.h</includes>
+    <includes refid="parser_8h" local="yes">parser.h</includes>
+    <includes refid="interpretador_8h" local="yes">interpretador.h</includes>
+    <includes refid="stack_8h" local="yes">stack.h</includes>
+    <includes refid="token_8h" local="yes">token.h</includes>
+    <incdepgraph>
+      <node id="5">
+        <label>stack.h</label>
+        <link refid="stack_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>parser.h</label>
+        <link refid="parser_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>assert.h</label>
+      </node>
+      <node id="1">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+        <link refid="string_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>token.h</label>
+        <link refid="token_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>math.h</label>
+      </node>
+      <node id="6">
+        <label>interpretador.h</label>
+        <link refid="interpretador_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="main_8c_1a70ed59adcb4159ac551058053e649640" prot="public" static="no">
+        <name>SIZE</name>
+        <initializer>25000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tamanho Padrão usado em todo o código </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.c" line="16" column="9" bodyfile="main.c" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="main_8c_1a70ed59adcb4159ac551058053e649640" prot="public" static="no">
+        <name>SIZE</name>
+        <initializer>25000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tamanho Padrão usado em todo o código </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.c" line="65" column="9" bodyfile="main.c" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+<para>MAIN. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Funcao main: Nesta funcao e inicializada toda a estrutura de dados e variaveis necessarias para a stack... Recebe o input do utilizador Calcula o numero de operadores para evitar fazer ciclos desnecessarios. Sempre que algum ciclo acaba, a stack sofre a ReTokinizacao No final, mostra a <ref refid="structStack" kindref="compound">Stack</ref></para>
+<para><simplesect kind="return"><para>0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.c" line="30" column="5" bodyfile="main.c" bodystart="30" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="4"><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="string_8h" kindref="compound">string.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;assert.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="parser_8h" kindref="compound">parser.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="interpretador_8h" kindref="compound">interpretador.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="stack_8h" kindref="compound">stack.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="token_8h" kindref="compound">token.h</ref>&quot;</highlight></codeline>
+<codeline lineno="16"><highlight class="preprocessor">#define<sp/>SIZE<sp/>25000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>()</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><ref refid="structStack" kindref="compound">stack</ref><sp/>dados[<ref refid="main_8c_1a70ed59adcb4159ac551058053e649640" kindref="member">SIZE</ref>];</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">[<ref refid="main_8c_1a70ed59adcb4159ac551058053e649640" kindref="member">SIZE</ref>];</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nOperadores;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>assert(fgets(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/><ref refid="main_8c_1a70ed59adcb4159ac551058053e649640" kindref="member">SIZE</ref>,<sp/>stdin)<sp/>!=<sp/>NULL);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>assert(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">[strlen(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">)<sp/>-<sp/>1]<sp/>==<sp/></highlight><highlight class="charliteral">&apos;\n&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><ref refid="parser_8c_1aa8029a6204077c4c9b8e4a1778db1ddd" kindref="member">parse</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/>dados);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><ref refid="parser_8c_1a558a91b1a1aa2a48173e72b396c03c32" kindref="member">juntarStrings</ref>(dados);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/>nOperadores<sp/>=<sp/><ref refid="stack_8c_1ac16cf18a4d43dee4ed9949a320837b27" kindref="member">numberOperators</ref>(dados);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>nOperadores;<sp/>i++)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="interpretador_8h_1a95f1751d6d8ce92fb6a8813e25e9c180" kindref="member">interpretador</ref>(dados);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="token_8h_1aca3f0d9dc49862e365fc2a09d8d426da" kindref="member">reToken</ref>(dados);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><ref refid="stack_8c_1ac21ac2c502efb3c07f0379325f54c008" kindref="member">DISPLAY</ref>(dados);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="53"><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="string_8h" kindref="compound">string.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;assert.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="parser_8h" kindref="compound">parser.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="interpretador_8h" kindref="compound">interpretador.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="stack_8h" kindref="compound">stack.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="token_8h" kindref="compound">token.h</ref>&quot;</highlight></codeline>
+<codeline lineno="65"><highlight class="preprocessor">#define<sp/>SIZE<sp/>25000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>()</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><ref refid="structStack" kindref="compound">stack</ref><sp/>dados[<ref refid="main_8c_1a70ed59adcb4159ac551058053e649640" kindref="member">SIZE</ref>];</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">[<ref refid="main_8c_1a70ed59adcb4159ac551058053e649640" kindref="member">SIZE</ref>];</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nOperadores;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/>assert(fgets(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/><ref refid="main_8c_1a70ed59adcb4159ac551058053e649640" kindref="member">SIZE</ref>,<sp/>stdin)<sp/>!=<sp/>NULL);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/>assert(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">[strlen(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">)<sp/>-<sp/>1]<sp/>==<sp/></highlight><highlight class="charliteral">&apos;\n&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><ref refid="parser_8c_1aa8029a6204077c4c9b8e4a1778db1ddd" kindref="member">parse</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/>dados);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><ref refid="parser_8c_1a558a91b1a1aa2a48173e72b396c03c32" kindref="member">juntarStrings</ref>(dados);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/>nOperadores<sp/>=<sp/><ref refid="stack_8c_1ac16cf18a4d43dee4ed9949a320837b27" kindref="member">numberOperators</ref>(dados);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>nOperadores;<sp/>i++)</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="interpretador_8h_1a95f1751d6d8ce92fb6a8813e25e9c180" kindref="member">interpretador</ref>(dados);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="token_8h_1aca3f0d9dc49862e365fc2a09d8d426da" kindref="member">reToken</ref>(dados);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><ref refid="stack_8c_1ac21ac2c502efb3c07f0379325f54c008" kindref="member">DISPLAY</ref>(dados);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="main.c"/>
+  </compounddef>
+</doxygen>

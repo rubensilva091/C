@@ -1,0 +1,805 @@
+\hypertarget{interpretador_8c}{}\doxysection{interpretador.\+c File Reference}
+\label{interpretador_8c}\index{interpretador.c@{interpretador.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include $<$assert.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}interpretador.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}token.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}stack.\+h\char`\"{}}\newline
+Include dependency graph for interpretador.\+c\+:
+% FIG 0
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{interpretador_8c_a70ed59adcb4159ac551058053e649640}{S\+I\+ZE}}~10240
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interpretador_8c_a4f480ce0a65293c89ac42a11c8c85edb}{interpretador\+Main}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados)
+\begin{DoxyCompactList}\small\item\em Funcao que liga o interpretador ao main. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_a95f1751d6d8ce92fb6a8813e25e9c180}{interpretador}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_a4cd72d7a32d64d191c5ab6721475acd5}{expressao\+Matematica\+Func}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador (E\+X\+P\+R\+E\+S\+S\+AO M\+A\+T\+E\+M\+A\+T\+I\+CA) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_a3b24f26911df92282d3139093591a5f5}{stacks\+Func}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador (S\+T\+A\+C\+KS) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_ab4842b4c3688b9156964d5d068903364}{input\+Output\+\_\+conversoes\+Func}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+I\+N\+P\+U\+T\+\_\+\+O\+U\+T\+P\+U\+T\+\_\+\+C\+O\+N\+V\+E\+R\+S\+O\+E\+S\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_a6524004eb37dd748dd604871908de8e8}{logica\+Func}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+L\+O\+G\+I\+C\+A\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_a2b00bc20264b2fe2ced44e947ffcc4e8}{soma}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+S\+O\+M\+A\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_adf146be45ae906bf721220dfddbf8ec6}{subtracao}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+S\+U\+B\+T\+R\+A\+C\+A\+O\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_ae89b4f5a42af1f8f103ffd7ba74c4049}{multiplicacao}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+M\+U\+L\+T\+I\+P\+L\+I\+C\+AÇÃ\+O\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_ab44d2b1c218f430c07eeaccb4718b685}{divisao}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+D\+I\+V\+I\+SÃ\+O\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_a9913e20960bf804b742bf74b8e73c11e}{incrementacao}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+I\+N\+C\+R\+E\+M\+E\+N\+T\+AÇÃ\+O\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_a2eabf2a913f31b51c2cead4fe401dfcb}{decrementacao}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+D\+E\+C\+R\+E\+M\+E\+N\+T\+AÇÃ\+O\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_ab9b39806ce719ec0e0d8dc26ad1499e5}{exponencializacao}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+E\+X\+P\+O\+N\+E\+N\+C\+I\+A\+L\+I\+Z\+AÇÃ\+O\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_ad680e918fdc5950b21b09711215e4123}{modulo}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+M\+O\+D\+U\+L\+O\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_a01b54c7fea293cdf9209b6ececa73470}{bitwise\+\_\+\+A\+ND}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+B\+I\+T\+W\+I\+S\+E\+\_\+\+A\+N\+D\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_ab6788283b52628916411858126d02384}{bitwise\+\_\+\+OR}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+B\+I\+T\+W\+I\+S\+E\+\_\+\+O\+R\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_a2f89c119beea70c6b676c06327d8f2bc}{bitwise\+\_\+\+X\+OR}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+B\+I\+T\+W\+I\+S\+E\+\_\+\+X\+O\+R\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_aa8414235edd8229cc4dabd063b273eb0}{bitwise\+\_\+\+N\+OT}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+B\+I\+T\+W\+I\+S\+E\+\_\+\+N\+O\+T\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_a5272287f8b6863e03fa05a5fd0f0a899}{duplicar\+Stack}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+D\+U\+P\+L\+I\+C\+A\+S\+T\+A\+C\+K\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_ace9569f5f609da5015ff36ff6f4d9821}{pop\+Stack}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+P\+O\+P\+S\+T\+A\+C\+K\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_acf1d867f16ae76d566c4e28c8fc64956}{troca\+Stack}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+T\+R\+O\+C\+A\+S\+T\+A\+C\+K\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_a62328f8dc0ff87a24f7bdb42cb98b20e}{roda\+Stack}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+R\+O\+D\+A\+S\+T\+A\+C\+K\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_a0caf68b950ba1ad1a7d7621b41c40a48}{duplica\+N\+\_\+esimo\+Stack}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+D\+U\+P\+L\+I\+C\+A\+N-\/\+E\+S\+I\+M\+O\+S\+T\+A\+C\+K\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_ac2443729400c4b8599da492d0baac2ca}{ler}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+L\+E\+R\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_ac6a719c2674f96baf862ae7fbb641a04}{interio\+F\+U\+NC}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+I\+N\+T\+E\+R\+O\+F\+U\+N\+C\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_ac28ec879c74f0f03ee7f084569fc74c8}{float\+F\+U\+NC}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+F\+L\+O\+A\+T\+F\+U\+N\+C\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_aa9592f7af31db6f8e957704d1dd27c43}{converter\+Num\+\_\+\+Letra}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+C\+O\+N\+V\+E\+R\+T\+E\+R\+N\+U\+M-\/\+L\+E\+T\+R\+A\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_a4a852c9b568fbd72253aef6ca9949c57}{preencher\+Variavel}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+P\+R\+E\+E\+N\+C\+H\+E\+V\+A\+R\+I\+A\+V\+E\+L\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_aee46b827f30767c9959ed7963b89ea21}{igualdade}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+I\+G\+U\+A\+L\+D\+A\+D\+E\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_a7f961970830d5f092308dff467105465}{menor}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+M\+E\+N\+O\+R\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_a8130d3010dadee0b27237bc8954ed37b}{maior}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+M\+A\+I\+O\+R\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_a0c9145f08d5f8f53db3ee8c487d8550c}{negacao}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+N\+E\+G\+A\+C\+A\+O\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_a07de37a9f9669aebe240bcc90040e582}{e\+\_\+menor}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}e\+\_\+\+M\+E\+N\+O\+R\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_a0f92bea722f49aa7bed51263210cf59e}{e\+\_\+maior}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}e\+\_\+\+M\+A\+I\+O\+R\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_a8434f9143273f2381f6782392b53b380}{e\+\_\+\+And}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}e\+\_\+\+A\+N\+D\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_abed118cd4db860d61d2aff6ca3f099a0}{e\+\_\+\+Or}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}e\+\_\+\+O\+R\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8c_ae1d5ea8b79b158aeb00aea349b35b20b}{condicional}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do interpretador \char`\"{}\+C\+O\+N\+D\+I\+C\+I\+O\+N\+A\+L\char`\"{}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{interpretador_8c_a70ed59adcb4159ac551058053e649640}\label{interpretador_8c_a70ed59adcb4159ac551058053e649640}} 
+\index{interpretador.c@{interpretador.c}!SIZE@{SIZE}}
+\index{SIZE@{SIZE}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{SIZE}{SIZE}}
+{\footnotesize\ttfamily \#define S\+I\+ZE~10240}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{interpretador_8c_a01b54c7fea293cdf9209b6ececa73470}\label{interpretador_8c_a01b54c7fea293cdf9209b6ececa73470}} 
+\index{interpretador.c@{interpretador.c}!bitwise\_AND@{bitwise\_AND}}
+\index{bitwise\_AND@{bitwise\_AND}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{bitwise\_AND()}{bitwise\_AND()}}
+{\footnotesize\ttfamily void bitwise\+\_\+\+A\+ND (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+B\+I\+T\+W\+I\+S\+E\+\_\+\+A\+N\+D\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Faz a funcao bitwise\+\_\+\+A\+ND dos numeros baseada na posicao atual Elimina os numeros da stack Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_aa8414235edd8229cc4dabd063b273eb0}\label{interpretador_8c_aa8414235edd8229cc4dabd063b273eb0}} 
+\index{interpretador.c@{interpretador.c}!bitwise\_NOT@{bitwise\_NOT}}
+\index{bitwise\_NOT@{bitwise\_NOT}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{bitwise\_NOT()}{bitwise\_NOT()}}
+{\footnotesize\ttfamily void bitwise\+\_\+\+N\+OT (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+B\+I\+T\+W\+I\+S\+E\+\_\+\+N\+O\+T\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Faz a funcao bitwise\+\_\+\+N\+OT do numero baseada na posicao atual Elimina o numero da stack Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_ab6788283b52628916411858126d02384}\label{interpretador_8c_ab6788283b52628916411858126d02384}} 
+\index{interpretador.c@{interpretador.c}!bitwise\_OR@{bitwise\_OR}}
+\index{bitwise\_OR@{bitwise\_OR}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{bitwise\_OR()}{bitwise\_OR()}}
+{\footnotesize\ttfamily void bitwise\+\_\+\+OR (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+B\+I\+T\+W\+I\+S\+E\+\_\+\+O\+R\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Faz a funcao bitwise\+\_\+\+OR dos numeros baseada na posicao atual Elimina os numeros da stack Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_a2f89c119beea70c6b676c06327d8f2bc}\label{interpretador_8c_a2f89c119beea70c6b676c06327d8f2bc}} 
+\index{interpretador.c@{interpretador.c}!bitwise\_XOR@{bitwise\_XOR}}
+\index{bitwise\_XOR@{bitwise\_XOR}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{bitwise\_XOR()}{bitwise\_XOR()}}
+{\footnotesize\ttfamily void bitwise\+\_\+\+X\+OR (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+B\+I\+T\+W\+I\+S\+E\+\_\+\+X\+O\+R\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Faz a funcao bitwise\+\_\+\+X\+OR dos numeros baseada na posicao atual Elimina os numeros da stack Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_ae1d5ea8b79b158aeb00aea349b35b20b}\label{interpretador_8c_ae1d5ea8b79b158aeb00aea349b35b20b}} 
+\index{interpretador.c@{interpretador.c}!condicional@{condicional}}
+\index{condicional@{condicional}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{condicional()}{condicional()}}
+{\footnotesize\ttfamily void condicional (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+C\+O\+N\+D\+I\+C\+I\+O\+N\+A\+L\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Verifica se a afirmacao anterior é falsa ou verdadeira Se Verdadeiro, Substitui o operador pelo valor na posição atual do operador menos duas posições Se Falso, Substitui o operador pelo valor na posição atual do operador menos uma posição
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_aa9592f7af31db6f8e957704d1dd27c43}\label{interpretador_8c_aa9592f7af31db6f8e957704d1dd27c43}} 
+\index{interpretador.c@{interpretador.c}!converterNum\_Letra@{converterNum\_Letra}}
+\index{converterNum\_Letra@{converterNum\_Letra}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{converterNum\_Letra()}{converterNum\_Letra()}}
+{\footnotesize\ttfamily void converter\+Num\+\_\+\+Letra (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+C\+O\+N\+V\+E\+R\+T\+E\+R\+N\+U\+M-\/\+L\+E\+T\+R\+A\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Troca o numero pela respetia representação alfabética (letras) Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_a2eabf2a913f31b51c2cead4fe401dfcb}\label{interpretador_8c_a2eabf2a913f31b51c2cead4fe401dfcb}} 
+\index{interpretador.c@{interpretador.c}!decrementacao@{decrementacao}}
+\index{decrementacao@{decrementacao}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{decrementacao()}{decrementacao()}}
+{\footnotesize\ttfamily void decrementacao (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+D\+E\+C\+R\+E\+M\+E\+N\+T\+AÇÃ\+O\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Faz a decrementação do numero baseada na posicao atual Verifica se é inteiro ou float Elimina o numero da stack Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_ab44d2b1c218f430c07eeaccb4718b685}\label{interpretador_8c_ab44d2b1c218f430c07eeaccb4718b685}} 
+\index{interpretador.c@{interpretador.c}!divisao@{divisao}}
+\index{divisao@{divisao}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{divisao()}{divisao()}}
+{\footnotesize\ttfamily void divisao (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+D\+I\+V\+I\+SÃ\+O\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Faz a divisão dos numeros baseada na posicao atual Verifica se é inteiro ou float Elimina os numeros da stack Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_a0caf68b950ba1ad1a7d7621b41c40a48}\label{interpretador_8c_a0caf68b950ba1ad1a7d7621b41c40a48}} 
+\index{interpretador.c@{interpretador.c}!duplicaN\_esimoStack@{duplicaN\_esimoStack}}
+\index{duplicaN\_esimoStack@{duplicaN\_esimoStack}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{duplicaN\_esimoStack()}{duplicaN\_esimoStack()}}
+{\footnotesize\ttfamily void duplica\+N\+\_\+esimo\+Stack (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+D\+U\+P\+L\+I\+C\+A\+N-\/\+E\+S\+I\+M\+O\+S\+T\+A\+C\+K\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Duplica a posicao da stack que o utilizador quiser baseada na posição atual Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_a5272287f8b6863e03fa05a5fd0f0a899}\label{interpretador_8c_a5272287f8b6863e03fa05a5fd0f0a899}} 
+\index{interpretador.c@{interpretador.c}!duplicarStack@{duplicarStack}}
+\index{duplicarStack@{duplicarStack}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{duplicarStack()}{duplicarStack()}}
+{\footnotesize\ttfamily void duplicar\+Stack (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+D\+U\+P\+L\+I\+C\+A\+S\+T\+A\+C\+K\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Faz duplicação da ultima posição da stack baseada na posição atual Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_a8434f9143273f2381f6782392b53b380}\label{interpretador_8c_a8434f9143273f2381f6782392b53b380}} 
+\index{interpretador.c@{interpretador.c}!e\_And@{e\_And}}
+\index{e\_And@{e\_And}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{e\_And()}{e\_And()}}
+{\footnotesize\ttfamily void e\+\_\+\+And (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}e\+\_\+\+A\+N\+D\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Faz a verificação lógica \&. Substitui o operador pelo valor pelo maior numero se verdade, ou 0 se falso
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_a0f92bea722f49aa7bed51263210cf59e}\label{interpretador_8c_a0f92bea722f49aa7bed51263210cf59e}} 
+\index{interpretador.c@{interpretador.c}!e\_maior@{e\_maior}}
+\index{e\_maior@{e\_maior}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{e\_maior()}{e\_maior()}}
+{\footnotesize\ttfamily void e\+\_\+maior (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}e\+\_\+\+M\+A\+I\+O\+R\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Verifica qual o maior numero Substitui o operador pelo valor correspondente ao maior
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_a07de37a9f9669aebe240bcc90040e582}\label{interpretador_8c_a07de37a9f9669aebe240bcc90040e582}} 
+\index{interpretador.c@{interpretador.c}!e\_menor@{e\_menor}}
+\index{e\_menor@{e\_menor}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{e\_menor()}{e\_menor()}}
+{\footnotesize\ttfamily void e\+\_\+menor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}e\+\_\+\+M\+E\+N\+O\+R\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Verifica qual o menor numero Substitui o operador pelo valor correspondente ao menor
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_abed118cd4db860d61d2aff6ca3f099a0}\label{interpretador_8c_abed118cd4db860d61d2aff6ca3f099a0}} 
+\index{interpretador.c@{interpretador.c}!e\_Or@{e\_Or}}
+\index{e\_Or@{e\_Or}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{e\_Or()}{e\_Or()}}
+{\footnotesize\ttfamily void e\+\_\+\+Or (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}e\+\_\+\+O\+R\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Faz a verificação lógica $\vert$. Substitui o operador pelo valor pelo menor numero se verdade, ou 0 se falso
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_ab9b39806ce719ec0e0d8dc26ad1499e5}\label{interpretador_8c_ab9b39806ce719ec0e0d8dc26ad1499e5}} 
+\index{interpretador.c@{interpretador.c}!exponencializacao@{exponencializacao}}
+\index{exponencializacao@{exponencializacao}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{exponencializacao()}{exponencializacao()}}
+{\footnotesize\ttfamily void exponencializacao (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+E\+X\+P\+O\+N\+E\+N\+C\+I\+A\+L\+I\+Z\+AÇÃ\+O\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Faz a exponencialização dos numeros baseada na posicao atual Verifica se é inteiro ou float Elimina os numeros da stack Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_a4cd72d7a32d64d191c5ab6721475acd5}\label{interpretador_8c_a4cd72d7a32d64d191c5ab6721475acd5}} 
+\index{interpretador.c@{interpretador.c}!expressaoMatematicaFunc@{expressaoMatematicaFunc}}
+\index{expressaoMatematicaFunc@{expressaoMatematicaFunc}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{expressaoMatematicaFunc()}{expressaoMatematicaFunc()}}
+{\footnotesize\ttfamily void expressao\+Matematica\+Func (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador (E\+X\+P\+R\+E\+S\+S\+AO M\+A\+T\+E\+M\+A\+T\+I\+CA) 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Depois de encontrado, entra na funcao respetiva Depois de tudo, volta ao main
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & recebe a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_ac28ec879c74f0f03ee7f084569fc74c8}\label{interpretador_8c_ac28ec879c74f0f03ee7f084569fc74c8}} 
+\index{interpretador.c@{interpretador.c}!floatFUNC@{floatFUNC}}
+\index{floatFUNC@{floatFUNC}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{floatFUNC()}{floatFUNC()}}
+{\footnotesize\ttfamily void float\+F\+U\+NC (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+F\+L\+O\+A\+T\+F\+U\+N\+C\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Troca a tag do numero anterior para float Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_aee46b827f30767c9959ed7963b89ea21}\label{interpretador_8c_aee46b827f30767c9959ed7963b89ea21}} 
+\index{interpretador.c@{interpretador.c}!igualdade@{igualdade}}
+\index{igualdade@{igualdade}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{igualdade()}{igualdade()}}
+{\footnotesize\ttfamily void igualdade (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+I\+G\+U\+A\+L\+D\+A\+D\+E\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Verifica se os numeros sao iguais Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_a9913e20960bf804b742bf74b8e73c11e}\label{interpretador_8c_a9913e20960bf804b742bf74b8e73c11e}} 
+\index{interpretador.c@{interpretador.c}!incrementacao@{incrementacao}}
+\index{incrementacao@{incrementacao}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{incrementacao()}{incrementacao()}}
+{\footnotesize\ttfamily void incrementacao (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+I\+N\+C\+R\+E\+M\+E\+N\+T\+AÇÃ\+O\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Faz a incrementação do numero baseada na posicao atual Verifica se é inteiro ou float Elimina o numero da stack Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_ab4842b4c3688b9156964d5d068903364}\label{interpretador_8c_ab4842b4c3688b9156964d5d068903364}} 
+\index{interpretador.c@{interpretador.c}!inputOutput\_conversoesFunc@{inputOutput\_conversoesFunc}}
+\index{inputOutput\_conversoesFunc@{inputOutput\_conversoesFunc}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{inputOutput\_conversoesFunc()}{inputOutput\_conversoesFunc()}}
+{\footnotesize\ttfamily void input\+Output\+\_\+conversoes\+Func (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+I\+N\+P\+U\+T\+\_\+\+O\+U\+T\+P\+U\+T\+\_\+\+C\+O\+N\+V\+E\+R\+S\+O\+E\+S\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Depois de encontrado, entra na funcao respetiva Depois de tudo, volta ao main
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_ac6a719c2674f96baf862ae7fbb641a04}\label{interpretador_8c_ac6a719c2674f96baf862ae7fbb641a04}} 
+\index{interpretador.c@{interpretador.c}!interioFUNC@{interioFUNC}}
+\index{interioFUNC@{interioFUNC}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{interioFUNC()}{interioFUNC()}}
+{\footnotesize\ttfamily void interio\+F\+U\+NC (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+I\+N\+T\+E\+R\+O\+F\+U\+N\+C\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Troca a tag do numero anterior para inteiro e retira-\/lhe o resto se existir Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_a95f1751d6d8ce92fb6a8813e25e9c180}\label{interpretador_8c_a95f1751d6d8ce92fb6a8813e25e9c180}} 
+\index{interpretador.c@{interpretador.c}!interpretador@{interpretador}}
+\index{interpretador@{interpretador}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{interpretador()}{interpretador()}}
+{\footnotesize\ttfamily void interpretador (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador. 
+
+Esta funcao recebe os dados e faz uma verificacao ate encontrar algum operador Depois de encontrado, entra na parte correspondente Depois da operacao, da break, e volta ao main
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_a4f480ce0a65293c89ac42a11c8c85edb}\label{interpretador_8c_a4f480ce0a65293c89ac42a11c8c85edb}} 
+\index{interpretador.c@{interpretador.c}!interpretadorMain@{interpretadorMain}}
+\index{interpretadorMain@{interpretadorMain}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{interpretadorMain()}{interpretadorMain()}}
+{\footnotesize\ttfamily void interpretador\+Main (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados }\end{DoxyParamCaption})}
+
+
+
+Funcao que liga o interpretador ao main. 
+
+Esta funcao recebe os dados e envia para o interpretador
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_ac2443729400c4b8599da492d0baac2ca}\label{interpretador_8c_ac2443729400c4b8599da492d0baac2ca}} 
+\index{interpretador.c@{interpretador.c}!ler@{ler}}
+\index{ler@{ler}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{ler()}{ler()}}
+{\footnotesize\ttfamily void ler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+L\+E\+R\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Substitui a posição atual por algum input do utilizador Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_a6524004eb37dd748dd604871908de8e8}\label{interpretador_8c_a6524004eb37dd748dd604871908de8e8}} 
+\index{interpretador.c@{interpretador.c}!logicaFunc@{logicaFunc}}
+\index{logicaFunc@{logicaFunc}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{logicaFunc()}{logicaFunc()}}
+{\footnotesize\ttfamily void logica\+Func (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+L\+O\+G\+I\+C\+A\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Depois de encontrado, entra na funcao respetiva Depois de tudo, volta ao main
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_a8130d3010dadee0b27237bc8954ed37b}\label{interpretador_8c_a8130d3010dadee0b27237bc8954ed37b}} 
+\index{interpretador.c@{interpretador.c}!maior@{maior}}
+\index{maior@{maior}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{maior()}{maior()}}
+{\footnotesize\ttfamily void maior (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+M\+A\+I\+O\+R\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Verifica qual o maior numero Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_a7f961970830d5f092308dff467105465}\label{interpretador_8c_a7f961970830d5f092308dff467105465}} 
+\index{interpretador.c@{interpretador.c}!menor@{menor}}
+\index{menor@{menor}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{menor()}{menor()}}
+{\footnotesize\ttfamily void menor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+M\+E\+N\+O\+R\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Verifica qual o menor numero Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_ad680e918fdc5950b21b09711215e4123}\label{interpretador_8c_ad680e918fdc5950b21b09711215e4123}} 
+\index{interpretador.c@{interpretador.c}!modulo@{modulo}}
+\index{modulo@{modulo}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{modulo()}{modulo()}}
+{\footnotesize\ttfamily void modulo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+M\+O\+D\+U\+L\+O\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Faz o modulo dos numeros baseada na posicao atual Elimina os numeros da stack Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_ae89b4f5a42af1f8f103ffd7ba74c4049}\label{interpretador_8c_ae89b4f5a42af1f8f103ffd7ba74c4049}} 
+\index{interpretador.c@{interpretador.c}!multiplicacao@{multiplicacao}}
+\index{multiplicacao@{multiplicacao}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{multiplicacao()}{multiplicacao()}}
+{\footnotesize\ttfamily void multiplicacao (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+M\+U\+L\+T\+I\+P\+L\+I\+C\+AÇÃ\+O\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Faz a multiplicação dos numeros baseada na posicao atual Verifica se é inteiro ou float Elimina os numeros da stack Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_a0c9145f08d5f8f53db3ee8c487d8550c}\label{interpretador_8c_a0c9145f08d5f8f53db3ee8c487d8550c}} 
+\index{interpretador.c@{interpretador.c}!negacao@{negacao}}
+\index{negacao@{negacao}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{negacao()}{negacao()}}
+{\footnotesize\ttfamily void negacao (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+N\+E\+G\+A\+C\+A\+O\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Nega a afirmacao anterior Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_ace9569f5f609da5015ff36ff6f4d9821}\label{interpretador_8c_ace9569f5f609da5015ff36ff6f4d9821}} 
+\index{interpretador.c@{interpretador.c}!popStack@{popStack}}
+\index{popStack@{popStack}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{popStack()}{popStack()}}
+{\footnotesize\ttfamily void pop\+Stack (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+P\+O\+P\+S\+T\+A\+C\+K\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Apaga a ultima posição da stack baseada na posição atual Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_a4a852c9b568fbd72253aef6ca9949c57}\label{interpretador_8c_a4a852c9b568fbd72253aef6ca9949c57}} 
+\index{interpretador.c@{interpretador.c}!preencherVariavel@{preencherVariavel}}
+\index{preencherVariavel@{preencherVariavel}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{preencherVariavel()}{preencherVariavel()}}
+{\footnotesize\ttfamily void preencher\+Variavel (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+P\+R\+E\+E\+N\+C\+H\+E\+V\+A\+R\+I\+A\+V\+E\+L\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Copia a posição anterior para a Variavel Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_a62328f8dc0ff87a24f7bdb42cb98b20e}\label{interpretador_8c_a62328f8dc0ff87a24f7bdb42cb98b20e}} 
+\index{interpretador.c@{interpretador.c}!rodaStack@{rodaStack}}
+\index{rodaStack@{rodaStack}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{rodaStack()}{rodaStack()}}
+{\footnotesize\ttfamily void roda\+Stack (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+R\+O\+D\+A\+S\+T\+A\+C\+K\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Faz rotação das ultimas 3 posições da stack baseada na posição atual Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_a2b00bc20264b2fe2ced44e947ffcc4e8}\label{interpretador_8c_a2b00bc20264b2fe2ced44e947ffcc4e8}} 
+\index{interpretador.c@{interpretador.c}!soma@{soma}}
+\index{soma@{soma}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{soma()}{soma()}}
+{\footnotesize\ttfamily void soma (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+S\+O\+M\+A\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Faz a soma dos numeros baseada na posicao atual Verifica se é inteiro ou float Elimina os numeros da stack Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_a3b24f26911df92282d3139093591a5f5}\label{interpretador_8c_a3b24f26911df92282d3139093591a5f5}} 
+\index{interpretador.c@{interpretador.c}!stacksFunc@{stacksFunc}}
+\index{stacksFunc@{stacksFunc}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{stacksFunc()}{stacksFunc()}}
+{\footnotesize\ttfamily void stacks\+Func (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador (S\+T\+A\+C\+KS) 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Depois de encontrado, entra na funcao respetiva Depois de tudo, volta ao main
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & recebe a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_adf146be45ae906bf721220dfddbf8ec6}\label{interpretador_8c_adf146be45ae906bf721220dfddbf8ec6}} 
+\index{interpretador.c@{interpretador.c}!subtracao@{subtracao}}
+\index{subtracao@{subtracao}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{subtracao()}{subtracao()}}
+{\footnotesize\ttfamily void subtracao (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+S\+U\+B\+T\+R\+A\+C\+A\+O\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Faz a subtracao dos numeros baseada na posicao atual Verifica se é inteiro ou float Elimina os numeros da stack Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8c_acf1d867f16ae76d566c4e28c8fc64956}\label{interpretador_8c_acf1d867f16ae76d566c4e28c8fc64956}} 
+\index{interpretador.c@{interpretador.c}!trocaStack@{trocaStack}}
+\index{trocaStack@{trocaStack}!interpretador.c@{interpretador.c}}
+\doxysubsubsection{\texorpdfstring{trocaStack()}{trocaStack()}}
+{\footnotesize\ttfamily void troca\+Stack (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do interpretador \char`\"{}\+T\+R\+O\+C\+A\+S\+T\+A\+C\+K\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do interpretador Faz troca das ultimas 2 posições da stack baseada na posição atual Substitui o operador pelo valor final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}

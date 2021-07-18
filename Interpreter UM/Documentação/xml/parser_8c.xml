@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="parser_8c" kind="file" language="C++">
+    <compoundname>parser.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes refid="string_8h" local="no">string.h</includes>
+    <includes local="no">math.h</includes>
+    <includes refid="parser_8h" local="yes">parser.h</includes>
+    <includes refid="stack_8h" local="yes">stack.h</includes>
+    <includes refid="token_8h" local="yes">token.h</includes>
+    <incdepgraph>
+      <node id="5">
+        <label>stack.h</label>
+        <link refid="stack_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>parser.c</label>
+        <link refid="parser_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>parser.h</label>
+        <link refid="parser_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+        <link refid="string_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>token.h</label>
+        <link refid="token_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>math.h</label>
+      </node>
+      <node id="6">
+        <label>interpretador.h</label>
+        <link refid="interpretador_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="parser_8c_1a70ed59adcb4159ac551058053e649640" prot="public" static="no">
+        <name>SIZE</name>
+        <initializer>25000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tamanho Padrão usado em todo o código </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="16" column="9" bodyfile="parser.c" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="parser_8c_1aa8029a6204077c4c9b8e4a1778db1ddd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void parse</definition>
+        <argsstring>(char *string, stack *dados)</argsstring>
+        <name>parse</name>
+        <param>
+          <type>char *</type>
+          <declname>string</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a504e59726c5a48f1d3bda9cf9031aa84" kindref="member">stack</ref> *</type>
+          <declname>dados</declname>
+        </param>
+        <briefdescription>
+<para>Funcao responsavel por ler a String e colocar-la dentro da estrutura de dados já com o token. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Esta funcao recebe a string e corta a string em parcelas (sendo os limitadores &quot; \t\n&quot;) Cada vez que corta a string, e dado um token a funcao</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String recebida do input do utilizador </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dados</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receber a stack </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="27" column="6" bodyfile="parser.c" bodystart="27" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1a558a91b1a1aa2a48173e72b396c03c32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void juntarStrings</definition>
+        <argsstring>(stack *dados)</argsstring>
+        <name>juntarStrings</name>
+        <param>
+          <type><ref refid="stack_8h_1a504e59726c5a48f1d3bda9cf9031aa84" kindref="member">stack</ref> *</type>
+          <declname>dados</declname>
+        </param>
+        <briefdescription>
+<para>Funcao responsavel juntar Strings. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Esta funcao existe pelo simples facto que o StrTok pode cortar uma string baseada no limite = &quot; &quot;. Isto causaria enormes problemas pois &quot;Ola Mundo&quot; seria considerado 2 strings, então esta função: Sempre que encontra uma string só com &quot; no inicio, vai percorrer a stack até encontrar uma string com &quot; no fim Junta tudo e forma as strings pretendidas</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dados</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receber a stack </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="90" column="6" bodyfile="parser.c" bodystart="90" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="4"><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="string_8h" kindref="compound">string.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="parser_8h" kindref="compound">parser.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="stack_8h" kindref="compound">stack.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="token_8h" kindref="compound">token.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="stack_8h" kindref="compound">stack.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="string_8h" kindref="compound">string.h</ref>&quot;</highlight></codeline>
+<codeline lineno="16"><highlight class="preprocessor">#define<sp/>SIZE<sp/>25000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1aa8029a6204077c4c9b8e4a1778db1ddd" kindref="member">parse</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/><ref refid="structStack" kindref="compound">stack</ref><sp/>*dados)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="stack_8h_1a87da3d8264af1c9427605148f20dd9c4a2085656f32afbd50512cd8364689405f" kindref="member">limite</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;<sp/>\t\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(dados[i].caracter<sp/>=<sp/>strtok(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/><ref refid="stack_8h_1a87da3d8264af1c9427605148f20dd9c4a2085656f32afbd50512cd8364689405f" kindref="member">limite</ref>);<sp/>dados[i].<ref refid="structStack_1acaab69ead915760ece7552b0b0bf5ba5" kindref="member">caracter</ref><sp/>!=<sp/>NULL;<sp/>dados[i].<ref refid="structStack_1acaab69ead915760ece7552b0b0bf5ba5" kindref="member">caracter</ref><sp/>=<sp/>strtok(NULL,<sp/><ref refid="stack_8h_1a87da3d8264af1c9427605148f20dd9c4a2085656f32afbd50512cd8364689405f" kindref="member">limite</ref>))</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="token_8h_1a78648cd27d9cae511cd91c940b30cbe3" kindref="member">tokenFunc</ref>(dados[i].caracter,<sp/>dados,<sp/>i);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="token_8h_1aa2e2446e5e141e8eb6ed811940f1cc8b" kindref="member">variaveisOmissao</ref>(dados,<sp/>i);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>i++;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="string_8h" kindref="compound">string.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="parser_8h" kindref="compound">parser.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="stack_8h" kindref="compound">stack.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="token_8h" kindref="compound">token.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="stack_8h" kindref="compound">stack.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="string_8h" kindref="compound">string.h</ref>&quot;</highlight></codeline>
+<codeline lineno="57"><highlight class="preprocessor">#define<sp/>SIZE<sp/>25000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1aa8029a6204077c4c9b8e4a1778db1ddd" kindref="member">parse</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/><ref refid="structStack" kindref="compound">stack</ref><sp/>*dados)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="stack_8h_1a87da3d8264af1c9427605148f20dd9c4a2085656f32afbd50512cd8364689405f" kindref="member">limite</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;<sp/>\t\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(dados[i].caracter<sp/>=<sp/>strtok(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/><ref refid="stack_8h_1a87da3d8264af1c9427605148f20dd9c4a2085656f32afbd50512cd8364689405f" kindref="member">limite</ref>);<sp/>dados[i].<ref refid="structStack_1acaab69ead915760ece7552b0b0bf5ba5" kindref="member">caracter</ref><sp/>!=<sp/>NULL;<sp/>dados[i].<ref refid="structStack_1acaab69ead915760ece7552b0b0bf5ba5" kindref="member">caracter</ref><sp/>=<sp/>strtok(NULL,<sp/><ref refid="stack_8h_1a87da3d8264af1c9427605148f20dd9c4a2085656f32afbd50512cd8364689405f" kindref="member">limite</ref>))</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="token_8h_1a78648cd27d9cae511cd91c940b30cbe3" kindref="member">tokenFunc</ref>(dados[i].caracter,<sp/>dados,<sp/>i);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="token_8h_1aa2e2446e5e141e8eb6ed811940f1cc8b" kindref="member">variaveisOmissao</ref>(dados,<sp/>i);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>i++;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1a558a91b1a1aa2a48173e72b396c03c32" kindref="member">juntarStrings</ref>(<ref refid="structStack" kindref="compound">stack</ref><sp/>*dados)</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/>counter1;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>dados[i].<ref refid="structStack_1acaab69ead915760ece7552b0b0bf5ba5" kindref="member">caracter</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>counter1<sp/>=<sp/><ref refid="stack_8c_1a3677194c96bb097fda56142975d05da5" kindref="member">sizeChar</ref>(dados[i].caracter)<sp/>-<sp/>1;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(dados[i].caracter[0]<sp/>==<sp/></highlight><highlight class="charliteral">&apos;&quot;&apos;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>(dados[i].caracter[0]<sp/>!=<sp/>dados[i].caracter[counter1]<sp/>||<sp/>!dados[i].caracter[1]))</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*c<sp/>=<sp/>malloc(<ref refid="parser_8c_1a70ed59adcb4159ac551058053e649640" kindref="member">SIZE</ref>);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>strcpy(c,<sp/>dados[i<sp/>+<sp/>1].caracter);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>strcat(dados[i].caracter,<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>strcat(dados[i].caracter,<sp/>c);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="stack_8c_1a9708b50c12a13e5a033f83f7eda566bc" kindref="member">POP</ref>(dados,<sp/>i<sp/>+<sp/>1);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>i--;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="parser.c"/>
+  </compounddef>
+</doxygen>

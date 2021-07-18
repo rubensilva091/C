@@ -1,0 +1,202 @@
+\hypertarget{string_8h}{}\doxysection{string.\+h File Reference}
+\label{string_8h}\index{string.h@{string.h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}stack.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}interpretador.\+h\char`\"{}}\newline
+Include dependency graph for string.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{string_8h_a70ed59adcb4159ac551058053e649640}{S\+I\+ZE}}~25000
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{string_8h_a5ca149b3b47a14b4c8f33cfae5d439f5}{mult\+String}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos, int valor)
+\item 
+void \mbox{\hyperlink{string_8h_a094c3ce9bd4e6d12ae1bfc5b99fd1709}{nao\+Mostrar\+Aspas}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao da String \char`\"{}nao\+Mostrar\+Aspas\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{string_8h_ac00009c61037dfcec0917ccb717f8851}{juntar\+String}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{string_8h_ac4bad6fbed6c9e566f40049671e4505b}{remove\+Aspas\+Internas}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{string_8h_a4d19b8a47fc6295ccdc09947f1925c82}{range\+String}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{string_8h_a3dfc34acf58079cf9524a8b00a6e5965}{buscar\+N\+\_\+elementos\+Menor\+String}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos, int valor)
+\item 
+void \mbox{\hyperlink{string_8h_a7a8520495aecf4cd49b0a511096260ad}{buscar\+N\+\_\+elementos\+Maior\+String}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos, int valor)
+\item 
+void \mbox{\hyperlink{string_8h_a4d4341338ed016113fef7d2f341c940c}{primeiro\+Elemento\+String}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{string_8h_ae1cdb431919202c9d56b85874e11a6f9}{ultimo\+Elemento\+String}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{string_8h_ac182035b7359784c47ec7a6c02886e2f}{procurar\+Substring}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos, char $\ast$c)
+\item 
+void \mbox{\hyperlink{string_8h_a990584152fc864a1e4ac4c0aea7dac64}{separar\+String\+Substring}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos, char $\ast$c)
+\item 
+void \mbox{\hyperlink{string_8h_aadc87698ea9b8fac29f6d9ed5bfe7831}{adicionar\+Aspas}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{string_8h_a01b769313ac104c9465c2ecf2e715520}{comparar\+Strings}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{string_8h_a6585f4615a54194b4a9ed3dd7359bf2d}{maior\+String}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{string_8h_a3357a77d3608c00b66520b4ec5c02c37}{menor\+String}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{string_8h_a8b1f7d8d40f17420d37ecac3404d9c9e}{e\+\_\+menor\+String}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{string_8h_a15a84340c8b04e0b750e85ebb934cb82}{e\+\_\+maior\+String}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{string_8h_a28ceba9d27fa7b724811eeb1a9ceb352}{variavel\+String}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{string_8h_ad60716472d4e1eb5f45babb2d1ae27dc}{pesquisar\+String\+Index}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos, int valor)
+\item 
+int \mbox{\hyperlink{string_8h_a5c61cd07c7c9fbbcb90dde1f21ec52f7}{separar\+String\+Letra\+\_\+\+Letra}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{string_8h_a70ed59adcb4159ac551058053e649640}\label{string_8h_a70ed59adcb4159ac551058053e649640}} 
+\index{string.h@{string.h}!SIZE@{SIZE}}
+\index{SIZE@{SIZE}!string.h@{string.h}}
+\doxysubsubsection{\texorpdfstring{SIZE}{SIZE}}
+{\footnotesize\ttfamily \#define S\+I\+ZE~25000}
+
+Tamanho Padrão usado em todo o código 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{string_8h_aadc87698ea9b8fac29f6d9ed5bfe7831}\label{string_8h_aadc87698ea9b8fac29f6d9ed5bfe7831}} 
+\index{string.h@{string.h}!adicionarAspas@{adicionarAspas}}
+\index{adicionarAspas@{adicionarAspas}!string.h@{string.h}}
+\doxysubsubsection{\texorpdfstring{adicionarAspas()}{adicionarAspas()}}
+{\footnotesize\ttfamily void adicionar\+Aspas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{string_8h_a7a8520495aecf4cd49b0a511096260ad}\label{string_8h_a7a8520495aecf4cd49b0a511096260ad}} 
+\index{string.h@{string.h}!buscarN\_elementosMaiorString@{buscarN\_elementosMaiorString}}
+\index{buscarN\_elementosMaiorString@{buscarN\_elementosMaiorString}!string.h@{string.h}}
+\doxysubsubsection{\texorpdfstring{buscarN\_elementosMaiorString()}{buscarN\_elementosMaiorString()}}
+{\footnotesize\ttfamily void buscar\+N\+\_\+elementos\+Maior\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos,  }\item[{int}]{valor }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{string_8h_a3dfc34acf58079cf9524a8b00a6e5965}\label{string_8h_a3dfc34acf58079cf9524a8b00a6e5965}} 
+\index{string.h@{string.h}!buscarN\_elementosMenorString@{buscarN\_elementosMenorString}}
+\index{buscarN\_elementosMenorString@{buscarN\_elementosMenorString}!string.h@{string.h}}
+\doxysubsubsection{\texorpdfstring{buscarN\_elementosMenorString()}{buscarN\_elementosMenorString()}}
+{\footnotesize\ttfamily void buscar\+N\+\_\+elementos\+Menor\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos,  }\item[{int}]{valor }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{string_8h_a01b769313ac104c9465c2ecf2e715520}\label{string_8h_a01b769313ac104c9465c2ecf2e715520}} 
+\index{string.h@{string.h}!compararStrings@{compararStrings}}
+\index{compararStrings@{compararStrings}!string.h@{string.h}}
+\doxysubsubsection{\texorpdfstring{compararStrings()}{compararStrings()}}
+{\footnotesize\ttfamily void comparar\+Strings (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{string_8h_a15a84340c8b04e0b750e85ebb934cb82}\label{string_8h_a15a84340c8b04e0b750e85ebb934cb82}} 
+\index{string.h@{string.h}!e\_maiorString@{e\_maiorString}}
+\index{e\_maiorString@{e\_maiorString}!string.h@{string.h}}
+\doxysubsubsection{\texorpdfstring{e\_maiorString()}{e\_maiorString()}}
+{\footnotesize\ttfamily void e\+\_\+maior\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{string_8h_a8b1f7d8d40f17420d37ecac3404d9c9e}\label{string_8h_a8b1f7d8d40f17420d37ecac3404d9c9e}} 
+\index{string.h@{string.h}!e\_menorString@{e\_menorString}}
+\index{e\_menorString@{e\_menorString}!string.h@{string.h}}
+\doxysubsubsection{\texorpdfstring{e\_menorString()}{e\_menorString()}}
+{\footnotesize\ttfamily void e\+\_\+menor\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{string_8h_ac00009c61037dfcec0917ccb717f8851}\label{string_8h_ac00009c61037dfcec0917ccb717f8851}} 
+\index{string.h@{string.h}!juntarString@{juntarString}}
+\index{juntarString@{juntarString}!string.h@{string.h}}
+\doxysubsubsection{\texorpdfstring{juntarString()}{juntarString()}}
+{\footnotesize\ttfamily void juntar\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{string_8h_a6585f4615a54194b4a9ed3dd7359bf2d}\label{string_8h_a6585f4615a54194b4a9ed3dd7359bf2d}} 
+\index{string.h@{string.h}!maiorString@{maiorString}}
+\index{maiorString@{maiorString}!string.h@{string.h}}
+\doxysubsubsection{\texorpdfstring{maiorString()}{maiorString()}}
+{\footnotesize\ttfamily void maior\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{string_8h_a3357a77d3608c00b66520b4ec5c02c37}\label{string_8h_a3357a77d3608c00b66520b4ec5c02c37}} 
+\index{string.h@{string.h}!menorString@{menorString}}
+\index{menorString@{menorString}!string.h@{string.h}}
+\doxysubsubsection{\texorpdfstring{menorString()}{menorString()}}
+{\footnotesize\ttfamily void menor\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{string_8h_a5ca149b3b47a14b4c8f33cfae5d439f5}\label{string_8h_a5ca149b3b47a14b4c8f33cfae5d439f5}} 
+\index{string.h@{string.h}!multString@{multString}}
+\index{multString@{multString}!string.h@{string.h}}
+\doxysubsubsection{\texorpdfstring{multString()}{multString()}}
+{\footnotesize\ttfamily void mult\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos,  }\item[{int}]{valor }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{string_8h_a094c3ce9bd4e6d12ae1bfc5b99fd1709}\label{string_8h_a094c3ce9bd4e6d12ae1bfc5b99fd1709}} 
+\index{string.h@{string.h}!naoMostrarAspas@{naoMostrarAspas}}
+\index{naoMostrarAspas@{naoMostrarAspas}!string.h@{string.h}}
+\doxysubsubsection{\texorpdfstring{naoMostrarAspas()}{naoMostrarAspas()}}
+{\footnotesize\ttfamily void nao\+Mostrar\+Aspas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao da String \char`\"{}nao\+Mostrar\+Aspas\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do Array Serve para mostrar a funcao a string sem aspas
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{string_8h_ad60716472d4e1eb5f45babb2d1ae27dc}\label{string_8h_ad60716472d4e1eb5f45babb2d1ae27dc}} 
+\index{string.h@{string.h}!pesquisarStringIndex@{pesquisarStringIndex}}
+\index{pesquisarStringIndex@{pesquisarStringIndex}!string.h@{string.h}}
+\doxysubsubsection{\texorpdfstring{pesquisarStringIndex()}{pesquisarStringIndex()}}
+{\footnotesize\ttfamily void pesquisar\+String\+Index (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos,  }\item[{int}]{valor }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{string_8h_a4d4341338ed016113fef7d2f341c940c}\label{string_8h_a4d4341338ed016113fef7d2f341c940c}} 
+\index{string.h@{string.h}!primeiroElementoString@{primeiroElementoString}}
+\index{primeiroElementoString@{primeiroElementoString}!string.h@{string.h}}
+\doxysubsubsection{\texorpdfstring{primeiroElementoString()}{primeiroElementoString()}}
+{\footnotesize\ttfamily void primeiro\+Elemento\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{string_8h_ac182035b7359784c47ec7a6c02886e2f}\label{string_8h_ac182035b7359784c47ec7a6c02886e2f}} 
+\index{string.h@{string.h}!procurarSubstring@{procurarSubstring}}
+\index{procurarSubstring@{procurarSubstring}!string.h@{string.h}}
+\doxysubsubsection{\texorpdfstring{procurarSubstring()}{procurarSubstring()}}
+{\footnotesize\ttfamily void procurar\+Substring (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos,  }\item[{char $\ast$}]{c }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{string_8h_a4d19b8a47fc6295ccdc09947f1925c82}\label{string_8h_a4d19b8a47fc6295ccdc09947f1925c82}} 
+\index{string.h@{string.h}!rangeString@{rangeString}}
+\index{rangeString@{rangeString}!string.h@{string.h}}
+\doxysubsubsection{\texorpdfstring{rangeString()}{rangeString()}}
+{\footnotesize\ttfamily void range\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{string_8h_ac4bad6fbed6c9e566f40049671e4505b}\label{string_8h_ac4bad6fbed6c9e566f40049671e4505b}} 
+\index{string.h@{string.h}!removeAspasInternas@{removeAspasInternas}}
+\index{removeAspasInternas@{removeAspasInternas}!string.h@{string.h}}
+\doxysubsubsection{\texorpdfstring{removeAspasInternas()}{removeAspasInternas()}}
+{\footnotesize\ttfamily void remove\+Aspas\+Internas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{string_8h_a5c61cd07c7c9fbbcb90dde1f21ec52f7}\label{string_8h_a5c61cd07c7c9fbbcb90dde1f21ec52f7}} 
+\index{string.h@{string.h}!separarStringLetra\_Letra@{separarStringLetra\_Letra}}
+\index{separarStringLetra\_Letra@{separarStringLetra\_Letra}!string.h@{string.h}}
+\doxysubsubsection{\texorpdfstring{separarStringLetra\_Letra()}{separarStringLetra\_Letra()}}
+{\footnotesize\ttfamily int separar\+String\+Letra\+\_\+\+Letra (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{string_8h_a990584152fc864a1e4ac4c0aea7dac64}\label{string_8h_a990584152fc864a1e4ac4c0aea7dac64}} 
+\index{string.h@{string.h}!separarStringSubstring@{separarStringSubstring}}
+\index{separarStringSubstring@{separarStringSubstring}!string.h@{string.h}}
+\doxysubsubsection{\texorpdfstring{separarStringSubstring()}{separarStringSubstring()}}
+{\footnotesize\ttfamily void separar\+String\+Substring (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos,  }\item[{char $\ast$}]{c }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{string_8h_ae1cdb431919202c9d56b85874e11a6f9}\label{string_8h_ae1cdb431919202c9d56b85874e11a6f9}} 
+\index{string.h@{string.h}!ultimoElementoString@{ultimoElementoString}}
+\index{ultimoElementoString@{ultimoElementoString}!string.h@{string.h}}
+\doxysubsubsection{\texorpdfstring{ultimoElementoString()}{ultimoElementoString()}}
+{\footnotesize\ttfamily void ultimo\+Elemento\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{string_8h_a28ceba9d27fa7b724811eeb1a9ceb352}\label{string_8h_a28ceba9d27fa7b724811eeb1a9ceb352}} 
+\index{string.h@{string.h}!variavelString@{variavelString}}
+\index{variavelString@{variavelString}!string.h@{string.h}}
+\doxysubsubsection{\texorpdfstring{variavelString()}{variavelString()}}
+{\footnotesize\ttfamily void variavel\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+

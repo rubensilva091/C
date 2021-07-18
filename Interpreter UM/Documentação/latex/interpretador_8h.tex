@@ -1,0 +1,351 @@
+\hypertarget{interpretador_8h}{}\doxysection{interpretador.\+h File Reference}
+\label{interpretador_8h}\index{interpretador.h@{interpretador.h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}stack.\+h\char`\"{}}\newline
+Include dependency graph for interpretador.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{interpretador_8h_a70ed59adcb4159ac551058053e649640}{S\+I\+ZE}}~25000
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interpretador_8h_a4f480ce0a65293c89ac42a11c8c85edb}{interpretador\+Main}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados)
+\begin{DoxyCompactList}\small\item\em Funcao que liga o interpretador ao main. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interpretador_8h_a95f1751d6d8ce92fb6a8813e25e9c180}{interpretador}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados)
+\item 
+void \mbox{\hyperlink{interpretador_8h_a3b24f26911df92282d3139093591a5f5}{stacks\+Func}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_a5272287f8b6863e03fa05a5fd0f0a899}{duplicar\+Stack}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_ace9569f5f609da5015ff36ff6f4d9821}{pop\+Stack}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_acf1d867f16ae76d566c4e28c8fc64956}{troca\+Stack}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_a62328f8dc0ff87a24f7bdb42cb98b20e}{roda\+Stack}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_a0caf68b950ba1ad1a7d7621b41c40a48}{duplica\+N\+\_\+esimo\+Stack}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_a4cd72d7a32d64d191c5ab6721475acd5}{expressao\+Matematica\+Func}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_a2b00bc20264b2fe2ced44e947ffcc4e8}{soma}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_adf146be45ae906bf721220dfddbf8ec6}{subtracao}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_ae89b4f5a42af1f8f103ffd7ba74c4049}{multiplicacao}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_ab44d2b1c218f430c07eeaccb4718b685}{divisao}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_a9913e20960bf804b742bf74b8e73c11e}{incrementacao}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_a2eabf2a913f31b51c2cead4fe401dfcb}{decrementacao}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_ab9b39806ce719ec0e0d8dc26ad1499e5}{exponencializacao}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_ad680e918fdc5950b21b09711215e4123}{modulo}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_a01b54c7fea293cdf9209b6ececa73470}{bitwise\+\_\+\+A\+ND}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_ab6788283b52628916411858126d02384}{bitwise\+\_\+\+OR}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_a2f89c119beea70c6b676c06327d8f2bc}{bitwise\+\_\+\+X\+OR}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_aa8414235edd8229cc4dabd063b273eb0}{bitwise\+\_\+\+N\+OT}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_ab4842b4c3688b9156964d5d068903364}{input\+Output\+\_\+conversoes\+Func}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_ac2443729400c4b8599da492d0baac2ca}{ler}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_ab9a6d6417bb01f0d148640ffcc3783dc}{lerT}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_ac6a719c2674f96baf862ae7fbb641a04}{interio\+F\+U\+NC}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_ac28ec879c74f0f03ee7f084569fc74c8}{float\+F\+U\+NC}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_aa9592f7af31db6f8e957704d1dd27c43}{converter\+Num\+\_\+\+Letra}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_a4a852c9b568fbd72253aef6ca9949c57}{preencher\+Variavel}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_a6524004eb37dd748dd604871908de8e8}{logica\+Func}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_aee46b827f30767c9959ed7963b89ea21}{igualdade}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_a8130d3010dadee0b27237bc8954ed37b}{maior}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_a7f961970830d5f092308dff467105465}{menor}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_a0c9145f08d5f8f53db3ee8c487d8550c}{negacao}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_a0f92bea722f49aa7bed51263210cf59e}{e\+\_\+maior}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_a07de37a9f9669aebe240bcc90040e582}{e\+\_\+menor}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_a8434f9143273f2381f6782392b53b380}{e\+\_\+\+And}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_abed118cd4db860d61d2aff6ca3f099a0}{e\+\_\+\+Or}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_ae1d5ea8b79b158aeb00aea349b35b20b}{condicional}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{interpretador_8h_a5ca6209d7b2a25a33388a2d1c957fbc2}{range\+Func}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{interpretador_8h_a70ed59adcb4159ac551058053e649640}\label{interpretador_8h_a70ed59adcb4159ac551058053e649640}} 
+\index{interpretador.h@{interpretador.h}!SIZE@{SIZE}}
+\index{SIZE@{SIZE}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{SIZE}{SIZE}}
+{\footnotesize\ttfamily \#define S\+I\+ZE~25000}
+
+Tamanho Padrão usado em todo o código 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{interpretador_8h_a01b54c7fea293cdf9209b6ececa73470}\label{interpretador_8h_a01b54c7fea293cdf9209b6ececa73470}} 
+\index{interpretador.h@{interpretador.h}!bitwise\_AND@{bitwise\_AND}}
+\index{bitwise\_AND@{bitwise\_AND}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{bitwise\_AND()}{bitwise\_AND()}}
+{\footnotesize\ttfamily void bitwise\+\_\+\+A\+ND (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_aa8414235edd8229cc4dabd063b273eb0}\label{interpretador_8h_aa8414235edd8229cc4dabd063b273eb0}} 
+\index{interpretador.h@{interpretador.h}!bitwise\_NOT@{bitwise\_NOT}}
+\index{bitwise\_NOT@{bitwise\_NOT}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{bitwise\_NOT()}{bitwise\_NOT()}}
+{\footnotesize\ttfamily void bitwise\+\_\+\+N\+OT (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_ab6788283b52628916411858126d02384}\label{interpretador_8h_ab6788283b52628916411858126d02384}} 
+\index{interpretador.h@{interpretador.h}!bitwise\_OR@{bitwise\_OR}}
+\index{bitwise\_OR@{bitwise\_OR}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{bitwise\_OR()}{bitwise\_OR()}}
+{\footnotesize\ttfamily void bitwise\+\_\+\+OR (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_a2f89c119beea70c6b676c06327d8f2bc}\label{interpretador_8h_a2f89c119beea70c6b676c06327d8f2bc}} 
+\index{interpretador.h@{interpretador.h}!bitwise\_XOR@{bitwise\_XOR}}
+\index{bitwise\_XOR@{bitwise\_XOR}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{bitwise\_XOR()}{bitwise\_XOR()}}
+{\footnotesize\ttfamily void bitwise\+\_\+\+X\+OR (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_ae1d5ea8b79b158aeb00aea349b35b20b}\label{interpretador_8h_ae1d5ea8b79b158aeb00aea349b35b20b}} 
+\index{interpretador.h@{interpretador.h}!condicional@{condicional}}
+\index{condicional@{condicional}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{condicional()}{condicional()}}
+{\footnotesize\ttfamily void condicional (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_aa9592f7af31db6f8e957704d1dd27c43}\label{interpretador_8h_aa9592f7af31db6f8e957704d1dd27c43}} 
+\index{interpretador.h@{interpretador.h}!converterNum\_Letra@{converterNum\_Letra}}
+\index{converterNum\_Letra@{converterNum\_Letra}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{converterNum\_Letra()}{converterNum\_Letra()}}
+{\footnotesize\ttfamily void converter\+Num\+\_\+\+Letra (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_a2eabf2a913f31b51c2cead4fe401dfcb}\label{interpretador_8h_a2eabf2a913f31b51c2cead4fe401dfcb}} 
+\index{interpretador.h@{interpretador.h}!decrementacao@{decrementacao}}
+\index{decrementacao@{decrementacao}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{decrementacao()}{decrementacao()}}
+{\footnotesize\ttfamily void decrementacao (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_ab44d2b1c218f430c07eeaccb4718b685}\label{interpretador_8h_ab44d2b1c218f430c07eeaccb4718b685}} 
+\index{interpretador.h@{interpretador.h}!divisao@{divisao}}
+\index{divisao@{divisao}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{divisao()}{divisao()}}
+{\footnotesize\ttfamily void divisao (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_a0caf68b950ba1ad1a7d7621b41c40a48}\label{interpretador_8h_a0caf68b950ba1ad1a7d7621b41c40a48}} 
+\index{interpretador.h@{interpretador.h}!duplicaN\_esimoStack@{duplicaN\_esimoStack}}
+\index{duplicaN\_esimoStack@{duplicaN\_esimoStack}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{duplicaN\_esimoStack()}{duplicaN\_esimoStack()}}
+{\footnotesize\ttfamily void duplica\+N\+\_\+esimo\+Stack (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_a5272287f8b6863e03fa05a5fd0f0a899}\label{interpretador_8h_a5272287f8b6863e03fa05a5fd0f0a899}} 
+\index{interpretador.h@{interpretador.h}!duplicarStack@{duplicarStack}}
+\index{duplicarStack@{duplicarStack}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{duplicarStack()}{duplicarStack()}}
+{\footnotesize\ttfamily void duplicar\+Stack (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_a8434f9143273f2381f6782392b53b380}\label{interpretador_8h_a8434f9143273f2381f6782392b53b380}} 
+\index{interpretador.h@{interpretador.h}!e\_And@{e\_And}}
+\index{e\_And@{e\_And}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{e\_And()}{e\_And()}}
+{\footnotesize\ttfamily void e\+\_\+\+And (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_a0f92bea722f49aa7bed51263210cf59e}\label{interpretador_8h_a0f92bea722f49aa7bed51263210cf59e}} 
+\index{interpretador.h@{interpretador.h}!e\_maior@{e\_maior}}
+\index{e\_maior@{e\_maior}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{e\_maior()}{e\_maior()}}
+{\footnotesize\ttfamily void e\+\_\+maior (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_a07de37a9f9669aebe240bcc90040e582}\label{interpretador_8h_a07de37a9f9669aebe240bcc90040e582}} 
+\index{interpretador.h@{interpretador.h}!e\_menor@{e\_menor}}
+\index{e\_menor@{e\_menor}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{e\_menor()}{e\_menor()}}
+{\footnotesize\ttfamily void e\+\_\+menor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_abed118cd4db860d61d2aff6ca3f099a0}\label{interpretador_8h_abed118cd4db860d61d2aff6ca3f099a0}} 
+\index{interpretador.h@{interpretador.h}!e\_Or@{e\_Or}}
+\index{e\_Or@{e\_Or}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{e\_Or()}{e\_Or()}}
+{\footnotesize\ttfamily void e\+\_\+\+Or (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_ab9b39806ce719ec0e0d8dc26ad1499e5}\label{interpretador_8h_ab9b39806ce719ec0e0d8dc26ad1499e5}} 
+\index{interpretador.h@{interpretador.h}!exponencializacao@{exponencializacao}}
+\index{exponencializacao@{exponencializacao}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{exponencializacao()}{exponencializacao()}}
+{\footnotesize\ttfamily void exponencializacao (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_a4cd72d7a32d64d191c5ab6721475acd5}\label{interpretador_8h_a4cd72d7a32d64d191c5ab6721475acd5}} 
+\index{interpretador.h@{interpretador.h}!expressaoMatematicaFunc@{expressaoMatematicaFunc}}
+\index{expressaoMatematicaFunc@{expressaoMatematicaFunc}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{expressaoMatematicaFunc()}{expressaoMatematicaFunc()}}
+{\footnotesize\ttfamily void expressao\+Matematica\+Func (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_ac28ec879c74f0f03ee7f084569fc74c8}\label{interpretador_8h_ac28ec879c74f0f03ee7f084569fc74c8}} 
+\index{interpretador.h@{interpretador.h}!floatFUNC@{floatFUNC}}
+\index{floatFUNC@{floatFUNC}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{floatFUNC()}{floatFUNC()}}
+{\footnotesize\ttfamily void float\+F\+U\+NC (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_aee46b827f30767c9959ed7963b89ea21}\label{interpretador_8h_aee46b827f30767c9959ed7963b89ea21}} 
+\index{interpretador.h@{interpretador.h}!igualdade@{igualdade}}
+\index{igualdade@{igualdade}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{igualdade()}{igualdade()}}
+{\footnotesize\ttfamily void igualdade (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_a9913e20960bf804b742bf74b8e73c11e}\label{interpretador_8h_a9913e20960bf804b742bf74b8e73c11e}} 
+\index{interpretador.h@{interpretador.h}!incrementacao@{incrementacao}}
+\index{incrementacao@{incrementacao}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{incrementacao()}{incrementacao()}}
+{\footnotesize\ttfamily void incrementacao (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_ab4842b4c3688b9156964d5d068903364}\label{interpretador_8h_ab4842b4c3688b9156964d5d068903364}} 
+\index{interpretador.h@{interpretador.h}!inputOutput\_conversoesFunc@{inputOutput\_conversoesFunc}}
+\index{inputOutput\_conversoesFunc@{inputOutput\_conversoesFunc}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{inputOutput\_conversoesFunc()}{inputOutput\_conversoesFunc()}}
+{\footnotesize\ttfamily void input\+Output\+\_\+conversoes\+Func (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_ac6a719c2674f96baf862ae7fbb641a04}\label{interpretador_8h_ac6a719c2674f96baf862ae7fbb641a04}} 
+\index{interpretador.h@{interpretador.h}!interioFUNC@{interioFUNC}}
+\index{interioFUNC@{interioFUNC}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{interioFUNC()}{interioFUNC()}}
+{\footnotesize\ttfamily void interio\+F\+U\+NC (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_a95f1751d6d8ce92fb6a8813e25e9c180}\label{interpretador_8h_a95f1751d6d8ce92fb6a8813e25e9c180}} 
+\index{interpretador.h@{interpretador.h}!interpretador@{interpretador}}
+\index{interpretador@{interpretador}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{interpretador()}{interpretador()}}
+{\footnotesize\ttfamily void interpretador (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_a4f480ce0a65293c89ac42a11c8c85edb}\label{interpretador_8h_a4f480ce0a65293c89ac42a11c8c85edb}} 
+\index{interpretador.h@{interpretador.h}!interpretadorMain@{interpretadorMain}}
+\index{interpretadorMain@{interpretadorMain}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{interpretadorMain()}{interpretadorMain()}}
+{\footnotesize\ttfamily void interpretador\+Main (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados }\end{DoxyParamCaption})}
+
+
+
+Funcao que liga o interpretador ao main. 
+
+Esta funcao recebe os dados e envia para o interpretador
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interpretador_8h_ac2443729400c4b8599da492d0baac2ca}\label{interpretador_8h_ac2443729400c4b8599da492d0baac2ca}} 
+\index{interpretador.h@{interpretador.h}!ler@{ler}}
+\index{ler@{ler}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{ler()}{ler()}}
+{\footnotesize\ttfamily void ler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_ab9a6d6417bb01f0d148640ffcc3783dc}\label{interpretador_8h_ab9a6d6417bb01f0d148640ffcc3783dc}} 
+\index{interpretador.h@{interpretador.h}!lerT@{lerT}}
+\index{lerT@{lerT}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{lerT()}{lerT()}}
+{\footnotesize\ttfamily void lerT (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_a6524004eb37dd748dd604871908de8e8}\label{interpretador_8h_a6524004eb37dd748dd604871908de8e8}} 
+\index{interpretador.h@{interpretador.h}!logicaFunc@{logicaFunc}}
+\index{logicaFunc@{logicaFunc}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{logicaFunc()}{logicaFunc()}}
+{\footnotesize\ttfamily void logica\+Func (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_a8130d3010dadee0b27237bc8954ed37b}\label{interpretador_8h_a8130d3010dadee0b27237bc8954ed37b}} 
+\index{interpretador.h@{interpretador.h}!maior@{maior}}
+\index{maior@{maior}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{maior()}{maior()}}
+{\footnotesize\ttfamily void maior (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_a7f961970830d5f092308dff467105465}\label{interpretador_8h_a7f961970830d5f092308dff467105465}} 
+\index{interpretador.h@{interpretador.h}!menor@{menor}}
+\index{menor@{menor}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{menor()}{menor()}}
+{\footnotesize\ttfamily void menor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_ad680e918fdc5950b21b09711215e4123}\label{interpretador_8h_ad680e918fdc5950b21b09711215e4123}} 
+\index{interpretador.h@{interpretador.h}!modulo@{modulo}}
+\index{modulo@{modulo}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{modulo()}{modulo()}}
+{\footnotesize\ttfamily void modulo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_ae89b4f5a42af1f8f103ffd7ba74c4049}\label{interpretador_8h_ae89b4f5a42af1f8f103ffd7ba74c4049}} 
+\index{interpretador.h@{interpretador.h}!multiplicacao@{multiplicacao}}
+\index{multiplicacao@{multiplicacao}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{multiplicacao()}{multiplicacao()}}
+{\footnotesize\ttfamily void multiplicacao (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_a0c9145f08d5f8f53db3ee8c487d8550c}\label{interpretador_8h_a0c9145f08d5f8f53db3ee8c487d8550c}} 
+\index{interpretador.h@{interpretador.h}!negacao@{negacao}}
+\index{negacao@{negacao}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{negacao()}{negacao()}}
+{\footnotesize\ttfamily void negacao (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_ace9569f5f609da5015ff36ff6f4d9821}\label{interpretador_8h_ace9569f5f609da5015ff36ff6f4d9821}} 
+\index{interpretador.h@{interpretador.h}!popStack@{popStack}}
+\index{popStack@{popStack}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{popStack()}{popStack()}}
+{\footnotesize\ttfamily void pop\+Stack (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_a4a852c9b568fbd72253aef6ca9949c57}\label{interpretador_8h_a4a852c9b568fbd72253aef6ca9949c57}} 
+\index{interpretador.h@{interpretador.h}!preencherVariavel@{preencherVariavel}}
+\index{preencherVariavel@{preencherVariavel}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{preencherVariavel()}{preencherVariavel()}}
+{\footnotesize\ttfamily void preencher\+Variavel (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_a5ca6209d7b2a25a33388a2d1c957fbc2}\label{interpretador_8h_a5ca6209d7b2a25a33388a2d1c957fbc2}} 
+\index{interpretador.h@{interpretador.h}!rangeFunc@{rangeFunc}}
+\index{rangeFunc@{rangeFunc}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{rangeFunc()}{rangeFunc()}}
+{\footnotesize\ttfamily void range\+Func (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_a62328f8dc0ff87a24f7bdb42cb98b20e}\label{interpretador_8h_a62328f8dc0ff87a24f7bdb42cb98b20e}} 
+\index{interpretador.h@{interpretador.h}!rodaStack@{rodaStack}}
+\index{rodaStack@{rodaStack}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{rodaStack()}{rodaStack()}}
+{\footnotesize\ttfamily void roda\+Stack (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_a2b00bc20264b2fe2ced44e947ffcc4e8}\label{interpretador_8h_a2b00bc20264b2fe2ced44e947ffcc4e8}} 
+\index{interpretador.h@{interpretador.h}!soma@{soma}}
+\index{soma@{soma}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{soma()}{soma()}}
+{\footnotesize\ttfamily void soma (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_a3b24f26911df92282d3139093591a5f5}\label{interpretador_8h_a3b24f26911df92282d3139093591a5f5}} 
+\index{interpretador.h@{interpretador.h}!stacksFunc@{stacksFunc}}
+\index{stacksFunc@{stacksFunc}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{stacksFunc()}{stacksFunc()}}
+{\footnotesize\ttfamily void stacks\+Func (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_adf146be45ae906bf721220dfddbf8ec6}\label{interpretador_8h_adf146be45ae906bf721220dfddbf8ec6}} 
+\index{interpretador.h@{interpretador.h}!subtracao@{subtracao}}
+\index{subtracao@{subtracao}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{subtracao()}{subtracao()}}
+{\footnotesize\ttfamily void subtracao (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interpretador_8h_acf1d867f16ae76d566c4e28c8fc64956}\label{interpretador_8h_acf1d867f16ae76d566c4e28c8fc64956}} 
+\index{interpretador.h@{interpretador.h}!trocaStack@{trocaStack}}
+\index{trocaStack@{trocaStack}!interpretador.h@{interpretador.h}}
+\doxysubsubsection{\texorpdfstring{trocaStack()}{trocaStack()}}
+{\footnotesize\ttfamily void troca\+Stack (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+

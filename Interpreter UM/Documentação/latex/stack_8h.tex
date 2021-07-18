@@ -1,0 +1,424 @@
+\hypertarget{stack_8h}{}\doxysection{stack.\+h File Reference}
+\label{stack_8h}\index{stack.h@{stack.h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+Include dependency graph for stack.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structStack}{Stack}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{stack_8h_a70ed59adcb4159ac551058053e649640}{S\+I\+ZE}}~25000
+\end{DoxyCompactItemize}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef enum \mbox{\hyperlink{stack_8h_a87da3d8264af1c9427605148f20dd9c4}{token}} \mbox{\hyperlink{stack_8h_a5a9e0ab14418fabe1e1f94d69150bfd4}{token}}
+\item 
+typedef struct \mbox{\hyperlink{structStack}{Stack}} \mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{stack_8h_a87da3d8264af1c9427605148f20dd9c4}{token}} \{ \newline
+\mbox{\hyperlink{stack_8h_a87da3d8264af1c9427605148f20dd9c4a96fa1904db1acb73a95355bf586370c2}{num\+Inteiro}}, 
+\mbox{\hyperlink{stack_8h_a87da3d8264af1c9427605148f20dd9c4abd4cb7990b19a5770868ee8e1349eee1}{num\+Float}}, 
+\mbox{\hyperlink{stack_8h_a87da3d8264af1c9427605148f20dd9c4a49bc34d84e3f7fc582e09b252c596668}{num\+Inteiro\+Func}}, 
+\mbox{\hyperlink{stack_8h_a87da3d8264af1c9427605148f20dd9c4a5058d12be77094a8aabc816ff5ee4589}{num\+Float\+Func}}, 
+\newline
+\mbox{\hyperlink{stack_8h_a87da3d8264af1c9427605148f20dd9c4ac1121cbd3727998f80a8ce580afdda5a}{expressao\+Mat}}, 
+\mbox{\hyperlink{stack_8h_a87da3d8264af1c9427605148f20dd9c4a4793036d61f6f2b1fa13c7f500653491}{stacks}}, 
+\mbox{\hyperlink{stack_8h_a87da3d8264af1c9427605148f20dd9c4aa436318dee0f4b88c1c5e2531da0baf6}{logica}}, 
+\mbox{\hyperlink{stack_8h_a87da3d8264af1c9427605148f20dd9c4a7e1761ec3cd4d743edcf32c04362d765}{input\+Output\+\_\+\+Conversoes}}, 
+\newline
+\mbox{\hyperlink{stack_8h_a87da3d8264af1c9427605148f20dd9c4a6b30bda829e4fe673ed1afb7101a4746}{string}}, 
+\mbox{\hyperlink{stack_8h_a87da3d8264af1c9427605148f20dd9c4a93105b68e7bb763789c274fa898cabdc}{variavel}}, 
+\mbox{\hyperlink{stack_8h_a87da3d8264af1c9427605148f20dd9c4a85f4421535677753e900ee82f0edc321}{variavel\+Fantasma}}, 
+\mbox{\hyperlink{stack_8h_a87da3d8264af1c9427605148f20dd9c4a2085656f32afbd50512cd8364689405f}{limite}}, 
+\newline
+\mbox{\hyperlink{stack_8h_a87da3d8264af1c9427605148f20dd9c4ae8cf2e892c4af47906b9bd7244cb499b}{nothing}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{stack_8h_ac16cf18a4d43dee4ed9949a320837b27}{number\+Operators}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados)
+\begin{DoxyCompactList}\small\item\em Funcao que calcula numero de operadores presente no input. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{stack_8h_a51c969fe0d931d2ce199eb4724723083}{last\+Position}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados)
+\begin{DoxyCompactList}\small\item\em Funcao que calcula o tamanho da stack. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{stack_8h_ac3241626d6c15779920214405cad37e4}{isfloat}} (char $\ast$c)
+\begin{DoxyCompactList}\small\item\em Funcao que descobre se é float. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{stack_8h_a8614fd455aff434b3c69b38e7378855a}{swap}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+int \mbox{\hyperlink{stack_8h_a3677194c96bb097fda56142975d05da5}{size\+Char}} (char $\ast$c)
+\begin{DoxyCompactList}\small\item\em Funcao igual à strlen. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{stack_8h_a5bd721ef49e0397534dd2d6e76b20393}{substituir\+Stack}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos, char $\ast$c)
+\begin{DoxyCompactList}\small\item\em Funcao Para substituir da stack. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{stack_8h_a2c4f14c424a31db9c57fd046c3b9f0df}{strdup}} (const char $\ast$str)
+\begin{DoxyCompactList}\small\item\em Funcao strdup. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{stack_8h_aa407d9770c918dc8042ff844c51b07fa}{P\+U\+SH}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao pusha o valor do array. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{stack_8h_a9708b50c12a13e5a033f83f7eda566bc}{P\+OP}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao usa o remove\+Index. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{stack_8h_a1b962e9b73baabf5da310cc66bb4ac97}{remove\+Index}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int i)
+\begin{DoxyCompactList}\small\item\em Funcao remove o index atual. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{stack_8h_a03437c92ee40f569345183c4fba10fcd}{create\+Index}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int i)
+\begin{DoxyCompactList}\small\item\em Funcao cria o index atual. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{stack_8h_ac21ac2c502efb3c07f0379325f54c008}{D\+I\+S\+P\+L\+AY}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados)
+\begin{DoxyCompactList}\small\item\em Funcao para mostrar a stack. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{stack_8h_ac83cbc05a85158ceb98fdd9a62b89c92}{mostrar\+Variavel}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao que mostra a Variavel. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{stack_8h_aae897a77d973efb18975fa8c123d77ea}{D\+I\+S\+P\+L\+A\+Yw\+T\+O\+K\+EN}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados)
+\begin{DoxyCompactList}\small\item\em Funcao para mostrar a stack com os tokens. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{stack_8h_a70ed59adcb4159ac551058053e649640}\label{stack_8h_a70ed59adcb4159ac551058053e649640}} 
+\index{stack.h@{stack.h}!SIZE@{SIZE}}
+\index{SIZE@{SIZE}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{SIZE}{SIZE}}
+{\footnotesize\ttfamily \#define S\+I\+ZE~25000}
+
+Tamanho Padrão usado em todo o código 
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}\label{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}} 
+\index{stack.h@{stack.h}!stack@{stack}}
+\index{stack@{stack}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{stack}{stack}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structStack}{Stack}} \mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}}}
+
+Struct da stack com a definicao \char`\"{}stack\char`\"{} \mbox{\Hypertarget{stack_8h_a5a9e0ab14418fabe1e1f94d69150bfd4}\label{stack_8h_a5a9e0ab14418fabe1e1f94d69150bfd4}} 
+\index{stack.h@{stack.h}!token@{token}}
+\index{token@{token}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{token}{token}}
+{\footnotesize\ttfamily typedef enum \mbox{\hyperlink{stack_8h_a87da3d8264af1c9427605148f20dd9c4}{token}} \mbox{\hyperlink{stack_8h_a87da3d8264af1c9427605148f20dd9c4}{token}}}
+
+Enumeração para todo tipo de operação 
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{stack_8h_a87da3d8264af1c9427605148f20dd9c4}\label{stack_8h_a87da3d8264af1c9427605148f20dd9c4}} 
+\index{stack.h@{stack.h}!token@{token}}
+\index{token@{token}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{token}{token}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{stack_8h_a87da3d8264af1c9427605148f20dd9c4}{token}}}
+
+Enumeração para todo tipo de operação \begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{numInteiro@{numInteiro}!stack.h@{stack.h}}\index{stack.h@{stack.h}!numInteiro@{numInteiro}}}\mbox{\Hypertarget{stack_8h_a87da3d8264af1c9427605148f20dd9c4a96fa1904db1acb73a95355bf586370c2}\label{stack_8h_a87da3d8264af1c9427605148f20dd9c4a96fa1904db1acb73a95355bf586370c2}} 
+num\+Inteiro&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{numFloat@{numFloat}!stack.h@{stack.h}}\index{stack.h@{stack.h}!numFloat@{numFloat}}}\mbox{\Hypertarget{stack_8h_a87da3d8264af1c9427605148f20dd9c4abd4cb7990b19a5770868ee8e1349eee1}\label{stack_8h_a87da3d8264af1c9427605148f20dd9c4abd4cb7990b19a5770868ee8e1349eee1}} 
+num\+Float&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{numInteiroFunc@{numInteiroFunc}!stack.h@{stack.h}}\index{stack.h@{stack.h}!numInteiroFunc@{numInteiroFunc}}}\mbox{\Hypertarget{stack_8h_a87da3d8264af1c9427605148f20dd9c4a49bc34d84e3f7fc582e09b252c596668}\label{stack_8h_a87da3d8264af1c9427605148f20dd9c4a49bc34d84e3f7fc582e09b252c596668}} 
+num\+Inteiro\+Func&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{numFloatFunc@{numFloatFunc}!stack.h@{stack.h}}\index{stack.h@{stack.h}!numFloatFunc@{numFloatFunc}}}\mbox{\Hypertarget{stack_8h_a87da3d8264af1c9427605148f20dd9c4a5058d12be77094a8aabc816ff5ee4589}\label{stack_8h_a87da3d8264af1c9427605148f20dd9c4a5058d12be77094a8aabc816ff5ee4589}} 
+num\+Float\+Func&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{expressaoMat@{expressaoMat}!stack.h@{stack.h}}\index{stack.h@{stack.h}!expressaoMat@{expressaoMat}}}\mbox{\Hypertarget{stack_8h_a87da3d8264af1c9427605148f20dd9c4ac1121cbd3727998f80a8ce580afdda5a}\label{stack_8h_a87da3d8264af1c9427605148f20dd9c4ac1121cbd3727998f80a8ce580afdda5a}} 
+expressao\+Mat&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{stacks@{stacks}!stack.h@{stack.h}}\index{stack.h@{stack.h}!stacks@{stacks}}}\mbox{\Hypertarget{stack_8h_a87da3d8264af1c9427605148f20dd9c4a4793036d61f6f2b1fa13c7f500653491}\label{stack_8h_a87da3d8264af1c9427605148f20dd9c4a4793036d61f6f2b1fa13c7f500653491}} 
+stacks&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{logica@{logica}!stack.h@{stack.h}}\index{stack.h@{stack.h}!logica@{logica}}}\mbox{\Hypertarget{stack_8h_a87da3d8264af1c9427605148f20dd9c4aa436318dee0f4b88c1c5e2531da0baf6}\label{stack_8h_a87da3d8264af1c9427605148f20dd9c4aa436318dee0f4b88c1c5e2531da0baf6}} 
+logica&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{inputOutput\_Conversoes@{inputOutput\_Conversoes}!stack.h@{stack.h}}\index{stack.h@{stack.h}!inputOutput\_Conversoes@{inputOutput\_Conversoes}}}\mbox{\Hypertarget{stack_8h_a87da3d8264af1c9427605148f20dd9c4a7e1761ec3cd4d743edcf32c04362d765}\label{stack_8h_a87da3d8264af1c9427605148f20dd9c4a7e1761ec3cd4d743edcf32c04362d765}} 
+input\+Output\+\_\+\+Conversoes&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{string@{string}!stack.h@{stack.h}}\index{stack.h@{stack.h}!string@{string}}}\mbox{\Hypertarget{stack_8h_a87da3d8264af1c9427605148f20dd9c4a6b30bda829e4fe673ed1afb7101a4746}\label{stack_8h_a87da3d8264af1c9427605148f20dd9c4a6b30bda829e4fe673ed1afb7101a4746}} 
+string&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{variavel@{variavel}!stack.h@{stack.h}}\index{stack.h@{stack.h}!variavel@{variavel}}}\mbox{\Hypertarget{stack_8h_a87da3d8264af1c9427605148f20dd9c4a93105b68e7bb763789c274fa898cabdc}\label{stack_8h_a87da3d8264af1c9427605148f20dd9c4a93105b68e7bb763789c274fa898cabdc}} 
+variavel&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{variavelFantasma@{variavelFantasma}!stack.h@{stack.h}}\index{stack.h@{stack.h}!variavelFantasma@{variavelFantasma}}}\mbox{\Hypertarget{stack_8h_a87da3d8264af1c9427605148f20dd9c4a85f4421535677753e900ee82f0edc321}\label{stack_8h_a87da3d8264af1c9427605148f20dd9c4a85f4421535677753e900ee82f0edc321}} 
+variavel\+Fantasma&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{limite@{limite}!stack.h@{stack.h}}\index{stack.h@{stack.h}!limite@{limite}}}\mbox{\Hypertarget{stack_8h_a87da3d8264af1c9427605148f20dd9c4a2085656f32afbd50512cd8364689405f}\label{stack_8h_a87da3d8264af1c9427605148f20dd9c4a2085656f32afbd50512cd8364689405f}} 
+limite&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{nothing@{nothing}!stack.h@{stack.h}}\index{stack.h@{stack.h}!nothing@{nothing}}}\mbox{\Hypertarget{stack_8h_a87da3d8264af1c9427605148f20dd9c4ae8cf2e892c4af47906b9bd7244cb499b}\label{stack_8h_a87da3d8264af1c9427605148f20dd9c4ae8cf2e892c4af47906b9bd7244cb499b}} 
+nothing&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{stack_8h_a03437c92ee40f569345183c4fba10fcd}\label{stack_8h_a03437c92ee40f569345183c4fba10fcd}} 
+\index{stack.h@{stack.h}!createIndex@{createIndex}}
+\index{createIndex@{createIndex}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{createIndex()}{createIndex()}}
+{\footnotesize\ttfamily void create\+Index (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Funcao cria o index atual. 
+
+Esta funcao recebe os dados e cria o index atual empurrando toda a estrutura para a posicao final
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em i} & posicao atual \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{stack_8h_ac21ac2c502efb3c07f0379325f54c008}\label{stack_8h_ac21ac2c502efb3c07f0379325f54c008}} 
+\index{stack.h@{stack.h}!DISPLAY@{DISPLAY}}
+\index{DISPLAY@{DISPLAY}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{DISPLAY()}{DISPLAY()}}
+{\footnotesize\ttfamily void D\+I\+S\+P\+L\+AY (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados }\end{DoxyParamCaption})}
+
+
+
+Funcao para mostrar a stack. 
+
+Esta funcao recebe os dados e mostra a stack por meio de um ciclo for e algumas verificacoes em relacao ao token
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{stack_8h_aae897a77d973efb18975fa8c123d77ea}\label{stack_8h_aae897a77d973efb18975fa8c123d77ea}} 
+\index{stack.h@{stack.h}!DISPLAYwTOKEN@{DISPLAYwTOKEN}}
+\index{DISPLAYwTOKEN@{DISPLAYwTOKEN}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{DISPLAYwTOKEN()}{DISPLAYwTOKEN()}}
+{\footnotesize\ttfamily void D\+I\+S\+P\+L\+A\+Yw\+T\+O\+K\+EN (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados }\end{DoxyParamCaption})}
+
+
+
+Funcao para mostrar a stack com os tokens. 
+
+Esta funcao recebe os dados e mostra a stack por meio de um ciclo for e algumas verificacoes em relacao ao token Esta funcao foi muito usada para desbugar o pograma em algumas situacoes
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{stack_8h_ac3241626d6c15779920214405cad37e4}\label{stack_8h_ac3241626d6c15779920214405cad37e4}} 
+\index{stack.h@{stack.h}!isfloat@{isfloat}}
+\index{isfloat@{isfloat}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{isfloat()}{isfloat()}}
+{\footnotesize\ttfamily int isfloat (\begin{DoxyParamCaption}\item[{char $\ast$}]{c }\end{DoxyParamCaption})}
+
+
+
+Funcao que descobre se é float. 
+
+Esta funcao recebe os dados e calcula o tamanho da stack
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & recebe o numero \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 Se for float 
+
+0 Se não for float 
+\end{DoxyReturn}
+\mbox{\Hypertarget{stack_8h_a51c969fe0d931d2ce199eb4724723083}\label{stack_8h_a51c969fe0d931d2ce199eb4724723083}} 
+\index{stack.h@{stack.h}!lastPosition@{lastPosition}}
+\index{lastPosition@{lastPosition}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{lastPosition()}{lastPosition()}}
+{\footnotesize\ttfamily int last\+Position (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados }\end{DoxyParamCaption})}
+
+
+
+Funcao que calcula o tamanho da stack. 
+
+Esta funcao recebe os dados e calcula o tamanho da stack
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+i tamanho da string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{stack_8h_ac83cbc05a85158ceb98fdd9a62b89c92}\label{stack_8h_ac83cbc05a85158ceb98fdd9a62b89c92}} 
+\index{stack.h@{stack.h}!mostrarVariavel@{mostrarVariavel}}
+\index{mostrarVariavel@{mostrarVariavel}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{mostrarVariavel()}{mostrarVariavel()}}
+{\footnotesize\ttfamily void mostrar\+Variavel (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao que mostra a Variavel. 
+
+Esta funcao mostra o conteudo da variavel de formas ramificadas devido a strings e limites tem de ser mostrado de maneiras diferentes
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & posicao atual \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{stack_8h_ac16cf18a4d43dee4ed9949a320837b27}\label{stack_8h_ac16cf18a4d43dee4ed9949a320837b27}} 
+\index{stack.h@{stack.h}!numberOperators@{numberOperators}}
+\index{numberOperators@{numberOperators}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{numberOperators()}{numberOperators()}}
+{\footnotesize\ttfamily int number\+Operators (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados }\end{DoxyParamCaption})}
+
+
+
+Funcao que calcula numero de operadores presente no input. 
+
+Esta funcao recebe os dados e calcula o numero de operadores
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+count numero de operadores 
+\end{DoxyReturn}
+\mbox{\Hypertarget{stack_8h_a9708b50c12a13e5a033f83f7eda566bc}\label{stack_8h_a9708b50c12a13e5a033f83f7eda566bc}} 
+\index{stack.h@{stack.h}!POP@{POP}}
+\index{POP@{POP}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{POP()}{POP()}}
+{\footnotesize\ttfamily void P\+OP (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao usa o remove\+Index. 
+
+Esta funcao recebe os dados e remove o index atual por meio da funcao do remove\+Index
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & posicao atual \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{stack_8h_aa407d9770c918dc8042ff844c51b07fa}\label{stack_8h_aa407d9770c918dc8042ff844c51b07fa}} 
+\index{stack.h@{stack.h}!PUSH@{PUSH}}
+\index{PUSH@{PUSH}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{PUSH()}{PUSH()}}
+{\footnotesize\ttfamily double P\+U\+SH (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao pusha o valor do array. 
+
+Esta funcao recebe os dados e retorna o index atual
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & posicao atual \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+j valor em inteiro/float dentro da \mbox{\hyperlink{structStack}{Stack}} ou o valor da Variavel 
+\end{DoxyReturn}
+\mbox{\Hypertarget{stack_8h_a1b962e9b73baabf5da310cc66bb4ac97}\label{stack_8h_a1b962e9b73baabf5da310cc66bb4ac97}} 
+\index{stack.h@{stack.h}!removeIndex@{removeIndex}}
+\index{removeIndex@{removeIndex}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{removeIndex()}{removeIndex()}}
+{\footnotesize\ttfamily void remove\+Index (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Funcao remove o index atual. 
+
+Esta funcao recebe os dados e remove o index atual puxando toda a estrutura para a posicao atual
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em i} & posicao atual \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{stack_8h_a3677194c96bb097fda56142975d05da5}\label{stack_8h_a3677194c96bb097fda56142975d05da5}} 
+\index{stack.h@{stack.h}!sizeChar@{sizeChar}}
+\index{sizeChar@{sizeChar}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{sizeChar()}{sizeChar()}}
+{\footnotesize\ttfamily int size\+Char (\begin{DoxyParamCaption}\item[{char $\ast$}]{c }\end{DoxyParamCaption})}
+
+
+
+Funcao igual à strlen. 
+
+Funcao exatamente igual a strlen, tem de sofrer alteracoes mais tarde
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{stack_8h_a2c4f14c424a31db9c57fd046c3b9f0df}\label{stack_8h_a2c4f14c424a31db9c57fd046c3b9f0df}} 
+\index{stack.h@{stack.h}!strdup@{strdup}}
+\index{strdup@{strdup}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{strdup()}{strdup()}}
+{\footnotesize\ttfamily char$\ast$ strdup (\begin{DoxyParamCaption}\item[{const char $\ast$}]{str }\end{DoxyParamCaption})}
+
+
+
+Funcao strdup. 
+
+strdup é função que cria uma copia de uma string, esta função foi reescrita para evitar warnings Os warnings aconteciam pois ela existia no sistema, mas não estava oficialmente declarada, isto acontece devido à sua exclusão do \char`\"{}standard\char`\"{} da linguagem C
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & posicao atual \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{stack_8h_a5bd721ef49e0397534dd2d6e76b20393}\label{stack_8h_a5bd721ef49e0397534dd2d6e76b20393}} 
+\index{stack.h@{stack.h}!substituirStack@{substituirStack}}
+\index{substituirStack@{substituirStack}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{substituirStack()}{substituirStack()}}
+{\footnotesize\ttfamily void substituir\+Stack (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos,  }\item[{char $\ast$}]{c }\end{DoxyParamCaption})}
+
+
+
+Funcao Para substituir da stack. 
+
+Funcao que substitui na stack por algo pretendido
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a stack \\
+\hline
+{\em c} & recebr a string pretendida \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{stack_8h_a8614fd455aff434b3c69b38e7378855a}\label{stack_8h_a8614fd455aff434b3c69b38e7378855a}} 
+\index{stack.h@{stack.h}!swap@{swap}}
+\index{swap@{swap}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{swap()}{swap()}}
+{\footnotesize\ttfamily void swap (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+

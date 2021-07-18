@@ -1,0 +1,502 @@
+\hypertarget{array_8h}{}\doxysection{array.\+h File Reference}
+\label{array_8h}\index{array.h@{array.h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}stack.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}interpretador.\+h\char`\"{}}\newline
+Include dependency graph for array.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{array_8h_a70ed59adcb4159ac551058053e649640}{S\+I\+ZE}}~25000
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{array_8h_a599e932c3c42141d379425c37436485d}{encontrar\+Limite\+Inferior}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do Array \char`\"{}\+Encontra\+Limite\+Inferior\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{array_8h_ab0b7eab32645e1c7b8c414e9245004f6}{juntar\+Array}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do Array \char`\"{}juntar\+Array\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{array_8h_aa016b61071a073ba1e56ae0c4c7d4f82}{trocar\+Array}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do Array \char`\"{}troca\+Array\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{array_8h_a1ae174194418027d69d3a34367e0fe2e}{reverse\+Array}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do Array \char`\"{}reverse\+Array\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{array_8h_afcd1d506dfde77ac82644a8670fc591e}{pesquisar\+Array\+Index}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos, int valor)
+\begin{DoxyCompactList}\small\item\em Funcao do Array \char`\"{}pesquisar\+Array\+Index\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{array_8h_afa70604c067477d7c85a2799dacf9014}{P\+O\+P\+\_\+\+A\+R\+R\+AY}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do Array \char`\"{}\+P\+O\+P\+\_\+\+A\+R\+R\+A\+Y\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{array_8h_a6e083e60af51a9ae26350b2a98f2c78a}{negar\+Array}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do Array \char`\"{}negar\+Array\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{array_8h_abb214e1878bfe9e0f91176df466467ed}{range\+Array}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do Array \char`\"{}range\+Array\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{array_8h_a5ea06a9fb406848573112d4524517c48}{mult\+Array}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos, int valor)
+\begin{DoxyCompactList}\small\item\em Funcao do Array \char`\"{}mult\+Array\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{array_8h_aee632d2e5abb50c9cab2ee19b4a7df5e}{buscar\+N\+\_\+elementos\+Maior}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos, int valor)
+\begin{DoxyCompactList}\small\item\em Funcao do Array \char`\"{}buscar\+N\+\_\+elementos\+Maior\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{array_8h_a12c256669527392f061b11fa7882a5ce}{buscar\+N\+\_\+elementos\+Menor}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos, int valor)
+\begin{DoxyCompactList}\small\item\em Funcao do Array \char`\"{}buscar\+N\+\_\+elementos\+Menor\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{array_8h_a4f2e7e7705bda16afdcdea5750b4929a}{ultimo\+Elemento}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do Array \char`\"{}ultimo\+Elemento\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{array_8h_a45bf14a7cad7a18bccbeb8b2807a73f4}{primeiro\+Elemento}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do Array \char`\"{}primeiro\+Elemento\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{array_8h_a7ed4a6b5abf99c5d2113883b704b9e77}{duplicar\+Array}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do Array \char`\"{}duplicar\+Array\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{array_8h_a663e2dc1b4b383e31405c335facd3be6}{troca\+Array\+\_\+\+Atomo}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do Array \char`\"{}troca\+Array\+\_\+atomo\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{array_8h_ace222e6b2ab7db418c84ac70cc9e4d25}{rodar\+Stack\+Array}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do Array \char`\"{}rodar\+Stack\+Array\char`\"{}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{array_8h_a59bde5e176b93ebb9343dad95013876a}{preencher\+Variavel\+Array}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do Array \char`\"{}preencher\+Variavel\+Array\char`\"{}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{array_8h_a0344eb1887db9a69fef65dd458d6667e}{normalizar\+Variavel\+Array}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do Array \char`\"{}normalizar\+Array\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{array_8h_a217811322026ff2c6baad29691036462}{variavel\+Array}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{array_8h_a4cdb77251d2d2d392217c44cac3d4b00}{mostrar\+Variavel\+Array}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do Array \char`\"{}mostra\+Variavel\+Array\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{array_8h_a0c39ae7d7c7b3bbe78bac55179074313}{ultimo\+Elemento\+Variavel}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do Array \char`\"{}primeiro\+Elemento\+Variavel\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{array_8h_a62853e625c40339e28f52b22d25a3466}{primeiro\+Elemento\+Variavel}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do Array \char`\"{}primeiro\+Elemento\+Variavel\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{array_8h_ae284c646d45c54e7348eecec1b18bcc4}{preencher\+Variavel\+Array\+Array}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\begin{DoxyCompactList}\small\item\em Funcao do Array \char`\"{}preencher\+Variavel\+Array\+Array\char`\"{}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{array_8h_a70ed59adcb4159ac551058053e649640}\label{array_8h_a70ed59adcb4159ac551058053e649640}} 
+\index{array.h@{array.h}!SIZE@{SIZE}}
+\index{SIZE@{SIZE}!array.h@{array.h}}
+\doxysubsubsection{\texorpdfstring{SIZE}{SIZE}}
+{\footnotesize\ttfamily \#define S\+I\+ZE~25000}
+
+Tamanho Padrão usado em todo o código 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{array_8h_aee632d2e5abb50c9cab2ee19b4a7df5e}\label{array_8h_aee632d2e5abb50c9cab2ee19b4a7df5e}} 
+\index{array.h@{array.h}!buscarN\_elementosMaior@{buscarN\_elementosMaior}}
+\index{buscarN\_elementosMaior@{buscarN\_elementosMaior}!array.h@{array.h}}
+\doxysubsubsection{\texorpdfstring{buscarN\_elementosMaior()}{buscarN\_elementosMaior()}}
+{\footnotesize\ttfamily void buscar\+N\+\_\+elementos\+Maior (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos,  }\item[{int}]{valor }\end{DoxyParamCaption})}
+
+
+
+Funcao do Array \char`\"{}buscar\+N\+\_\+elementos\+Maior\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do Array Esta funcao vai buscar os valores por ordem decrescente no array baseado no input do utilizador No final apaga o array
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{array_8h_a12c256669527392f061b11fa7882a5ce}\label{array_8h_a12c256669527392f061b11fa7882a5ce}} 
+\index{array.h@{array.h}!buscarN\_elementosMenor@{buscarN\_elementosMenor}}
+\index{buscarN\_elementosMenor@{buscarN\_elementosMenor}!array.h@{array.h}}
+\doxysubsubsection{\texorpdfstring{buscarN\_elementosMenor()}{buscarN\_elementosMenor()}}
+{\footnotesize\ttfamily void buscar\+N\+\_\+elementos\+Menor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos,  }\item[{int}]{valor }\end{DoxyParamCaption})}
+
+
+
+Funcao do Array \char`\"{}buscar\+N\+\_\+elementos\+Menor\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do Array Esta funcao vai buscar os valores por ordem crescente no array baseado no input do utilizador No final apaga o array
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{array_8h_a7ed4a6b5abf99c5d2113883b704b9e77}\label{array_8h_a7ed4a6b5abf99c5d2113883b704b9e77}} 
+\index{array.h@{array.h}!duplicarArray@{duplicarArray}}
+\index{duplicarArray@{duplicarArray}!array.h@{array.h}}
+\doxysubsubsection{\texorpdfstring{duplicarArray()}{duplicarArray()}}
+{\footnotesize\ttfamily void duplicar\+Array (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do Array \char`\"{}duplicar\+Array\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do Array Esta funcao duplica o Array usando a funcao mult\+Array e depois adiciona os limites
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{array_8h_a599e932c3c42141d379425c37436485d}\label{array_8h_a599e932c3c42141d379425c37436485d}} 
+\index{array.h@{array.h}!encontrarLimiteInferior@{encontrarLimiteInferior}}
+\index{encontrarLimiteInferior@{encontrarLimiteInferior}!array.h@{array.h}}
+\doxysubsubsection{\texorpdfstring{encontrarLimiteInferior()}{encontrarLimiteInferior()}}
+{\footnotesize\ttfamily int encontrar\+Limite\+Inferior (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do Array \char`\"{}\+Encontra\+Limite\+Inferior\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do Array Dado a posição do limite inferior, esta funcao vai descobrir o inferior para uma localização aritmetica do array
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+(i+1) a posicao aritmetica + 1 
+\end{DoxyReturn}
+\mbox{\Hypertarget{array_8h_ab0b7eab32645e1c7b8c414e9245004f6}\label{array_8h_ab0b7eab32645e1c7b8c414e9245004f6}} 
+\index{array.h@{array.h}!juntarArray@{juntarArray}}
+\index{juntarArray@{juntarArray}!array.h@{array.h}}
+\doxysubsubsection{\texorpdfstring{juntarArray()}{juntarArray()}}
+{\footnotesize\ttfamily void juntar\+Array (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do Array \char`\"{}juntar\+Array\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do Array Esta funcao vai juntar 2 arrays de duas maneiras\+: 1 -\/$>$ se for 2 arrays, vai simplesmente dar P\+OP dos limites internos dos dois, fazem assim um concat 2 -\/$>$ se for 1 array e algo diferente de um array, simplesmente vai dar swap na sua posição
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{array_8h_a4cdb77251d2d2d392217c44cac3d4b00}\label{array_8h_a4cdb77251d2d2d392217c44cac3d4b00}} 
+\index{array.h@{array.h}!mostrarVariavelArray@{mostrarVariavelArray}}
+\index{mostrarVariavelArray@{mostrarVariavelArray}!array.h@{array.h}}
+\doxysubsubsection{\texorpdfstring{mostrarVariavelArray()}{mostrarVariavelArray()}}
+{\footnotesize\ttfamily void mostrar\+Variavel\+Array (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do Array \char`\"{}mostra\+Variavel\+Array\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do Array Funcao que usada para ocultar os limites e todo tipo de simbolo nao pretendido no final da stack quando mostrado ao utilizador
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{array_8h_a5ea06a9fb406848573112d4524517c48}\label{array_8h_a5ea06a9fb406848573112d4524517c48}} 
+\index{array.h@{array.h}!multArray@{multArray}}
+\index{multArray@{multArray}!array.h@{array.h}}
+\doxysubsubsection{\texorpdfstring{multArray()}{multArray()}}
+{\footnotesize\ttfamily void mult\+Array (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos,  }\item[{int}]{valor }\end{DoxyParamCaption})}
+
+
+
+Funcao do Array \char`\"{}mult\+Array\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do Array Esta funcao escreve varias vezes o array pretendido e dps junta-\/os
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{array_8h_a6e083e60af51a9ae26350b2a98f2c78a}\label{array_8h_a6e083e60af51a9ae26350b2a98f2c78a}} 
+\index{array.h@{array.h}!negarArray@{negarArray}}
+\index{negarArray@{negarArray}!array.h@{array.h}}
+\doxysubsubsection{\texorpdfstring{negarArray()}{negarArray()}}
+{\footnotesize\ttfamily void negar\+Array (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do Array \char`\"{}negar\+Array\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do Array Esta funcao apaga os limites do array
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{array_8h_a0344eb1887db9a69fef65dd458d6667e}\label{array_8h_a0344eb1887db9a69fef65dd458d6667e}} 
+\index{array.h@{array.h}!normalizarVariavelArray@{normalizarVariavelArray}}
+\index{normalizarVariavelArray@{normalizarVariavelArray}!array.h@{array.h}}
+\doxysubsubsection{\texorpdfstring{normalizarVariavelArray()}{normalizarVariavelArray()}}
+{\footnotesize\ttfamily int normalizar\+Variavel\+Array (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do Array \char`\"{}normalizar\+Array\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do Array Funcao que normaliza o Array dentro da variavel colocando na stack
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{array_8h_afcd1d506dfde77ac82644a8670fc591e}\label{array_8h_afcd1d506dfde77ac82644a8670fc591e}} 
+\index{array.h@{array.h}!pesquisarArrayIndex@{pesquisarArrayIndex}}
+\index{pesquisarArrayIndex@{pesquisarArrayIndex}!array.h@{array.h}}
+\doxysubsubsection{\texorpdfstring{pesquisarArrayIndex()}{pesquisarArrayIndex()}}
+{\footnotesize\ttfamily void pesquisar\+Array\+Index (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos,  }\item[{int}]{valor }\end{DoxyParamCaption})}
+
+
+
+Funcao do Array \char`\"{}pesquisar\+Array\+Index\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do Array Esta funcao pesquisa no Array e se existir susbtitui fora do array No fim apaga o array todo
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{array_8h_afa70604c067477d7c85a2799dacf9014}\label{array_8h_afa70604c067477d7c85a2799dacf9014}} 
+\index{array.h@{array.h}!POP\_ARRAY@{POP\_ARRAY}}
+\index{POP\_ARRAY@{POP\_ARRAY}!array.h@{array.h}}
+\doxysubsubsection{\texorpdfstring{POP\_ARRAY()}{POP\_ARRAY()}}
+{\footnotesize\ttfamily void P\+O\+P\+\_\+\+A\+R\+R\+AY (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do Array \char`\"{}\+P\+O\+P\+\_\+\+A\+R\+R\+A\+Y\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do Array Esta funcao apaga o array todo baseado no limite inferior
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{array_8h_a59bde5e176b93ebb9343dad95013876a}\label{array_8h_a59bde5e176b93ebb9343dad95013876a}} 
+\index{array.h@{array.h}!preencherVariavelArray@{preencherVariavelArray}}
+\index{preencherVariavelArray@{preencherVariavelArray}!array.h@{array.h}}
+\doxysubsubsection{\texorpdfstring{preencherVariavelArray()}{preencherVariavelArray()}}
+{\footnotesize\ttfamily int preencher\+Variavel\+Array (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do Array \char`\"{}preencher\+Variavel\+Array\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do Array Funcao que Remove o Array da stack ao mesmo que tempo que o adiciona na Variavel Caso seja array de array é usado outra funcao
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{array_8h_ae284c646d45c54e7348eecec1b18bcc4}\label{array_8h_ae284c646d45c54e7348eecec1b18bcc4}} 
+\index{array.h@{array.h}!preencherVariavelArrayArray@{preencherVariavelArrayArray}}
+\index{preencherVariavelArrayArray@{preencherVariavelArrayArray}!array.h@{array.h}}
+\doxysubsubsection{\texorpdfstring{preencherVariavelArrayArray()}{preencherVariavelArrayArray()}}
+{\footnotesize\ttfamily void preencher\+Variavel\+Array\+Array (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do Array \char`\"{}preencher\+Variavel\+Array\+Array\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do Array Funcao que Remove os Arrays de um Array e coloca-\/os em variaveis para estes poderem ser processador mais facilmente As novas variaveis vao para o array principal
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{array_8h_a45bf14a7cad7a18bccbeb8b2807a73f4}\label{array_8h_a45bf14a7cad7a18bccbeb8b2807a73f4}} 
+\index{array.h@{array.h}!primeiroElemento@{primeiroElemento}}
+\index{primeiroElemento@{primeiroElemento}!array.h@{array.h}}
+\doxysubsubsection{\texorpdfstring{primeiroElemento()}{primeiroElemento()}}
+{\footnotesize\ttfamily void primeiro\+Elemento (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do Array \char`\"{}primeiro\+Elemento\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do Array Esta funcao vai buscar o primeiro Elemento do array Retira-\/o da stack e coloca-\/o à frente
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{array_8h_a62853e625c40339e28f52b22d25a3466}\label{array_8h_a62853e625c40339e28f52b22d25a3466}} 
+\index{array.h@{array.h}!primeiroElementoVariavel@{primeiroElementoVariavel}}
+\index{primeiroElementoVariavel@{primeiroElementoVariavel}!array.h@{array.h}}
+\doxysubsubsection{\texorpdfstring{primeiroElementoVariavel()}{primeiroElementoVariavel()}}
+{\footnotesize\ttfamily void primeiro\+Elemento\+Variavel (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do Array \char`\"{}primeiro\+Elemento\+Variavel\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do Array Funcao que usa a normalizacao para colocar a informacao da variavel na stack e depois coloca o simbolo \char`\"{}(\char`\"{} para executar a funcao
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{array_8h_abb214e1878bfe9e0f91176df466467ed}\label{array_8h_abb214e1878bfe9e0f91176df466467ed}} 
+\index{array.h@{array.h}!rangeArray@{rangeArray}}
+\index{rangeArray@{rangeArray}!array.h@{array.h}}
+\doxysubsubsection{\texorpdfstring{rangeArray()}{rangeArray()}}
+{\footnotesize\ttfamily void range\+Array (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do Array \char`\"{}range\+Array\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do Array Esta funcao calcula o tamanho do Array e coloca o valor na stack No final apaga o array
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{array_8h_a1ae174194418027d69d3a34367e0fe2e}\label{array_8h_a1ae174194418027d69d3a34367e0fe2e}} 
+\index{array.h@{array.h}!reverseArray@{reverseArray}}
+\index{reverseArray@{reverseArray}!array.h@{array.h}}
+\doxysubsubsection{\texorpdfstring{reverseArray()}{reverseArray()}}
+{\footnotesize\ttfamily void reverse\+Array (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do Array \char`\"{}reverse\+Array\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do Array Funcao utilizada na funcao, \char`\"{}troca\+Array\char`\"{} Esta funcao reverte 1 array dado o limite superior
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{array_8h_ace222e6b2ab7db418c84ac70cc9e4d25}\label{array_8h_ace222e6b2ab7db418c84ac70cc9e4d25}} 
+\index{array.h@{array.h}!rodarStackArray@{rodarStackArray}}
+\index{rodarStackArray@{rodarStackArray}!array.h@{array.h}}
+\doxysubsubsection{\texorpdfstring{rodarStackArray()}{rodarStackArray()}}
+{\footnotesize\ttfamily void rodar\+Stack\+Array (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do Array \char`\"{}rodar\+Stack\+Array\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do Array Esta Funcao roda a stack usando um ciclo e adicionado o \char`\"{}\textbackslash{}\char`\"{} para executar a troca de Array
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{array_8h_a663e2dc1b4b383e31405c335facd3be6}\label{array_8h_a663e2dc1b4b383e31405c335facd3be6}} 
+\index{array.h@{array.h}!trocaArray\_Atomo@{trocaArray\_Atomo}}
+\index{trocaArray\_Atomo@{trocaArray\_Atomo}!array.h@{array.h}}
+\doxysubsubsection{\texorpdfstring{trocaArray\_Atomo()}{trocaArray\_Atomo()}}
+{\footnotesize\ttfamily void troca\+Array\+\_\+\+Atomo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do Array \char`\"{}troca\+Array\+\_\+atomo\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do Array Esta funcao existe para possibilitar a troca de um Array e de um membro da stack É feita a verificacao da posicao de este membro, e depois é feita a troca
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{array_8h_aa016b61071a073ba1e56ae0c4c7d4f82}\label{array_8h_aa016b61071a073ba1e56ae0c4c7d4f82}} 
+\index{array.h@{array.h}!trocarArray@{trocarArray}}
+\index{trocarArray@{trocarArray}!array.h@{array.h}}
+\doxysubsubsection{\texorpdfstring{trocarArray()}{trocarArray()}}
+{\footnotesize\ttfamily void trocar\+Array (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do Array \char`\"{}troca\+Array\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do Array Para trocar o array, visto este estar diretamente presente na \mbox{\hyperlink{structStack}{Stack}} Primeiro descubrirmos todos os limites Existe uma reversão individual de cada Array e uma posterior reversão total, como exemplo abaixo\+: \mbox{[} 1 2 3 \mbox{]} \mbox{[} 7 8 9 \mbox{]} \textbackslash{} -\/$>$ \mbox{]} 3 2 1 \mbox{[} \mbox{]} 9 8 7 \mbox{[} -\/$>$ \mbox{[} 7 8 9 \mbox{]} \mbox{[} 3 2 1 \mbox{]}
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{array_8h_a4f2e7e7705bda16afdcdea5750b4929a}\label{array_8h_a4f2e7e7705bda16afdcdea5750b4929a}} 
+\index{array.h@{array.h}!ultimoElemento@{ultimoElemento}}
+\index{ultimoElemento@{ultimoElemento}!array.h@{array.h}}
+\doxysubsubsection{\texorpdfstring{ultimoElemento()}{ultimoElemento()}}
+{\footnotesize\ttfamily void ultimo\+Elemento (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do Array \char`\"{}ultimo\+Elemento\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do Array Esta funcao vai buscar o ultimo Elemento do array Retira-\/o da stack e coloca-\/o à frente
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{array_8h_a0c39ae7d7c7b3bbe78bac55179074313}\label{array_8h_a0c39ae7d7c7b3bbe78bac55179074313}} 
+\index{array.h@{array.h}!ultimoElementoVariavel@{ultimoElementoVariavel}}
+\index{ultimoElementoVariavel@{ultimoElementoVariavel}!array.h@{array.h}}
+\doxysubsubsection{\texorpdfstring{ultimoElementoVariavel()}{ultimoElementoVariavel()}}
+{\footnotesize\ttfamily void ultimo\+Elemento\+Variavel (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Funcao do Array \char`\"{}primeiro\+Elemento\+Variavel\char`\"{}. 
+
+Esta funcao recebe os dados recebe os dados e a posicao atual do Array Funcao que usa a normalizacao para colocar a informacao da variavel na stack e depois coloca o simbolo \char`\"{})\char`\"{} para executar a funcao
+
+
+\begin{DoxyParams}{Parameters}
+{\em dados} & receber a stack \\
+\hline
+{\em pos} & receber a posicao atual da stack \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{array_8h_a217811322026ff2c6baad29691036462}\label{array_8h_a217811322026ff2c6baad29691036462}} 
+\index{array.h@{array.h}!variavelArray@{variavelArray}}
+\index{variavelArray@{variavelArray}!array.h@{array.h}}
+\doxysubsubsection{\texorpdfstring{variavelArray()}{variavelArray()}}
+{\footnotesize\ttfamily void variavel\+Array (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+

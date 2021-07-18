@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structStack" kind="struct" language="C++" prot="public">
+    <compoundname>Stack</compoundname>
+    <includes refid="stack_8h" local="no">stack.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structStack_1acaab69ead915760ece7552b0b0bf5ba5" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* Stack::caracter</definition>
+        <argsstring></argsstring>
+        <name>caracter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Variavel que irá ter o objeto </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="41" column="8" bodyfile="stack.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStack_1a7192774d3ffefb08dce588451500a6bb" prot="public" static="no" mutable="no">
+        <type><ref refid="stack_8h_1a87da3d8264af1c9427605148f20dd9c4" kindref="member">token</ref></type>
+        <definition>token Stack::tag</definition>
+        <argsstring></argsstring>
+        <name>tag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Token do objeto </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="45" column="9" bodyfile="stack.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structStack_1a88a7aff3a52bd5cf0354601eaa55a310" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* Stack::variavel</definition>
+        <argsstring></argsstring>
+        <name>variavel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Caso que o objeto seja uma variavel, esta irá ter o valor dessa mesma </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="49" column="8" bodyfile="stack.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Struct da stack com a definicao &quot;stack&quot; </para>
+    </detaileddescription>
+    <location file="stack.h" line="37" column="1" bodyfile="stack.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="structStack_1acaab69ead915760ece7552b0b0bf5ba5" prot="public" virt="non-virtual"><scope>Stack</scope><name>caracter</name></member>
+      <member refid="structStack_1a7192774d3ffefb08dce588451500a6bb" prot="public" virt="non-virtual"><scope>Stack</scope><name>tag</name></member>
+      <member refid="structStack_1a88a7aff3a52bd5cf0354601eaa55a310" prot="public" virt="non-virtual"><scope>Stack</scope><name>variavel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

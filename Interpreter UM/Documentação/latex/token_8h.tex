@@ -1,0 +1,156 @@
+\hypertarget{token_8h}{}\doxysection{token.\+h File Reference}
+\label{token_8h}\index{token.h@{token.h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}stack.\+h\char`\"{}}\newline
+Include dependency graph for token.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{token_8h_a70ed59adcb4159ac551058053e649640}{S\+I\+ZE}}~25000
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{token_8h_aa2e2446e5e141e8eb6ed811940f1cc8b}{variaveis\+Omissao}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int i)
+\item 
+void \mbox{\hyperlink{token_8h_af54b38316fc91e1b061309e324be7eec}{re\+Variaveis\+Interpretador}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{token_8h_a570da5cd03465a115199d7f328103c6d}{variavel\+Fantasma\+Func}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{token_8h_a226d47427f4cd14fcc9116085eea60d6}{ler\+Variaveil\+Fanstasma}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int pos)
+\item 
+void \mbox{\hyperlink{token_8h_a78648cd27d9cae511cd91c940b30cbe3}{token\+Func}} (char $\ast$c, \mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int i)
+\item 
+void \mbox{\hyperlink{token_8h_aca3f0d9dc49862e365fc2a09d8d426da}{re\+Token}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados)
+\item 
+int \mbox{\hyperlink{token_8h_aadb0df7aa45a6fa51f9a70c4dba272c6}{ignore\+Token}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int i)
+\item 
+int \mbox{\hyperlink{token_8h_acb31008eb20c4ccff9411d3a09cff95e}{is\+Limite}} (char $\ast$c, \mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int i)
+\item 
+int \mbox{\hyperlink{token_8h_a6e6089766c82ec46c4350dd16ee344ac}{is\+Expressao\+Mat}} (char $\ast$c, \mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int i)
+\item 
+int \mbox{\hyperlink{token_8h_aab87a1bc773ade4fdcc9d4c67570bbd4}{is\+Stack}} (char $\ast$c, \mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int i)
+\item 
+int \mbox{\hyperlink{token_8h_a06bc0d10a37bb1caba70cabfe876e102}{is\+Logica}} (char $\ast$c, \mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int i)
+\item 
+int \mbox{\hyperlink{token_8h_ad619c60a8e8878d0e2992230ef29da92}{is\+Input\+Output\+\_\+\+Conversoes}} (char $\ast$c, \mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int i)
+\item 
+int \mbox{\hyperlink{token_8h_add1ab8fced8dff7fe7bc490e07c3df7b}{is\+Variavel}} (char $\ast$c, \mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int i)
+\item 
+int \mbox{\hyperlink{token_8h_a1a3d13914f615f1d9ec35d720374c1d9}{is\+String}} (char $\ast$c, \mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int i)
+\item 
+int \mbox{\hyperlink{token_8h_a69e591b62371fd5844440e764dd280e8}{is\+Int\+Float\+Func}} (\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int i)
+\item 
+int \mbox{\hyperlink{token_8h_aaabe04b350141a1ef4fc58eb7fbfe021}{is\+Int\+Float\+Nothing}} (char $\ast$c, \mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$dados, int i)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{token_8h_a70ed59adcb4159ac551058053e649640}\label{token_8h_a70ed59adcb4159ac551058053e649640}} 
+\index{token.h@{token.h}!SIZE@{SIZE}}
+\index{SIZE@{SIZE}!token.h@{token.h}}
+\doxysubsubsection{\texorpdfstring{SIZE}{SIZE}}
+{\footnotesize\ttfamily \#define S\+I\+ZE~25000}
+
+Tamanho Padrão usado em todo o código 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{token_8h_aadb0df7aa45a6fa51f9a70c4dba272c6}\label{token_8h_aadb0df7aa45a6fa51f9a70c4dba272c6}} 
+\index{token.h@{token.h}!ignoreToken@{ignoreToken}}
+\index{ignoreToken@{ignoreToken}!token.h@{token.h}}
+\doxysubsubsection{\texorpdfstring{ignoreToken()}{ignoreToken()}}
+{\footnotesize\ttfamily int ignore\+Token (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{i }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{token_8h_a6e6089766c82ec46c4350dd16ee344ac}\label{token_8h_a6e6089766c82ec46c4350dd16ee344ac}} 
+\index{token.h@{token.h}!isExpressaoMat@{isExpressaoMat}}
+\index{isExpressaoMat@{isExpressaoMat}!token.h@{token.h}}
+\doxysubsubsection{\texorpdfstring{isExpressaoMat()}{isExpressaoMat()}}
+{\footnotesize\ttfamily int is\+Expressao\+Mat (\begin{DoxyParamCaption}\item[{char $\ast$}]{c,  }\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{i }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{token_8h_ad619c60a8e8878d0e2992230ef29da92}\label{token_8h_ad619c60a8e8878d0e2992230ef29da92}} 
+\index{token.h@{token.h}!isInputOutput\_Conversoes@{isInputOutput\_Conversoes}}
+\index{isInputOutput\_Conversoes@{isInputOutput\_Conversoes}!token.h@{token.h}}
+\doxysubsubsection{\texorpdfstring{isInputOutput\_Conversoes()}{isInputOutput\_Conversoes()}}
+{\footnotesize\ttfamily int is\+Input\+Output\+\_\+\+Conversoes (\begin{DoxyParamCaption}\item[{char $\ast$}]{c,  }\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{i }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{token_8h_a69e591b62371fd5844440e764dd280e8}\label{token_8h_a69e591b62371fd5844440e764dd280e8}} 
+\index{token.h@{token.h}!isIntFloatFunc@{isIntFloatFunc}}
+\index{isIntFloatFunc@{isIntFloatFunc}!token.h@{token.h}}
+\doxysubsubsection{\texorpdfstring{isIntFloatFunc()}{isIntFloatFunc()}}
+{\footnotesize\ttfamily int is\+Int\+Float\+Func (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{i }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{token_8h_aaabe04b350141a1ef4fc58eb7fbfe021}\label{token_8h_aaabe04b350141a1ef4fc58eb7fbfe021}} 
+\index{token.h@{token.h}!isIntFloatNothing@{isIntFloatNothing}}
+\index{isIntFloatNothing@{isIntFloatNothing}!token.h@{token.h}}
+\doxysubsubsection{\texorpdfstring{isIntFloatNothing()}{isIntFloatNothing()}}
+{\footnotesize\ttfamily int is\+Int\+Float\+Nothing (\begin{DoxyParamCaption}\item[{char $\ast$}]{c,  }\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{i }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{token_8h_acb31008eb20c4ccff9411d3a09cff95e}\label{token_8h_acb31008eb20c4ccff9411d3a09cff95e}} 
+\index{token.h@{token.h}!isLimite@{isLimite}}
+\index{isLimite@{isLimite}!token.h@{token.h}}
+\doxysubsubsection{\texorpdfstring{isLimite()}{isLimite()}}
+{\footnotesize\ttfamily int is\+Limite (\begin{DoxyParamCaption}\item[{char $\ast$}]{c,  }\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{i }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{token_8h_a06bc0d10a37bb1caba70cabfe876e102}\label{token_8h_a06bc0d10a37bb1caba70cabfe876e102}} 
+\index{token.h@{token.h}!isLogica@{isLogica}}
+\index{isLogica@{isLogica}!token.h@{token.h}}
+\doxysubsubsection{\texorpdfstring{isLogica()}{isLogica()}}
+{\footnotesize\ttfamily int is\+Logica (\begin{DoxyParamCaption}\item[{char $\ast$}]{c,  }\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{i }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{token_8h_aab87a1bc773ade4fdcc9d4c67570bbd4}\label{token_8h_aab87a1bc773ade4fdcc9d4c67570bbd4}} 
+\index{token.h@{token.h}!isStack@{isStack}}
+\index{isStack@{isStack}!token.h@{token.h}}
+\doxysubsubsection{\texorpdfstring{isStack()}{isStack()}}
+{\footnotesize\ttfamily int is\+Stack (\begin{DoxyParamCaption}\item[{char $\ast$}]{c,  }\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{i }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{token_8h_a1a3d13914f615f1d9ec35d720374c1d9}\label{token_8h_a1a3d13914f615f1d9ec35d720374c1d9}} 
+\index{token.h@{token.h}!isString@{isString}}
+\index{isString@{isString}!token.h@{token.h}}
+\doxysubsubsection{\texorpdfstring{isString()}{isString()}}
+{\footnotesize\ttfamily int is\+String (\begin{DoxyParamCaption}\item[{char $\ast$}]{c,  }\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{i }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{token_8h_add1ab8fced8dff7fe7bc490e07c3df7b}\label{token_8h_add1ab8fced8dff7fe7bc490e07c3df7b}} 
+\index{token.h@{token.h}!isVariavel@{isVariavel}}
+\index{isVariavel@{isVariavel}!token.h@{token.h}}
+\doxysubsubsection{\texorpdfstring{isVariavel()}{isVariavel()}}
+{\footnotesize\ttfamily int is\+Variavel (\begin{DoxyParamCaption}\item[{char $\ast$}]{c,  }\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{i }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{token_8h_a226d47427f4cd14fcc9116085eea60d6}\label{token_8h_a226d47427f4cd14fcc9116085eea60d6}} 
+\index{token.h@{token.h}!lerVariaveilFanstasma@{lerVariaveilFanstasma}}
+\index{lerVariaveilFanstasma@{lerVariaveilFanstasma}!token.h@{token.h}}
+\doxysubsubsection{\texorpdfstring{lerVariaveilFanstasma()}{lerVariaveilFanstasma()}}
+{\footnotesize\ttfamily void ler\+Variaveil\+Fanstasma (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{token_8h_aca3f0d9dc49862e365fc2a09d8d426da}\label{token_8h_aca3f0d9dc49862e365fc2a09d8d426da}} 
+\index{token.h@{token.h}!reToken@{reToken}}
+\index{reToken@{reToken}!token.h@{token.h}}
+\doxysubsubsection{\texorpdfstring{reToken()}{reToken()}}
+{\footnotesize\ttfamily void re\+Token (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{token_8h_af54b38316fc91e1b061309e324be7eec}\label{token_8h_af54b38316fc91e1b061309e324be7eec}} 
+\index{token.h@{token.h}!reVariaveisInterpretador@{reVariaveisInterpretador}}
+\index{reVariaveisInterpretador@{reVariaveisInterpretador}!token.h@{token.h}}
+\doxysubsubsection{\texorpdfstring{reVariaveisInterpretador()}{reVariaveisInterpretador()}}
+{\footnotesize\ttfamily void re\+Variaveis\+Interpretador (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{token_8h_a78648cd27d9cae511cd91c940b30cbe3}\label{token_8h_a78648cd27d9cae511cd91c940b30cbe3}} 
+\index{token.h@{token.h}!tokenFunc@{tokenFunc}}
+\index{tokenFunc@{tokenFunc}!token.h@{token.h}}
+\doxysubsubsection{\texorpdfstring{tokenFunc()}{tokenFunc()}}
+{\footnotesize\ttfamily void token\+Func (\begin{DoxyParamCaption}\item[{char $\ast$}]{c,  }\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{i }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{token_8h_aa2e2446e5e141e8eb6ed811940f1cc8b}\label{token_8h_aa2e2446e5e141e8eb6ed811940f1cc8b}} 
+\index{token.h@{token.h}!variaveisOmissao@{variaveisOmissao}}
+\index{variaveisOmissao@{variaveisOmissao}!token.h@{token.h}}
+\doxysubsubsection{\texorpdfstring{variaveisOmissao()}{variaveisOmissao()}}
+{\footnotesize\ttfamily void variaveis\+Omissao (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{i }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{token_8h_a570da5cd03465a115199d7f328103c6d}\label{token_8h_a570da5cd03465a115199d7f328103c6d}} 
+\index{token.h@{token.h}!variavelFantasmaFunc@{variavelFantasmaFunc}}
+\index{variavelFantasmaFunc@{variavelFantasmaFunc}!token.h@{token.h}}
+\doxysubsubsection{\texorpdfstring{variavelFantasmaFunc()}{variavelFantasmaFunc()}}
+{\footnotesize\ttfamily void variavel\+Fantasma\+Func (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a504e59726c5a48f1d3bda9cf9031aa84}{stack}} $\ast$}]{dados,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
