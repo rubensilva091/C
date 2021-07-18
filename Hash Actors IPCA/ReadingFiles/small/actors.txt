@@ -1,0 +1,2600 @@
+nm0370564	Sessue Hayakawa	M
+nm1352627	Anup Kumar	M
+nm0250548	Efgan Efekan	M
+nm0439784	Girish Karnad	M
+nm0785281	Snooky Serna	F
+nm0000272	Fanny Ardant	F
+nm0950690	Yang Yueh	M
+nm0451396	Vinod Khanna	M
+nm0432007	Curd Jürgens	M
+nm0000313	Jeff Bridges	M
+nm2372047	En'ichirô Jitsukawa	M
+nm0784884	Rade Serbedzija	M
+nm0212234	Carl de Vogt	M
+nm0621418	V.K. Naresh	M
+nm0559674	Takeo Matsuura	?
+nm0089939	Alf Blütecher	M
+nm0193721	Marc Cushman	M
+nm0312647	Yildirim Gencer	M
+nm0889148	Vanisri	F
+nm3128033	Yasushi Takemoto	M
+nm0734368	Bembol Roco	M
+nm0152054	Roy Chiao	M
+nm0451166	Amjad Khan	M
+nm0408054	Adel Emam	M
+nm1295740	Marianne de la Riva	F
+nm0619261	Conrad Nagel	M
+nm2398416	Ryûnosuke Kumoi	M
+nm0370351	Wanda Hawley	F
+nm0273076	Dindo Fernando	M
+nm0432465	Tito Junco	M
+nm1028275	Emmanuel H. Borlaza	M
+nm0896573	Ashish Vidyarthi	M
+nm0559487	Hiroki Matsukata	M
+nm0324733	Gohar	F
+nm0407002	Iftekhar	M
+nm0288206	Nagwa Fouad	F
+nm0477437	Peter B. Kyne	?
+nm0151155	Michael Wai-Man Chan	M
+nm0875465	Kôji Tsuruta	M
+nm0865801	Yoshiko Tokugawa	F
+nm0882219	Urvashi	F
+nm0292537	Robert Frazer	M
+nm1586089	Maruti	M
+nm0013566	Luis Aguilar	M
+nm0002145	Trevor Howard	M
+nm0358076	Neil Hamilton	M
+nm0304261	Gemini Ganesan	M
+nm0015846	Gina Alajar	F
+nm0261825	Joseph Estrada	M
+nm0169243	Bennett Cohen	?
+nm0369038	Frederic Hatton	M
+nm0219939	Danny Denzongpa	M
+nm0687741	George H. Plympton	?
+nm0470328	Werner Krauss	M
+nm0195926	Ramon D'Salva	M
+nm1418952	Bhavana	F
+nm0347953	Gummadi	M
+nm0398801	Chun-Hsiung Ko	M
+nm0000502	Christopher Lloyd	M
+nm1046381	Johnny Pangilinan	?
+nm0273178	Fernando Fernán Gómez	M
+nm0222160	Devika	F
+nm0764769	Ashok Saraf	M
+nm0613547	Akira Murao	?
+nm1167164	Cho Ramaswamy	M
+nm0080173	Master Bhagwan	M
+nm2042941	Vinod Tripathi	M
+nm1442720	Kashichi Shimada	M
+nm6150259	Bobita	F
+nm0756379	Balraj Sahni	M
+nm0576495	Vinod Mehra	M
+nm1035295	Manher Desai	M
+nm0812937	Fernando Soler	M
+nm0269690	Hassan Fayek	M
+nm0247513	Carlos East	M
+nm0253730	Sirri Elitas	M
+nm0001078	Bing Crosby	M
+nm0949835	Loretta Young	F
+nm0030280	Annapoorna	F
+nm0497097	Danny Lee	M
+nm0269771	Louise Fazenda	F
+nm0704157	Guillermo Quintanilla	M
+nm0814773	Alberto Sordi	M
+nm0623009	Rod Navarro	M
+nm0648803	Matsunosuke Onoe	M
+nm0269287	Pedro Faustino	M
+nm0757291	Taeko Sakuma	F
+nm0589105	Patsy Ruth Miller	F
+nm0001237	Samantha Fox	F
+nm0430646	Manavalan Joseph	M
+nm0044455	Ryônosuke Azuma	M
+nm0474822	Kishore Kumar	M
+nm0623443	Amedeo Nazzari	M
+nm0929925	Warren William	M
+nm0001922	Jean-Pierre Aumont	M
+nm0589494	Walter Miller	M
+nm0442736	Matsutarô Kawaguchi	?
+nm0948617	Sam-yuk Yoon	?
+nm1699511	Momoyo Ôkawa	F
+nm0260020	Stuart Erwin	M
+nm0000323	Michael Caine	M
+nm0793879	Eitarô Shindô	M
+nm0004462	Jean-Louis Trintignant	M
+nm0912478	H.B. Warner	M
+nm1422956	Kyôko Kazama	F
+nm0371771	Lillie Hayward	?
+nm0417301	Janagaraj	M
+nm0793384	Kien Shih	M
+nm0000068	Randolph Scott	M
+nm0416077	Farida Jalal	F
+nm1662076	Kobunji Ichikawa	M
+nm0628757	Francis Ng	M
+nm0001744	Tom Sizemore	M
+nm3433354	Debu Bose	M
+nm0411151	Yôjirô Ishizaka	?
+nm1388202	Siddique	M
+nm0000728	Mario Adorf	M
+nm0933133	Carey Wilson	M
+nm0497394	Heung Kam Lee	F
+nm0246582	Gloria Diaz	F
+nm1115537	Vijayakanth	M
+nm0002118	Alan Hale	M
+nm0157067	Walter Chiari	M
+nm0000458	William Hurt	M
+nm0457953	Nijiko Kiyokawa	F
+nm0062828	Warner Baxter	M
+nm1984346	Itoji Koto	F
+nm0875370	Ryûnosuke Tsukigata	M
+nm0849518	Aysel Tanju	F
+nm1030209	Hiroshi Imaizumi	M
+nm0038335	Yoshitaka Asama	?
+nm0465349	Labros Konstadaras	M
+nm0848614	Baki Tamer	M
+nm0046894	Mohnish Bahl	M
+nm0451272	Mushtaq Khan	M
+nm0001537	Ray Milland	M
+nm0422941	Flor Silvestre	F
+nm0681566	Michel Piccoli	M
+nm0208086	Ennio De Concini	?
+nm0406718	Haruyo Ichikawa	F
+nm0000018	Kirk Douglas	M
+nm0000053	Robert Mitchum	M
+nm0960385	Ayhan Isik	M
+nm0643582	Ramón Obón	?
+nm0622406	Shizue Natsukawa	F
+nm0354029	Liane Haid	F
+nm0364481	Blair Harris	M
+nm0352032	Kamal Haasan	M
+nm1888116	Shôichi Ikeda	?
+nm0509599	Hung Lieh Chen	M
+nm0619101	Chittor V. Nagaiah	M
+nm0442951	Seizaburô Kawazu	M
+nm0144302	Alfonso Cassini	M
+nm0207010	Gilberto de Anda	M
+nm0226879	Lotte Neumann	F
+nm0256861	Ken'ichi Endô	M
+nm0547339	Jean-Pierre Marielle	M
+nm0004437	Sridevi	F
+nm0000818	Shabana Azmi	F
+nm0678950	Hüseyin Peyda	M
+nm0124390	Narciso Busquets	M
+nm0226770	Dileep	M
+nm0057983	Don 'Red' Barry	M
+nm0994308	Iraj Ghaderi	M
+nm0712776	Charles Ray	M
+nm0764406	Pahadi Sanyal	M
+nm0001136	Bruce Dern	M
+nm0613407	Murad	M
+nm0660904	Paraluman	F
+nm1927212	D.K. Sapru	M
+nm0013159	Rati Agnihotri	F
+nm0770337	Richard Schayer	?
+nm0876847	Süleyman Turan	M
+nm1065532	Hae Hwang	M
+nm0065651	Karl Beckersachs	M
+nm0648565	Anny Ondra	F
+nm0274034	Angelo Ferrari	M
+nm0080432	Sachin Bhowmick	?
+nm0906723	Ayako Wakao	F
+nm0080246	Paravoor Bharathan	M
+nm1135609	Rani Chandra	F
+nm2148361	Sakuko Yanagi	F
+nm0412883	Jayalalitha J	F
+nm5982656	Tai-So Ho	M
+nm0930711	Guinn 'Big Boy' Williams	M
+nm0000051	James Mason	M
+nm0957372	Velimir 'Bata' Zivojinovic	M
+nm0158605	Charlie Cho	M
+nm0849199	Raveena Tandon	F
+nm0664085	Venkateswara Rao Paruchuri	M
+nm1778107	Makarand Anaspure	M
+nm0406585	Henrik Ibsen	?
+nm1383984	Rachana Banerjee	F
+nm0214150	Billy Dee	M
+nm0398934	Li Hua Li	F
+nm0000851	Lex Barker	M
+nm0174240	Gabby Concepcion	M
+nm0113902	Johnny Mack Brown	M
+nm1033297	Chi Udayashankar	M
+nm0000442	Rutger Hauer	M
+nm0001117	Bruce Davison	M
+nm0583920	Rosa Mia	F
+nm0792911	Sunil Shetty	M
+nm2369538	Ichitarô Kataoka	M
+nm0000461	Michael Ironside	M
+nm0939233	Man-Lei Wong	F
+nm0787462	Naseeruddin Shah	M
+nm0673749	François Périer	M
+nm0883570	Carlos Valdemar	?
+nm0355963	Norman S. Hall	?
+nm0423663	Tomisaburô Wakayama	M
+nm1720239	Yin Pak	F
+nm0257406	Olga Engl	F
+nm0993576	Kanako Kishi	F
+nm1283871	Tsuzuya Moroguchi	M
+nm0815897	Soundarya	F
+nm1393028	Aruray	F
+nm0438474	Goga Kapoor	M
+nm1554908	Kwan-Min Cheng	M
+nm0766463	Satyanand	?
+nm0002043	Madhuri Dixit	F
+nm0000321	Gabriel Byrne	M
+nm0080327	Robin Bhatt	?
+nm0354563	Fikret Hakan	M
+nm0398703	Rudolf Hrusínský	M
+nm0680927	Philomina	F
+nm0000532	Malcolm McDowell	M
+nm0000661	Donald Sutherland	M
+nm0222444	Chhayadevi	F
+nm0494673	Albert S. Le Vino	?
+nm0587534	John Miljan	M
+nm2278431	Joe Hammerstone	M
+nm0466581	Hilda Koronel	F
+nm0712660	Herbert Rawlinson	M
+nm0043199	Avinash	M
+nm0022342	Zeki Alpan	M
+nm0803055	Joe Sison	M
+nm0919225	Hanni Weisse	F
+nm0837674	Sujatha	F
+nm0853604	Conway Tearle	M
+nm1078702	Yumika Hayashi	F
+nm1467390	Meena	F
+nm0664850	Dirch Passer	M
+nm0620699	Nan Chiang	M
+nm0083152	Bionca	F
+nm1655164	Shoichi Nodera	M
+nm0716851	Waheeda Rehman	F
+nm0715857	Harry Reems	M
+nm0244424	Yilmaz Duru	M
+nm0664657	Alfonso Paso	?
+nm0441162	Shûji Kataoka	M
+nm0234670	Carl Schenstrøm	M
+nm0512267	Margaret Lindsay	F
+nm0272240	Sevda Ferdag	F
+nm0829044	Robert Louis Stevenson	?
+nm0171873	William Collier Jr.	M
+nm0451321	Shah Rukh Khan	M
+nm0002379	Hans Moser	M
+nm0504973	Alex Man	M
+nm0299154	Jules Furthman	?
+nm0000191	Ewan McGregor	M
+nm0000795	Jean Arthur	F
+nm0547938	George Marion Jr.	?
+nm0120178	Robert Bullock	M
+nm0290050	Massimo Franciosa	?
+nm0236279	Arthur Conan Doyle	?
+nm0000285	Alec Baldwin	M
+nm0688093	Fernando Poe Jr.	M
+nm2813324	Motoko Sasaki	F
+nm0017272	Janet Alcoriza	F
+nm0551222	Tully Marshall	M
+nm0736032	Miguel Ángel Rodríguez	M
+nm1047739	Ricky Belmonte	M
+nm0455454	Dinesh Hingoo	M
+nm0623312	Nello Nayo	M
+nm0407329	Chôko Iida	F
+nm0457410	Ravi Kishan	M
+nm0000554	Sam Neill	M
+nm0875983	Richard Tucker	M
+nm1649878	Ryûtarô Nakane	M
+nm0073426	Laxmikant Berde	M
+nm2807567	Tai-Hau Ho	F
+nm0066827	Bahar Begum	F
+nm0729806	Nikos Rizos	M
+nm0740067	Maurice Ronet	M
+nm2814662	Kôju Ran	F
+nm0883965	Divina Valencia	F
+nm0369749	Annette Haven	F
+nm0436922	Fritz Kampers	M
+nm0199797	Danielle	F
+nm0634313	Lloyd Nolan	M
+nm0167388	François Cluzet	M
+nm0419688	Jayaram	M
+nm3134983	Kyôko Godai	F
+nm0184392	Martin Kove	M
+nm0945475	Ryûji Yamamoto	M
+nm0038951	Shinsuke Ashida	M
+nm0237015	Steve Drake	M
+nm0256628	Akira Emoto	M
+nm0767945	Kadir Savun	M
+nm0373354	Marina Hedman	F
+nm0488535	Pierre Larquey	M
+nm0490513	Ching Wan Lau	M
+nm0438615	Atif Kaptan	M
+nm0746889	Humilde 'Meek' Roxas	?
+nm0415556	Jagdeep	M
+nm0047016	Ying Bai	M
+nm0277168	Recep Filiz	M
+nm1894124	Seiji Nakamitsu	M
+nm0149867	Chalapathi Rao	M
+nm0678323	Iván Petrovich	M
+nm0802144	K.N. Singh	M
+nm0599210	Johnny Monteiro	M
+nm0474299	Asami Kuji	F
+nm0441463	Manos Katrakis	M
+nm0645941	Warner Oland	M
+nm0656865	Paintal	M
+nm0003706	Tim McCoy	M
+nm0847050	Eiji Takagi	M
+nm0164003	Harvey Clark	M
+nm0264303	Moeko Ezawa	F
+nm0801193	Russell Simpson	M
+nm0902376	Thea von Harbou	?
+nm0149194	Hasan Ceylan	M
+nm0667546	Livio Pavanelli	M
+nm0639130	Károly Nóti	?
+nm3492497	Shakib Khan	M
+nm0712854	Jahar Roy	M
+nm1335387	Prithviraj Sukumaran	M
+nm0475470	Margarete Kupfer	F
+nm0794199	Kazuko Shirakawa	F
+nm0474609	Atul Kulkarni	M
+nm0305955	Andrés García	M
+nm0315553	Krishna Ghattamaneni	M
+nm0611538	Madhabi Mukherjee	F
+nm0756861	Ryôsuke Saitô	?
+nm0320681	Joseph W. Girard	M
+nm2373151	Chosei Kataoka	F
+nm0735766	Celia Rodriguez	F
+nm0898085	Julio Villarreal	M
+nm0566338	Bernard McConville	?
+nm0554959	Adalberto Martínez	M
+nm0686035	Ernst Pittschau	M
+nm0463804	Yilmaz Köksal	M
+nm0271485	Ben Feleo	?
+nm0000052	Marcello Mastroianni	M
+nm0948989	Mitsuko Yoshikawa	F
+nm0645327	Manuel Ojeda	M
+nm0035159	Richard Arlen	M
+nm0755364	José Sacristán	M
+nm0846616	Sharmila Tagore	F
+nm0000734	Eddie Albert	M
+nm0509510	Robert Liebmann	?
+nm0385443	Shin'ichi Himori	M
+nm0593951	Kamal Mitra	M
+nm0151874	Yung-Hsiang Chang	?
+nm0542063	Nino Manfredi	M
+nm0000437	Woody Harrelson	M
+nm0435227	Willy Kaiser-Heyl	M
+nm0822627	Eliot Stannard	?
+nm0510134	Paul Lukas	M
+nm1402373	Naohiro Hirakawa	M
+nm2426685	Kakumatsuro Arashi	M
+nm0025630	Vikas Anand	M
+nm0418131	Victor Janson	M
+nm0411451	Dick Israel	M
+nm0757820	Leopoldo Salcedo	M
+nm0000616	Eric Roberts	M
+nm1349603	Chiemi Akimoto	F
+nm0441571	Kôichi Katsuragi	M
+nm0309504	Jack Gatteau	M
+nm0649320	Bülent Oran	M
+nm0017391	Julio Aldama	M
+nm0000158	Tom Hanks	M
+nm0357287	Tatsuya Hamaguchi	M
+nm0674741	Jack Perrin	M
+nm0894523	Jules Verne	M
+nm0419685	Jaya Prada	F
+nm0294382	Pierre Fresnay	M
+nm0716839	Rehman	M
+nm0352157	Alessandro Haber	M
+nm1069583	Shinji Kubo	M
+nm1348301	Rosa Aguirre	F
+nm0004463	Akkineni Nageshwara Rao	M
+nm0613576	Jean Murat	M
+nm0679973	Gunther Philipp	M
+nm0256707	Kyôko Enami	F
+nm0254381	Bill Elliott	M
+nm0432721	Hans Junkermann	M
+nm0406196	Il-bong Yun	M
+nm0001376	Isabelle Huppert	F
+nm0155291	Kuan Tai Chen	M
+nm0566948	Joel McCrea	M
+nm0019455	Mohammad Ali	M
+nm0032900	Shinobu Araki	M
+nm0061298	Guillermo Battaglia	M
+nm1126254	Jaishankar	M
+nm0018437	Georg Alexander	M
+nm0280919	Ennio Flaiano	?
+nm0793851	Sayaji Shinde	M
+nm0837792	Sukumaran	M
+nm0417714	Jankidas	M
+nm0176420	Sandro Continenza	?
+nm0003909	Michael Lonsdale	M
+nm0019815	Selda Alkor	F
+nm0562770	Ken Maynard	M
+nm0538690	Michiyo Mako	F
+nm0300064	Jean Gabin	M
+nm0272960	Eddie Fernandez	M
+nm0767974	Ranko Sawa	F
+nm0517034	Rio Locsin	F
+nm1728008	Ryûzô Takei	M
+nm0042564	Amy Austria	F
+nm0438092	Dimple Kapadia	F
+nm0759685	Ljubisa Samardzic	M
+nm0173993	Betty Compson	F
+nm0831958	John Stone	?
+nm0149831	Tulsi Chakraborty	M
+nm0148974	Gino Cervi	M
+nm1022949	Bob Soler	M
+nm0004363	Rakesh Roshan	M
+nm0000366	Catherine Deneuve	F
+nm0586227	Tatsuya Mihashi	M
+nm0043956	Nevin Aypar	F
+nm0004576	Sobhan Babu	M
+nm0018203	Lalu Alex	M
+nm2454994	Bill Oberst Jr.	M
+nm0437520	Nobuo Kaneko	M
+nm0706721	Rahman	M
+nm0334613	José Rodríguez Granada	?
+nm1241531	Bharat Jadhav	M
+nm0762248	Stefania Sandrelli	F
+nm0751510	William Russell	M
+nm0181397	Rez Cortez	M
+nm0747131	Nirupa Roy	F
+nm0838520	Suman	M
+nm0525599	Jorge Luke	M
+nm0497759	Lila Lee	F
+nm0904494	B.M. Vyas	M
+nm0288192	Mimis Fotopoulos	M
+nm0000947	Karen Black	F
+nm0881333	Eve Unsell	?
+nm0749476	Charles Ruggles	M
+nm0847939	Lyle Talbot	M
+nm0813804	Önder Somer	M
+nm0453520	Ji-mee Kim	F
+nm0037490	Asuman Arsan	F
+nm0707367	Rajasulochana	F
+nm0772300	Hans Adalbert Schlettow	M
+nm1288698	Chito B. Tapawan	?
+nm0003110	Cesar Romero	M
+nm2593193	Abdur Razzak	M
+nm0107574	Evelyn Brent	F
+nm0645459	Tsuyako Okajima	F
+nm0807979	Eddie Rodriguez	M
+nm0683494	S.P. Pillai	M
+nm0354497	Kostas Hatzihristos	M
+nm0729381	Patricia Rivera	F
+nm0181881	Faik Coskun	M
+nm1001108	Yuri Izumi	F
+nm0551869	Al Martin	?
+nm0004193	Debbie Rochon	F
+nm1107894	Sivakumar	M
+nm0298561	Kazuo Funahashi	?
+nm0951304	Ihsan Yüce	M
+nm0007023	José Luis López Vázquez	M
+nm0794088	Barry Shipman	M
+nm0035280	Jean-Pierre Armand	M
+nm0410987	Yûjirô Ishihara	M
+nm1665526	Mahmoud Yassine	M
+nm0000034	William Holden	M
+nm0766491	Makoto Satô	M
+nm1076931	Mi-lyeong Jo	F
+nm1770187	Sen'nosuke Nakamura	M
+nm0042179	Jean Aurenche	?
+nm0359248	Ranko Hanai	F
+nm0771984	Alfred Schirokauer	?
+nm0160871	Po-Chuen Chu	M
+nm0847031	Minoru Takada	M
+nm0346616	Anita Guha	F
+nm0359129	Hayati Hamzaoglu	M
+nm0151787	Paul Chang Chung	M
+nm0947941	Dae-yeob Lee	M
+nm0406393	Manuel 'Flaco' Ibáñez	M
+nm0266254	Julius Falkenstein	M
+nm0083238	Birbal	M
+nm0207401	Piero De Bernardi	M
+nm0080347	Dhiraj Bhattacharya	M
+nm0222181	Devan	M
+nm0690450	Kaviyoor Ponnamma	F
+nm0221321	Brigitte Lahaie	F
+nm0632615	Navin Nischol	M
+nm3370288	Bijoy Mohanty	M
+nm0082178	Paul Bildt	M
+nm0845966	André Tabet	?
+nm0461156	Nikki Knights	F
+nm1099597	Radha Ravi	M
+nm0401192	Kara Wai	F
+nm0593369	Gordon Mitchell	M
+nm0348338	Orhan Günsiray	M
+nm0049395	Nandamuri Balakrishna	M
+nm0408381	Kadir Inanir	M
+nm0407649	Çolpan Ilhan	F
+nm1046027	Greg Macabenta	?
+nm0290556	James Franco	M
+nm0398464	Harry O. Hoyt	?
+nm0516930	J.P. Lockney	M
+nm0525283	André Luguet	M
+nm0525793	Folco Lulli	M
+nm0620785	Nanda	F
+nm0889944	Kuzey Vargin	M
+nm0878927	Tom Tyler	M
+nm0885030	Hermann Vallentin	M
+nm1293128	Yôyô Kojima	F
+nm1699849	Ahmad Najibzadeh	?
+nm3782061	Habibur Rehman	M
+nm0913712	Walter Wassermann	M
+nm0993416	Miki Hayashi	F
+nm2421786	Takahiro Nomura	M
+nm0000489	Christopher Lee	M
+nm3382815	Aparajita Mohanty	F
+nm0598940	Tony Montana	M
+nm0828436	Gösta Stevens	?
+nm0614234	Edna Murphy	F
+nm0960106	Safa Önal	?
+nm0001485	Myrna Loy	F
+nm0000407	Vivica A. Fox	F
+nm1068866	Nam-hyeon Choi	M
+nm0781635	John Seeman	M
+nm0337914	Howard J. Green	?
+nm0000380	Robert Duvall	M
+nm0000491	John Leguizamo	M
+nm1158284	Farouk Al-Fishawy	M
+nm0001367	C. Thomas Howell	M
+nm0392059	Stuart Holmes	M
+nm0725526	Ronnie Ricketts	M
+nm0685550	Theodor Pistek	M
+nm0451307	Saif Ali Khan	M
+nm0786928	Yusuf Sezgin	M
+nm0567756	Francis McDonald	M
+nm0292810	Pauline Frederick	F
+nm0000800	Armand Assante	M
+nm0007746	Diego Abatantuono	M
+nm1154608	Ashwath	M
+nm1273185	Jûrô Tanizaki	M
+nm0030672	Boots Anson-Roa	F
+nm0582706	Vittorio Metz	?
+nm0531971	William Colt MacDonald	?
+nm0409204	Innocent	M
+nm0023173	Max Alvarado	M
+nm0007220	Ricardo Cortez	M
+nm0645676	Denjirô Ôkôchi	M
+nm0654805	Münir Özkul	M
+nm0683831	Silvia Pinal	F
+nm0994324	Yutaka Ikejima	M
+nm0022765	Héctor Alterio	M
+nm0514707	Lucien Littlefield	M
+nm0594709	Ryôtarô Mizushima	M
+nm0202966	Keith David	M
+nm0244900	Rajatabha Dutta	M
+nm1263070	Arai Atsushi	M
+nm0675780	Aslam Pervaiz	M
+nm0258899	Atilla Ergün	M
+nm0405977	Paul Hörbiger	M
+nm0783991	Ali Sen	M
+nm0854562	Muzaffer Tema	M
+nm0157747	Han Chin	M
+nm3492864	Allauddin	M
+nm0304262	Shivaji Ganesan	M
+nm0124918	Frank Butler	M
+nm0430756	Julien Josephson	?
+nm0482309	Lal	M
+nm2935882	Naghma	F
+nm0351422	Melek Görgün	F
+nm0155562	Ekin Cheng	M
+nm0144589	Lou Castel	M
+nm0108579	George Bricker	?
+nm0733376	Renato Robles	M
+nm2812453	Katsurô Sakai	M
+nm0670964	Raymond Pellegrin	M
+nm0477107	Tak-Hing Kwan	M
+nm0015737	Kamal El-Shinnawi	M
+nm0813098	Charito Solis	F
+nm0876553	Tun Tun	F
+nm0710211	Ranjeet	M
+nm0000997	Gary Busey	M
+nm1009361	Misa Aoyama	F
+nm0848956	Gorô Tanada	?
+nm0945490	Shôhei Yamamoto	M
+nm0505323	Johnny Lever	M
+nm0230479	Süha Dogan	M
+nm0080150	Rita Bhaduri	F
+nm0154083	Sorapong Chatree	M
+nm0476429	Kinichi Kusumi	M
+nm0853042	Rex Taylor	?
+nm0002042	Charles Dickens	?
+nm0710057	Rangeela	M
+nm0151531	Prathapachandran	M
+nm0683298	Pilar Pilapil	F
+nm0168829	Lenore J. Coffee	?
+nm1045418	Roberto Gonzalez	M
+nm0629580	Dudley Nichols	?
+nm0324553	Bernhard Goetzke	M
+nm0610268	Jack Mower	M
+nm0576762	Thomas Meighan	M
+nm0451571	Hamideh Kheirabadi	F
+nm0354647	Rajan Haksar	M
+nm0002046	Brian Donlevy	M
+nm0590985	Yûichi Minato	M
+nm0902226	Theodore von Eltz	M
+nm1697078	Tarô Bandô	M
+nm0000901	Jean-Paul Belmondo	M
+nm0999317	Yukiko Tachibana	F
+nm1028434	Reza Beyk Imanverdi	M
+nm0376228	Gaspar Henaine	M
+nm0580916	Una Merkel	F
+nm1948344	Ayako Chiyoda	F
+nm0908154	Robert Walker	M
+nm0471464	Krishnamraju	M
+nm0202516	Ricky Davao	M
+nm1058696	Seok-hun Kim	M
+nm0000809	Daniel Auteuil	M
+nm2362746	Kiyoko Izumi	F
+nm0395942	Hikaru Hoshi	M
+nm0671381	Ana Luisa Peluffo	F
+nm0224786	Lavrentis Dianellos	M
+nm0885098	Alida Valli	F
+nm0800302	Michel Simon	M
+nm0592238	Yves Mirande	?
+nm0919624	Niles Welch	M
+nm0750930	Jorge Russek	M
+nm0474905	Tarun Kumar	M
+nm0519765	Theodor Loos	M
+nm0438510	Trilok Kapoor	M
+nm0352256	Habib	M
+nm0351734	Käthe Haack	F
+nm0290215	Kay Francis	F
+nm0000874	Steven Bauer	M
+nm0462069	Tokuji Kobayashi	M
+nm0784013	Tamaki Katori	F
+nm1001836	Mayumi Sanjô	F
+nm0684143	Chung Ping Geung	M
+nm0654710	Turgut Özatay	M
+nm0581028	Marisa Merlini	F
+nm1675389	Pugo	M
+nm0297869	Kamatari Fujiwara	M
+nm1060227	Ruth Goetz	?
+nm3845073	Sabiha Khanum	F
+nm0427659	Buck Jones	M
+nm1187366	Mayuko Sasaki	F
+nm0474975	Kumkum	F
+nm0766163	Sathyan	M
+nm0000048	Peter Lorre	M
+nm0696163	Micheline Presle	F
+nm0073053	Leonardo Benvenuti	?
+nm0890159	Dante Varona	M
+nm0001075	Peter Coyote	M
+nm0504126	John Leslie	M
+nm0007042	Herbert Lom	M
+nm0832011	Lewis Stone	M
+nm0281556	Walter Reisch	?
+nm1065533	Jeong-sun Hwang	F
+nm0592789	Leela Mishra	F
+nm0222144	Rahul Dev	M
+nm0340719	Zane Grey	M
+nm0313447	Heinrich George	M
+nm0598831	Rocco Montalban	M
+nm0034416	Robert Arevalo	M
+nm1706602	Charlie	M
+nm0579756	Biju Menon	M
+nm0382298	Robert Heymann	?
+nm0016208	Wolf Albach-Retty	M
+nm0267198	Mohamad Ali Fardin	M
+nm1347307	Carmen Rosales	F
+nm0083534	Hemant Birje	M
+nm0507635	Ralph Lewis	M
+nm1488212	Akira Satomi	M
+nm0603803	Erna Morena	F
+nm0002759	Ernesto Gastaldi	M
+nm0364668	Elmer Harris	?
+nm2628970	Naoki Oka	M
+nm0534870	Madhubala	F
+nm0664084	Gopalakrishna Paruchuri	M
+nm2147526	Asrani	M
+nm0628756	Fung Woo	M
+nm1093959	Karan	M
+nm0018838	Alekos Alexandrakis	M
+nm0004467	Satyanarayana Kaikala	M
+nm0006795	Salman Khan	M
+nm0048305	C. Graham Baker	?
+nm0522926	Edmund Lowe	M
+nm0023868	Zeenat Aman	F
+nm0721044	Bruno Rey	M
+nm0165134	Charles Clary	M
+nm0433884	K.P.A.C. Lalitha	F
+nm0528580	Fleming Lynge	?
+nm0707972	Allu Ramalingaiah	M
+nm0624470	Pola Negri	F
+nm1080707	Beth Bautista	F
+nm2367854	Shôzô Arashi	M
+nm0448981	Charles Kenyon	?
+nm0708095	Rambha	F
+nm0147599	Suso Cecchi D'Amico	F
+nm0440202	Kazim Kartal	M
+nm0126528	Edmundo Báez	?
+nm0275213	Gabriele Ferzetti	M
+nm0080391	Adoor Bhawani	F
+nm0001536	Toshirô Mifune	M
+nm0475610	Leonid Kuravlyov	M
+nm0747155	Reena Roy	F
+nm0665599	Smita Patil	F
+nm0820208	Sreenivasan	M
+nm0926103	Lloyd Whitlock	M
+nm0571186	Lafe McKee	M
+nm0913703	Václav Wasserman	M
+nm0244884	Utpal Dutt	M
+nm0837475	Kyôji Sugi	M
+nm0154158	Saratchandra Chatterjee	?
+nm0351566	Yilmaz Güney	M
+nm0004417	Taraka Rama Rao Nandamuri	M
+nm2357601	Ming Chiang	M
+nm0000838	Daniel Baldwin	M
+nm0437140	Akihiko Kanbara	M
+nm0396069	Hassan Hosny	M
+nm0823633	Charles Starrett	M
+nm0108400	Jean-Claude Brialy	M
+nm0651627	Bud Osborne	M
+nm0225458	Basil Dickey	?
+nm0739781	József Romvári	M
+nm0105734	Curt J. Braun	?
+nm0004432	Prithviraj Kapoor	M
+nm2414317	Sentarô Nakamura	M
+nm0534501	Madan Puri	M
+nm0298576	Eiji Funakoshi	M
+nm0196820	Lil Dagover	F
+nm0742621	Paul Rosenhayn	M
+nm0392529	Tim Holt	M
+nm0273077	Don Fernando	M
+nm6274856	Krishna Kumari	F
+nm3981484	Asif Ali	M
+nm1297042	Nova Villa	F
+nm0837360	Ichirô Sugai	M
+nm0839017	Kemal Sunal	M
+nm0144689	Franco Castellano	?
+nm0012603	Aeng-ran Eom	F
+nm2225475	Chi Chou	M
+nm0151526	Chandramohan	M
+nm1069515	Hie-gab Kim	M
+nm0273348	José María Fernández Unsáin	?
+nm0244707	André Dussollier	M
+nm0000185	Dolph Lundgren	M
+nm0033475	Manuel Arbó	M
+nm1272563	Ryûzaburô Mitsuoka	M
+nm0003339	Herbert Marshall	M
+nm0415582	Kongara Jaggaiah	M
+nm7390393	Aachi Manorama	F
+nm0837420	Bunta Sugawara	M
+nm0590911	Kômei Minami	M
+nm0613417	Raza Murad	M
+nm0945599	Yuri Yamashina	F
+nm0001285	Elliott Gould	M
+nm0475732	Sumiko Kurishima	F
+nm0001917	Pedro Armendáriz Jr.	M
+nm0527603	Ric Lutze	M
+nm0474850	Pradeep Kumar	M
+nm0049245	Arun Bakshi	M
+nm1069897	Hie Mun	F
+nm0110755	Gladys Brockwell	F
+nm0001932	Richard Barthelmess	M
+nm0000799	Edward Asner	M
+nm0611644	Niño Muhlach	M
+nm0944290	Ida Wüst	F
+nm1125166	S.A. Ashokan	M
+nm0377958	O. Henry	?
+nm0316995	Hoot Gibson	M
+nm2366585	Ritoku Arashi	M
+nm0760906	Caridad Sanchez	F
+nm0458283	Georg C. Klaren	?
+nm0605851	Gaby Morlay	F
+nm0120762	Betty Burbridge	F
+nm1145299	Fourouzan	F
+nm0769249	Furio Scarpelli	?
+nm0583925	Bontarô Miake	M
+nm0032766	Raul Aragon	M
+nm0190691	György Cserhalmi	M
+nm0051536	Pouri Baneai	F
+nm0442398	Satish Kaul	M
+nm0784149	Sadik Sendil	?
+nm0832375	Paolo Stoppa	M
+nm0207362	Aldo De Benedetti	?
+nm0633260	Marian Nixon	F
+nm1832654	Ying Choi Cheung	M
+nm1035862	Jose Padilla Jr.	M
+nm1245343	German Moreno	M
+nm0947000	Ye-chun Lee	M
+nm3221054	Nadeem Baig	M
+nm1871112	Shabana	F
+nm2133977	Kaduvakkulam Antony	M
+nm0022081	Alicia Alonzo	F
+nm1134660	Srikanth	M
+nm0348766	Tanju Gürsu	M
+nm1962272	Santhanam	M
+nm0619798	J. Carrol Naish	M
+nm0794425	Jô Shishido	M
+nm0049382	T.S. Balaiah	M
+nm0648505	On Szeto	?
+nm0893449	Nedumudi Venu	M
+nm0795884	Lee Shumway	M
+nm0089524	Monte Blue	M
+nm0815524	Fernando Soto	M
+nm0480942	Bernadette Lafont	F
+nm0892260	Concha Velasco	F
+nm0594291	Tom Mix	M
+nm1226419	Atsushi Watanabe	M
+nm0634159	Philippe Noiret	M
+nm6489058	Yogi Babu	M
+nm0149816	Chiranjit	M
+nm1041229	Jerry Pons	M
+nm1163088	Lito Anzures	M
+nm0673585	Paul Perez	M
+nm0729780	Aminah Rizq	F
+nm0215853	Mel Mendoza-Del Rosario	?
+nm0342278	Jacob Grimm	?
+nm1800746	Yuki Minami	F
+nm0176061	Eddie Constantine	M
+nm2738583	Azusa Sakai	F
+nm0294058	Charles K. French	M
+nm0073221	Agustín Bernal	M
+nm1031338	Aya Midorikawa	F
+nm0155009	Anton Chekhov	M
+nm0156955	David Chiang	M
+nm0881870	Julius Urgiss	?
+nm0802374	Shatrughan Sinha	M
+nm0541126	Mammukoya	M
+nm0045064	Babu Mohan	M
+nm0157374	Kyôko Chigusa	F
+nm0514344	John Litel	M
+nm0044467	Yuriko Azuma	F
+nm0938860	Kung-won Nam	M
+nm1794903	Kuang Chao Chiang	M
+nm0000172	Harvey Keitel	M
+nm0601596	Matt Moore	M
+nm0137706	Ida Carloni Talli	F
+nm1069598	Il-ro Kwak	?
+nm0101955	William Boyd	M
+nm0367932	Kimiyuki Hasegawa	?
+nm0015287	Javed Akhtar	M
+nm0149630	Yehia Chahine	M
+nm0002002	Shin'ichi Chiba	M
+nm0847118	Hideki Takahashi	M
+nm0149837	Sabyasachi Chakrabarty	M
+nm0286594	Allan Forrest	M
+nm0302080	Juan Luis Galiardo	M
+nm0130922	Armando Calvo	M
+nm0942039	Fay Wray	F
+nm0000603	Vanessa Redgrave	F
+nm0495285	Rex Lease	M
+nm0001768	Rod Steiger	M
+nm0434020	Giorgos Kabanellis	M
+nm0080337	Abhi Bhattacharya	M
+nm0768334	John Saxon	M
+nm0024847	Sergio Amidei	?
+nm0474928	T. Kirshna Kumari	F
+nm5985133	Shan-Siu Kwong	M
+nm0544786	Jean Marais	M
+nm0000044	Burt Lancaster	M
+nm0138405	Jean Carmet	M
+nm1296472	Vic Sotto	M
+nm0372942	Ben Hecht	M
+nm0623427	Prem Nazir	M
+nm0290066	Alec B. Francis	M
+nm0475872	Yatarô Kurokawa	M
+nm0633792	Kôgo Noda	?
+nm1009563	Masami Sakae	F
+nm0775471	Doris Schroeder	?
+nm0531431	Ruggero Maccari	?
+nm0408600	Pedro Infante Jr.	M
+nm0829795	Roy Stewart	M
+nm1191108	Sulochana Latkar	F
+nm0218514	Ali Demir	M
+nm0351497	Talat Gözbak	M
+nm0611570	Sumitra Mukherjee	F
+nm0710623	Raogopalrao	M
+nm0555005	Arturo Martínez	M
+nm0000078	John Wayne	M
+nm1908630	Wood-Yau Cheung	M
+nm0481362	Shreeram Lagoo	M
+nm0306497	Sara García	F
+nm0246873	Enver Dönmez	M
+nm1181843	R.S. Manohar	M
+nm0442990	André Kay	M
+nm0359880	Cochin Hanifa	M
+nm0439850	Roscoe Karns	M
+nm0001845	Forest Whitaker	M
+nm0004292	Raj Kapoor	M
+nm0004472	Nutan Prasad	M
+nm0003425	Asta Nielsen	F
+nm0302055	Fernando Galiana	M
+nm0001745	Stellan Skarsgård	M
+nm0194745	Pancho Córdova	M
+nm0971442	Helen Gamboa	F
+nm0452128	Guy Kibbee	M
+nm0659156	Aditya Pancholi	M
+nm0595916	Ram Mohan	M
+nm0576169	Meena	F
+nm0474876	Sanjeev Kumar	M
+nm0246640	Julio Diaz	M
+nm0939147	Jing Wong	M
+nm0407456	Tadao Ikeda	?
+nm1441399	Sannosuke Fujikawa	M
+nm0197582	Sudhir Dalvi	M
+nm0645550	Arzu Okay	F
+nm0441154	Chiezô Kataoka	M
+nm0261724	Joe Estevez	M
+nm0149822	Mithun Chakraborty	M
+nm1058814	Soon-jae Lee	M
+nm0539339	Naser Malek Motiee	M
+nm1431061	John Paul	?
+nm0880857	Tatsuo Umemiya	M
+nm0062593	José Baviera	M
+nm0466776	Fritz Kortner	M
+nm0011409	Tracey Adams	F
+nm0000708	Billy Zane	M
+nm0949098	Yumi Yoshiyuki	F
+nm0498645	Leelavathi	F
+nm0356159	Thurston Hall	M
+nm0531962	Wallace MacDonald	M
+nm0342118	Giovanni Grimaldi	?
+nm0040090	Gertrude Astor	F
+nm0649651	Carlos Orellana	M
+nm2103554	Sau-Nin Wong	M
+nm0370797	Russell Hayden	M
+nm0572142	Victor McLaglen	M
+nm1045369	Philip Gamboa	M
+nm0865575	Ugo Tognazzi	M
+nm0246703	Paquito Diaz	M
+nm0320880	Giri Babu	M
+nm0033245	Mala Aravindan	M
+nm0661239	Asha Parekh	F
+nm0641454	Dennis O'Keefe	M
+nm0012881	Mohan Agashe	M
+nm0080247	Bharathi	F
+nm0406808	Yoshikata Yoda	?
+nm0043398	Chikage Awashima	F
+nm0067808	Fatma Belgen	F
+nm0272360	Al Ferguson	M
+nm0520595	Trinity Loren	F
+nm0847244	Hajime Takaiwa	?
+nm0154146	Prasenjit Chatterjee	M
+nm0349330	Alfredo Gutiérrez	M
+nm0790096	Farid Shawqi	M
+nm0154804	Andrea Checchi	M
+nm0045075	Jagapathi Babu	M
+nm0051502	Junzaburô Ban	M
+nm0428177	Grover Jones	?
+nm0611481	Mukesh	M
+nm0499205	Lito Legaspi	M
+nm0891835	Isela Vega	F
+nm0478942	Rod La Rocque	M
+nm0526590	Torsten Lundqvist	?
+nm0875460	Hachirô Tsuruoka	M
+nm0001166	James Duval	M
+nm0403827	Nasir Hussain	M
+nm0619779	Thikkurisi Sukumaran Nair	M
+nm0158656	Tat-Wah Cho	M
+nm0999206	Kyôko Hashimoto	F
+nm0163937	Frank Howard Clark	?
+nm0722665	Husain Reyadh	M
+nm0490489	Andy Lau	M
+nm0026153	Hans Christian Andersen	?
+nm0201638	Danielle Darrieux	F
+nm0858128	Thilakan	M
+nm2418329	Monjûrô Onoe	M
+nm0632160	Anna Q. Nilsson	F
+nm0433439	Pál Jávor	M
+nm0376264	Paul Henckels	M
+nm0785664	Michel Serrault	M
+nm0449404	Robert Kerman	M
+nm0485226	Allan Lane	M
+nm0469166	John W. Krafft	?
+nm0847026	Kôji Takada	M
+nm0632638	Nishi	F
+nm0258493	Julius J. Epstein	?
+nm0709856	Anders Randolf	M
+nm0149846	Lily Chakravarty	F
+nm0648300	T.R. Omana	F
+nm0001677	Ginger Rogers	F
+nm0407821	Dinos Iliopoulos	M
+nm0889928	Vic Vargas	M
+nm0419666	Jayamalini	F
+nm0086984	Nida Blanca	F
+nm0372049	Hotaru Hazuki	F
+nm0003586	Theo Lingen	M
+nm0001870	Robert Young	M
+nm0438071	Phillip Ko	M
+nm0498080	Ricardo Lee	?
+nm0033175	Arathi	F
+nm0746987	Debashree Roy	F
+nm0221488	William Desmond	M
+nm0000064	Edward G. Robinson	M
+nm0078116	Francesca Bertini	F
+nm0035018	Arjun Sarja	M
+nm2082516	Kijaku Ôtani	M
+nm0000367	Gérard Depardieu	M
+nm0038960	Izumi Ashikawa	F
+nm0583951	Robert Miano	M
+nm0992865	Aki Izumi	F
+nm0001000	Tom Byron	M
+nm0704549	Mustafa Qureshi	M
+nm0501288	Richard Allan	M
+nm2384746	Hôshô Bandô	M
+nm0667985	Lalita Pawar	F
+nm0597995	William V. Mong	M
+nm0681933	Mary Pickford	F
+nm0001725	Omar Sharif	M
+nm0414716	Frederik Jacobsen	M
+nm0599369	Mario Montenegro	M
+nm1024354	Jayshree Gadkar	F
+nm0619053	Shankar Nag	M
+nm0000020	Henry Fonda	M
+nm0451211	Feroz Khan	M
+nm0735785	Dagoberto Rodríguez	M
+nm0819825	Ove Sprogøe	M
+nm0440231	Karthik	M
+nm3815626	Agha Talish	M
+nm1156772	Unpei Yokoyama	M
+nm0050805	Roberto Ballesteros	M
+nm0043711	Nilüfer Aydan	F
+nm1399111	Yôko Satomi	F
+nm0163417	Tom London	M
+nm0953881	Alfonso Zayas	M
+nm0434593	Kyôko Kagawa	F
+nm0051765	Tsumasaburô Bandô	M
+nm0396136	Robert Hossein	M
+nm0728811	Tex Ritter	M
+nm3072982	Teruo Oka	?
+nm0617202	Fred Myton	?
+nm0101558	Rodolfo 'Boy' Garcia	M
+nm0655691	Carlos Padilla Jr.	M
+nm3784099	Muzaffar Adeeb	M
+nm1588355	N. Govindankutty	M
+nm0723801	Frida Richard	F
+nm0378555	Holmes Herbert	M
+nm0179516	Joaquín Cordero	M
+nm0151606	Lon Chaney	M
+nm0874308	Dalton Trumbo	?
+nm0593722	Sharon Mitchell	F
+nm0311209	Hsiang Ting Ko	M
+nm0692586	Krishna Murali Posani	M
+nm0848796	Takahiro Tamura	M
+nm0839129	Sunder	M
+nm0000454	Dennis Hopper	M
+nm0579663	Adolphe Menjou	M
+nm0054117	Roy Barcroft	M
+nm0953790	Cesare Zavattini	M
+nm1066795	Vijayaraghavan	M
+nm0426515	Agnes Christine Johnston	?
+nm1566068	Satyendra Kapoor	M
+nm0820286	Srividya	F
+nm0192325	Jack Cunningham	?
+nm0992655	Kiichirô Mutô	M
+nm0645422	Mariko Okada	F
+nm0004433	Shammi Kapoor	M
+nm0142914	Fernando Casanova	M
+nm0840704	Utako Suzuki	F
+nm0050197	Yogeeta Bali	F
+nm0000561	Peter North	M
+nm0332871	Govinda	M
+nm0140643	Jean-Claude Carrière	M
+nm0830769	Carl Stockdale	M
+nm1796242	Dôjurô Kataoka	M
+nm0318622	Avtar Gill	M
+nm2885510	Teruko Sanjô	F
+nm0000010	James Cagney	M
+nm0004099	Jayant	M
+nm0756998	Furankî Sakai	M
+nm0310170	Vrajendra Gaur	?
+nm0321934	Gaston Glass	M
+nm0415549	Jagathi Sreekumar	M
+nm0000810	Gene Autry	M
+nm0744600	Hind Rustum	F
+nm0482320	Mohanlal	M
+nm0000057	David Niven	M
+nm0398944	Hua Yueh	M
+nm0000246	Bruce Willis	M
+nm0156173	George Chesebro	M
+nm0720898	Ramon Revilla	M
+nm0000636	William Shakespeare	?
+nm0799442	Georges Simenon	M
+nm0007124	Suhasini	F
+nm0000432	Gene Hackman	M
+nm1346951	Fred Montilla	M
+nm0722023	David Reynoso	M
+nm1368581	Salim Kumar	M
+nm0011058	Jesse Adams	M
+nm0776458	Fritz Schulz	M
+nm0412637	Yûkichi Iwata	M
+nm0368074	Shinobu Hashimoto	?
+nm0492352	Lan Law	F
+nm0811033	Earle Snell	?
+nm0044740	Diclehan Baban	F
+nm0837548	Shôsaku Sugiyama	M
+nm0454559	Charles King	M
+nm0023641	Osman Alyanak	M
+nm0001142	Uschi Digard	F
+nm0474801	Dilip Kumar	M
+nm1493417	Yun Ling	M
+nm0247932	Shinjirô Ebara	M
+nm0329730	Suresh Gopi	M
+nm0008556	Rey 'PJ' Abellana	M
+nm0403952	Anwar Hussain	M
+nm0080180	Bhagyaraj	M
+nm0781630	Seema	F
+nm0705549	Radha	F
+nm0222145	Rajan P. Dev	M
+nm0638295	Nutan	F
+nm0160130	Mady Christians	F
+nm1069551	Eun-a Ko	F
+nm0395121	Mike Horner	M
+nm0462607	Hülya Koçyigit	F
+nm0040173	Bobby Astyr	M
+nm0002771	Edward J. Montagne	?
+nm0798492	Rebeca Silva	F
+nm0849257	Alan Tang	M
+nm0409960	Takako Irie	F
+nm0767368	Rick Savage	M
+nm0190217	Tirso Cruz III	M
+nm0837797	Sukumari	F
+nm0663708	Kenan Pars	M
+nm0402842	Ian Hunter	M
+nm0817809	Ralph Spence	?
+nm0835738	John Stuart	M
+nm0849011	Kinuyo Tanaka	F
+nm0451864	Viju Khote	M
+nm0154166	Subhendu Chatterjee	M
+nm0000075	Spencer Tracy	M
+nm0847264	Ken Takakura	M
+nm0739775	Jose Romulo	M
+nm0867626	Ahmet Danyal Topatan	M
+nm0370553	Hideto Hayafusa	M
+nm0757039	Yoneko Sakai	F
+nm0782883	Shin'ichi Sekizawa	?
+nm0222465	Molina Devi	F
+nm0414294	Maria Jacobini	F
+nm0261738	George Estregan	M
+nm0949045	Sayuri Yoshinaga	F
+nm0001637	Vincent Price	M
+nm2394215	Takeo Azuma	F
+nm0367111	Paul Hartmann	M
+nm0595672	Bahman Mofid	M
+nm0064953	Philip Bech	M
+nm0419655	Jayachitra	F
+nm0019427	Ishrat Ali	M
+nm0006573	Philippe Leroy	M
+nm0298689	Stanley Sui-Fan Fung	M
+nm0398300	Jack Hoxie	M
+nm0684083	Tullio Pinelli	?
+nm0023715	Shigeru Amachi	M
+nm0159269	Mohan Choti	M
+nm0547998	Oscar Marion	M
+nm0000131	John Cusack	M
+nm0252621	Tawfik El Deken	M
+nm0726546	George Rigaud	M
+nm0271787	Bo-Bo Fung	F
+nm0621245	T.R. Narasimharaju	M
+nm1580115	Umeko Sakuragi	F
+nm0151860	Yang Chang	M
+nm0754084	Ernst Rückert	M
+nm0517786	Charles Logue	?
+nm0622193	Prem Nath	M
+nm0707901	M.G. Ramachandran	M
+nm0244428	Oktar Durukan	M
+nm0930178	Brock Williams	?
+nm0208112	Joseph de Cordova	M
+nm0030480	Malaina Anousaki	F
+nm0848910	Germán Valdés	M
+nm0611595	Sheikh Mukhtar	M
+nm0839534	Suraiya	F
+nm0793881	Kaneto Shindô	?
+nm1125787	B.S. Dwarakish	M
+nm0441961	Daisuke Katô	M
+nm0446769	Paul Kelly	M
+nm3372956	Mihir Das	M
+nm0036427	Edward Arnold	M
+nm0619107	Masayoshi Nogami	M
+nm1285427	Yoshiko Kawada	F
+nm0420092	Jeevan	M
+nm0484376	Alfredo Landa	M
+nm0201660	Frankie Darro	M
+nm0001588	Jack Palance	M
+nm0272979	Jaime Fernández	M
+nm0008124	Mahmoud Abdel Aziz	M
+nm0419787	Nalini Jaywant	F
+nm0000882	Nathalie Baye	F
+nm0918780	Grethe Weiser	F
+nm0015360	Filiz Akin	F
+nm0004631	Seeta Rama Anjaneyulu Chilakalapudi	M
+nm2773584	Atsushi Tsuda	M
+nm0619227	Hiroyuki Nagato	M
+nm2533341	Reiko Harumi	F
+nm0849863	Tanuja	F
+nm0347653	Gulab	F
+nm0165470	Elliott J. Clawson	?
+nm0847353	Mitsuko Takao	F
+nm0132135	Carlo Campanini	M
+nm0201405	Scott Darling	?
+nm0419677	Manoj K. Jayan	M
+nm0534045	Fred MacMurray	M
+nm0764346	Tom Santschi	M
+nm0389364	Ernst Hofmann	M
+nm0327079	Rita Gomez	F
+nm0443483	Charles Willy Kayser	M
+nm0943150	Nien-Jen Wu	M
+nm0001626	Christopher Plummer	M
+nm0747739	Alfredo Ruanova	?
+nm0217022	Marissa Delgado	F
+nm1171065	Isao Matsumoto	?
+nm1698868	Enshô Jitsukawa	M
+nm0000476	Sally Kirkland	F
+nm0050188	Geeta Bali	F
+nm0751638	James Russo	M
+nm0727210	Walter Rilla	M
+nm0741182	Alan Roscoe	M
+nm0528606	Amber Lynn	F
+nm0167070	Alberto Closas	M
+nm0504899	Tony Ka Fai Leung	M
+nm0156875	Charlie Chin	M
+nm0415538	Jagadish	M
+nm2674259	Jose Garcia	M
+nm2946751	Ichirô Yoshioka	M
+nm0000606	Jean Reno	M
+nm0107575	George Brent	M
+nm0397022	Sonya Levien	?
+nm0563030	Philipp Lothar Mayring	M
+nm0256664	Ünsal Emre	M
+nm0706499	Raghuvaran	M
+nm0055106	Andreas Barkoulis	M
+nm0874248	Valentín Trujillo	M
+nm0534972	Guy Madison	M
+nm0201669	Jean-Pierre Darroussin	M
+nm0000472	Boris Karloff	M
+nm0542534	Herman J. Mankiewicz	?
+nm0605662	Hisaya Morishige	M
+nm1007226	Mayuko Hino	F
+nm4704269	Kôji Yamazaki	?
+nm0001426	Ben Kingsley	M
+nm0199841	Bebe Daniels	F
+nm0601962	Tom Moore	M
+nm0051856	Victor Banerjee	M
+nm0006412	Ashley Moore	M
+nm0828288	Brinke Stevens	F
+nm0850809	Erol Tas	M
+nm0792116	Jimmy Sheirgill	M
+nm0416499	Frank James	M
+nm0042124	Nora Aunor	F
+nm0620630	M.N. Nambiar	M
+nm0151685	Dong-hwi Jang	M
+nm0606431	Chester Morris	M
+nm0010490	Handan Adali	F
+nm0542478	Manivannan	M
+nm0659244	Rakesh Pandey	M
+nm1008497	Kuninori Yamazaki	?
+nm2975508	Anuradha	F
+nm0398884	Chin Hu	F
+nm0000173	Nicole Kidman	F
+nm0620168	Kinnosuke Nakamura	M
+nm0868531	Adolfo Torres Portillo	?
+nm0396212	Yukijirô Hotaru	M
+nm0359275	Kikuko Hanaoka	F
+nm0374974	Helen	F
+nm0181217	Ariel Cortazzo	?
+nm0522454	H.P. Lovecraft	?
+nm1428080	Harisree Asokan	M
+nm0695177	Prakash Raj	M
+nm0741378	Felissa Rose	F
+nm0613512	Murali	M
+nm0076144	Armand Bernard	M
+nm0865994	Lorna Tolentino	F
+nm0035250	Aytaç Arman	M
+nm0720885	Dorothy Revier	F
+nm0585785	Hans Mierendorff	M
+nm0842522	Josef Swickard	M
+nm1241578	Yôta Kawase	M
+nm0077598	Jules Berry	M
+nm0409049	Ciccio Ingrassia	M
+nm0297386	Amalia Fuentes	F
+nm0479653	Berting Labra	M
+nm0945522	Sô Yamamura	M
+nm0173952	Jacques Companéez	?
+nm0880861	Yôko Umemura	F
+nm0342303	Wilhelm Grimm	?
+nm1816139	Eizaburô Matsumoto	M
+nm0747178	Sandhya Roy	F
+nm0690360	Sixto Pondal Ríos	?
+nm0015000	Ajit	M
+nm0798270	David Silva	M
+nm0349347	Eddie Gutierrez	M
+nm0258731	Gülgün Erdem	F
+nm0442207	Lloyd Kaufman	M
+nm1202543	Efren Reyes Jr.	M
+nm0001682	Mickey Rooney	M
+nm0660786	Pervin Par	F
+nm1041705	Medy Tarnate	?
+nm0105970	Hans Brausewetter	M
+nm0766315	Kôji Satomi	M
+nm2272335	Ali Miri	M
+nm0522281	Bessie Love	F
+nm2546411	Manoochehr Vossoogh	M
+nm0250757	Ureo Egawa	M
+nm1913625	Parambrata Chattopadhyay	M
+nm0417314	Janardanan	M
+nm0611804	Jack Mulhall	M
+nm0762277	Adele Sandrock	F
+nm0788152	Shanker	M
+nm0889704	Carol Varga	F
+nm0603865	Alma Moreno	F
+nm0528908	Ben Lyon	M
+nm0150850	Pak-Cheung Chan	M
+nm0125627	Lando Buzzanca	M
+nm0284533	Alex Fong	M
+nm0159159	Prem Chopra	M
+nm0759785	Sameer	?
+nm1481266	Kaku Hamada	M
+nm2270922	Biswajit Chakraborty	M
+nm1172536	Udaya Kumar	M
+nm0571770	Robert McKim	M
+nm0199035	Tokumaro Dan	M
+nm3025400	Shawn C. Phillips	M
+nm0046850	Bahadur	M
+nm0553916	Luciano Martino	M
+nm0333117	Yüksel Gözen	M
+nm0796113	Shyama	F
+nm0830153	Hugo Stiglitz	M
+nm0452878	Ryûzô Kikushima	?
+nm0295992	Willy Fritsch	M
+nm0764871	Sarath Babu	M
+nm0732452	Casey Robinson	?
+nm0893142	Venkatesh Daggubati	M
+nm0723658	Irene Rich	F
+nm0000012	Bette Davis	F
+nm0154110	Anil Chatterjee	M
+nm2882644	Genzaburô Ayanokôji	M
+nm0000168	Samuel L. Jackson	M
+nm0406737	Raizô Ichikawa	M
+nm0876561	Erdogan Tünas	M
+nm0567238	Shanna McCullough	F
+nm0484812	Cullen Landis	M
+nm0023832	Mathieu Amalric	M
+nm1796812	Tasaburo Matsumoto	M
+nm0652592	Ren Osugi	M
+nm0304265	Delhi Ganesh	M
+nm1428724	Indrans	M
+nm1047761	Victor Bravo	M
+nm1951300	Ching Lee	M
+nm0000334	Yun-Fat Chow	M
+nm0438463	Anil Kapoor	M
+nm0395953	Yuriko Hoshi	F
+nm0704719	Francisco Rabal	M
+nm0788058	Maxwell Shane	?
+nm0824332	Myrtle Stedman	F
+nm0043708	Aynur Aydan	F
+nm1990182	Enjuro Ichikawa	M
+nm0556305	Jamshid Mashayekhi	M
+nm0151080	Sing Chen	M
+nm1001213	Jirô Kokubu	M
+nm0945222	Isuzu Yamada	F
+nm0781261	Osman F. Seden	M
+nm0008346	Hiroshi Abe	M
+nm0406841	Toshirô Ide	?
+nm0757369	Franz Sala	M
+nm0106387	Rossano Brazzi	M
+nm0234502	Fyodor Dostoevsky	?
+nm0862605	Kartal Tibet	M
+nm0015142	Aydemir Akbas	M
+nm0433512	Stig Järrel	M
+nm0224610	Debi Diamond	F
+nm0370271	J.G. Hawks	?
+nm0766470	Sathyaraj	M
+nm0765169	Shukri Sarhan	M
+nm0851299	Noriko Tatsumi	F
+nm0017855	Julio Alejandro	M
+nm0659173	Panchito	M
+nm0950350	Hasan Youssef	M
+nm0932328	F. McGrew Willis	?
+nm1521381	Nayanthara	F
+nm0497075	Dae-kun Lee	M
+nm0559642	Tsukie Matsuura	F
+nm0763126	Abel Santacruz	?
+nm0903235	Eduard von Winterstein	M
+nm0435229	Erich Kaiser-Titz	M
+nm0329727	Bharat Gopy	M
+nm0451168	Anwar Khan	?
+nm0311413	Otto Gebühr	M
+nm1243950	Jestoni Alarcon	M
+nm0001635	William Powell	M
+nm0690610	Gabriel Pontello	M
+nm0539049	Peter Malberg	M
+nm0034925	Jun Aristorenas	M
+nm0207338	Janice de Belen	F
+nm0273049	Rudy Fernandez	M
+nm0257579	Lucie Englisch	F
+nm0350324	Edmund Gwenn	M
+nm1549796	Jayan	M
+nm0316363	Roberto Gianviti	?
+nm0062540	Perla Bautista	F
+nm0733727	Susan Roces	F
+nm0155587	Kent Cheng	M
+nm0001108	Robert Davi	M
+nm0796196	Josephine Siao	F
+nm0704654	Radhika Sarathkumar	F
+nm2955766	Kwai-Hong Lau	M
+nm0707951	Bhanumathi Ramakrishna	F
+nm0102167	Malcolm Stuart Boylan	?
+nm0622186	Alok Nath	M
+nm0193809	Chichay	F
+nm0556319	Kyôsuke Machida	M
+nm0202515	Charlie Davao	M
+nm0017807	Alona Alegre	F
+nm0154164	Soumitra Chatterjee	M
+nm0000026	Cary Grant	M
+nm0001072	Joseph Cotten	M
+nm0630821	Hans Nielsen	M
+nm0369036	Fanny Hatton	F
+nm0357497	Wedad Hamdy	F
+nm0241416	Alexandre Dumas	?
+nm0816458	Charles Spaak	?
+nm1864017	Maria Olsen	F
+nm0282348	Hugo Flink	M
+nm0084435	Chhabi Biswas	M
+nm0001002	Dean Cain	M
+nm0095007	Dina Bonnevie	F
+nm0563268	Ahmad Mazhar	M
+nm0848984	Haruo Tanaka	M
+nm0409922	Cahit Irgat	M
+nm0456093	Raj Kiran	M
+nm0451862	Durga Khote	F
+nm0297686	Tatsuya Fuji	M
+nm0001076	Joan Crawford	F
+nm0417310	Showkar Janaki	F
+nm0008932	David Abraham	M
+nm0222432	Anjali Devi	F
+nm0329832	Leo Gorcey	M
+nm0000022	Clark Gable	M
+nm0900010	Master Vithal	M
+nm0596701	Paul Naschy	M
+nm0734000	Jean Rochefort	M
+nm0286993	Rudolf Forster	M
+nm0651257	Rosanna Ortiz	F
+nm1010368	Jose N. Carreon	?
+nm0002311	Montagu Love	M
+nm0645382	Naomi Oka	F
+nm0299885	Varalakshmi G.	F
+nm2121629	Kaoru Wakaba	M
+nm0184722	Herschel Savage	M
+nm0398786	Hsin Yi Chang	M
+nm0006369	Ashok Kumar	M
+nm0521808	Simon Lui	M
+nm0000590	Edgar Allan Poe	?
+nm0681620	Hermann Picha	M
+nm0619047	Anant Nag	M
+nm0175902	William M. Conselman	?
+nm0022300	Anthony Alonzo	M
+nm0044156	Rafael Azcona	M
+nm0533692	Barton MacLane	M
+nm0297754	Jun Fujimaki	M
+nm0699522	Albert Préjean	M
+nm0686032	Zasu Pitts	F
+nm0992732	Kazuhiro Sano	M
+nm0866572	Maurice Tombragel	?
+nm0474895	Sujit Kumar	M
+nm0287544	Renan Fosforoglu	M
+nm0848993	Kunie Tanaka	M
+nm1670861	Hiroshi Tsumura	M
+nm0018470	J. Grubb Alexander	?
+nm0001859	Shelley Winters	F
+nm0874868	Yin Tse	M
+nm0594465	Junko Miyashita	F
+nm0434318	Kader Khan	M
+nm0461985	Akira Kobayashi	M
+nm2488797	Futaba Kinoshita	F
+nm0820266	Sripriya	F
+nm0729473	Jorge Rivero	M
+nm1545985	Henry Cuino	?
+nm0907888	Johnny Walker	M
+nm0082101	Oreste Bilancia	M
+nm0904537	Vyjayanthimala	F
+nm0000348	Tony Curtis	M
+nm0000891	Wallace Beery	M
+nm0870052	Jack Townley	?
+nm0725234	Ellen Richter	F
+nm0008206	Akbar Abdi	M
+nm1905731	Mui-Mui Lam	F
+nm0451425	Kulbhushan Kharbanda	M
+nm0847301	Hideko Takamine	F
+nm0000465	Ron Jeremy	M
+nm0004569	Sanjay Dutt	M
+nm0037593	Göksel Arsoy	M
+nm0609359	Motilal	M
+nm0894675	Hedda Vernon	F
+nm0000374	Brad Dourif	M
+nm0408522	Indira	F
+nm0327076	Richard Gomez	M
+nm0001360	John Holmes	M
+nm0820241	Srikanth	M
+nm2852415	Mami Sakura	F
+nm0419682	Jayanthi	F
+nm0889588	Alfredo Varela	M
+nm0304349	Jahar Ganguli	M
+nm0000007	Humphrey Bogart	M
+nm0080270	Thoppil Bhasi	M
+nm0434628	Hidetoshi Kageyama	M
+nm0002285	Pat O'Brien	M
+nm0913341	Bryant Washburn	M
+nm1184326	Babu Antony	M
+nm0044796	Raj Babbar	M
+nm1027715	Yûko Akane	F
+nm0632426	Carlo Ninchi	M
+nm0004564	Hema Malini	F
+nm0677538	Ulises Petit de Murat	?
+nm0392436	Hans Holt	M
+nm0103567	Alice Brady	F
+nm0451600	Anupam Kher	M
+nm0320883	Fatma Girik	F
+nm0168595	Lew Cody	M
+nm1066548	Yeong-gyun Shin	M
+nm0599787	George Montgomery	M
+nm0000300	Juliette Binoche	F
+nm5985139	Ning Meng	M
+nm0000080	Orson Welles	M
+nm0420090	Jeetendra	M
+nm0151793	Ping-Yu Chang	F
+nm0001194	Jeff Fahey	M
+nm0081510	Paul Biensfeldt	M
+nm0650394	Elizabeth Oropesa	F
+nm0955603	Zhen Zhen	F
+nm0002143	Edward Everett Horton	M
+nm0220383	Arpad DeRiso	?
+nm0451387	Padma Khanna	F
+nm0556953	Shirley Mason	F
+nm0215767	Renato Del Prado	M
+nm0651519	Jirô Osaragi	?
+nm0001424	Udo Kier	M
+nm0244333	Ejaz Durrani	M
+nm0000448	Lance Henriksen	M
+nm0883014	Vadivelu	M
+nm0025389	Sadashiv Amrapurkar	M
+nm0933773	Lois Wilson	F
+nm0653288	Paul Otto	M
+nm0686375	Michele Placido	M
+nm0025874	Raúl de Anda	M
+nm0297669	Hiroko Fuji	F
+nm0222596	Andy Devine	M
+nm0443232	Yûzô Kayama	M
+nm0813762	M.G. Soman	M
+nm0708032	V.K. Ramasamy	M
+nm0711707	Ratheesh	M
+nm0406743	Utaemon Ichikawa	M
+nm0764298	Vilma Santos	F
+nm0367928	Kazuo Hasegawa	M
+nm0408488	Agenore Incrocci	?
+nm1045141	Van De Leon	M
+nm0263004	Madge Evans	F
+nm0000784	Pedro Armendáriz	M
+nm0510950	Sandra Kwan Yue Ng	F
+nm0865302	Tony Todd	M
+nm0562866	Frank Mayo	M
+nm1008063	Mimi Sawaki	F
+nm0210274	Alberto de Mendoza	M
+nm0001017	John Carradine	M
+nm0234232	Belgin Doruk	F
+nm0044445	Chiyonosuke Azuma	M
+nm1284841	Hosaku Yoshida	M
+nm0764598	Sapna	F
+nm0151866	Yi Chang	M
+nm0814242	Rodolfo Sonego	?
+nm0474932	Meena Kumari	F
+nm0628731	Carrie Ng	F
+nm0945601	Shingo Yamashiro	M
+nm0688853	Joseph F. Poland	?
+nm0001657	Oliver Reed	M
+nm0215859	Rosa Del Rosario	F
+nm0320266	Giannis Gionakis	M
+nm0710036	S.V. Ranga Rao	M
+nm0297054	Gustav Fröhlich	M
+nm1978109	Toto Belano	?
+nm0274628	Tony Ferrer	M
+nm0652961	Nobuko Otowa	F
+nm0586130	Lakis Mihailidis	?
+nm0190771	Gyula Csortos	M
+nm2077739	Suminojo Ichikawa	M
+nm0359222	Achako Hanabishi	M
+nm0535694	Pancho Magalona	M
+nm0216975	Johnny Delgado	M
+nm0219946	Ramesh Deo	M
+nm0000151	Morgan Freeman	M
+nm0763954	Tony Santos	M
+nm0867144	Franchot Tone	M
+nm0212542	Gita Dey	F
+nm0305182	Eddie Garcia	M
+nm0594365	Ken'ichi Miyajima	M
+nm0753479	Chishû Ryû	M
+nm1059046	Jeong-im Nam	F
+nm0365835	Richard Harrison	M
+nm0562841	Alfredo Mayo	M
+nm0039593	Usagi Asô	F
+nm0001595	Michael Paré	M
+nm0038167	Jamshid Hashempur	M
+nm0359226	Yuriko Hanabusa	F
+nm0209649	Christopher De Leon	M
+nm0793813	Sung-il Shin	M
+nm0815014	Lucita Soriano	F
+nm0142371	Alfonso Carvajal	M
+nm0790659	Sheela	F
+nm0004109	Gulshan Grover	M
+nm0001036	Geraldine Chaplin	F
+nm0643048	Wheeler Oakman	M
+nm0762844	Sankaradi	M
+nm0613514	Murali Mohan	M
+nm0357303	Faten Hamamah	F
+nm0001803	Danny Trejo	M
+nm0616143	Shûsaku Mutô	M
+nm0006939	Richard Berry	M
+nm0042874	Dominique Aveline	M
+nm0816416	Murat Soydan	M
+nm0517058	John Loder	M
+nm0417270	Jamuna	F
+nm0538632	Masahiro Makino	M
+nm0701121	Esen Püsküllü	F
+nm0993695	Kayoko Sugi	F
+nm0493753	Giorgos Lazaridis	?
+nm0320760	Annie Girardot	F
+nm0958144	Zaldy Zshornack	M
+nm0722636	John Rhys-Davies	M
+nm0540763	H.F. Maltby	M
+nm1048037	Martin Marfil	M
+nm0000763	Dana Andrews	M
+nm0318105	John Gilbert	M
+nm0508662	Sing-Po Leung	M
+nm0393250	Kuang Ni	M
+nm0700869	Amrish Puri	M
+nm0471447	Ramya Krishnan	F
+nm0879743	Ryôhei Uchida	M
+nm0066223	Kenny Bee	M
+nm0052322	Bhanu Bannerjee	M
+nm1916273	Jôji Kaieda	M
+nm0612614	Mumtaz	F
+nm0250790	Aud Egede-Nissen	F
+nm0594318	Kaoru Miya	F
+nm0237244	Milena Dravic	F
+nm0080228	Bhanupriya	F
+nm0001678	Roy Rogers	M
+nm0799108	Armando Silvestre	M
+nm0756870	Tatsuo Saitô	M
+nm0520501	Robert Lord	?
+nm0472812	Carl Krusada	?
+nm0305885	Rafael García Travesi	?
+nm0361677	Komako Hara	F
+nm0872195	Guido Trento	M
+nm0854251	Ahmet Tarik Tekçe	M
+nm0478151	Friedrich Kühne	M
+nm0222881	Tony Devon	M
+nm0451345	Yusuf Khan	M
+nm0632967	Hideaki Nitani	M
+nm0463264	Fred Kohler	M
+nm0000134	Robert De Niro	M
+nm0007123	Mammootty	M
+nm0209660	Joey de Leon	M
+nm0000353	Willem Dafoe	M
+nm1148767	Roppa Furukawa	M
+nm0801264	Simran	F
+nm1559594	Y.G. Mahendran	M
+nm0002192	Michel Audiard	M
+nm0864397	Jean Tissier	M
+nm0008704	Joe Abeywickrama	M
+nm1033012	Jayshree T.	F
+nm0601698	Owen Moore	M
+nm0787889	Shammi	F
+nm0523344	Lynn Lowry	F
+nm0014227	Sung-Ki Ahn	M
+nm0787077	Shabnam	F
+nm0847082	Shinpei Takagi	M
+nm0722029	Jorge Reynoso	M
+nm0864081	Gabriele Tinti	M
+nm0655803	Padmini	F
+nm0004434	Shashi Kapoor	M
+nm2367322	Miyoko Kohama	F
+nm0419494	Jose Javier Reyes	M
+nm0707399	Rajendra Prasad	M
+nm0739418	Gloria Romero	F
+nm0007098	Paul Hubschmid	M
+nm0265490	William Fairbanks	M
+nm1190782	M.N. Rajam	F
+nm0595063	Giuseppe Moccia	?
+nm0111612	Clive Brook	M
+nm0275670	Erwin Fichtner	M
+nm0002503	Harry Carey	M
+nm0035067	Cüneyt Arkin	M
+nm0874684	Kenneth Tsang	M
+nm0873945	Marilyn Jess	F
+nm0920460	Vernon Wells	M
+nm0473314	Feng Ku	M
+nm0340088	Fritz Greiner	M
+nm0411804	Kazu Itsuki	M
+nm0922301	Randy West	M
+nm0411770	Yûnosuke Itô	M
+nm0159332	Ahindra Choudhury	M
+nm0002158	Edvin Adolphson	M
+nm0785000	Öztürk Serengil	M
+nm0025613	Inder Raj Anand	?
+nm0903866	Kostas Voutsas	M
+nm0000418	Danny Glover	M
+nm0095919	Ekrem Bora	M
+nm0014959	Aja	F
+nm0119378	Adele Buffington	?
+nm0587401	Tomas Milian	M
+nm0398977	Chor-San Wong	M
+nm0073238	Clara Beranger	?
+nm0044600	Saroja Devi B.	F
+nm0346096	Tonino Guerra	M
+nm0202405	Claude Dauphin	M
+nm0798827	Joey Silvera	M
+nm0257951	Ken'ichi Enomoto	M
+nm0008384	Tôru Abe	M
+nm0004334	Rekha	F
+nm0907885	Johnnie Walker	M
+nm0761100	Fernando Sancho	M
+nm0147923	Arap Celal	M
+nm0078750	Jane Bess	?
+nm0852710	Kent Taylor	M
+nm0756533	Saikumar	M
+nm0706691	Sultan Rahi	M
+nm0562210	Antonio Mayans	M
+nm0289960	Franco Franchi	M
+nm0022758	Tom Alter	M
+nm0567224	Philo McCullough	M
+nm0800548	Giovanni Simonelli	?
+nm0530731	Bobby E. Lüthge	?
+nm0092184	Richard Bohringer	M
+nm0950150	Waldemar Young	?
+nm0001230	Harrison Ford	M
+nm0378540	F. Hugh Herbert	?
+nm0700875	Om Puri	M
+nm0105475	Claude Brasseur	M
+nm0857710	Harvey F. Thew	?
+nm0348467	Bipin Gupta	M
+nm0212541	Dipankar Dey	M
+nm0518711	Jack London	?
+nm0628736	Cho-Fan Ng	M
+nm0542247	Giuseppe Mangione	?
+nm0797382	Rocco Siffredi	M
+nm0622435	Jack Natteford	?
+nm0695199	Pran	M
+nm0424102	I.S. Johar	M
+nm0001088	Peter Cushing	M
+nm1164771	Ahmad Ghadakchian	M
+nm0210218	Maria de Medeiros	F
+nm0348029	Izzet Günay	M
+nm0410010	Scott Irish	M
+nm0911093	Jimmy Wang Yu	M
+nm0575197	H. Fowler Mear	?
+nm0040910	Kiyoshi Atsumi	M
+nm0717086	Poul Reichhardt	M
+nm0991856	Lito Lapid	M
+nm0002616	Anita Loos	F
+nm0007113	Nana Patekar	M
+nm0738042	Gilbert Roland	M
+nm0933727	Lambert Wilson	M
+nm0000063	Anthony Quinn	M
+nm0789374	Shashikala	F
+nm0222473	Pratima Devi	F
+nm0590777	Yutaka Mimasu	M
+nm0435356	Costas Kakavas	M
+nm0179278	Bruno Corbucci	?
+nm1300526	Jess Lapid Jr.	M
+nm0000104	Antonio Banderas	M
+nm0154253	Chau-Shui Yee	M
+nm0447913	Arthur Kennedy	M
+nm0463152	Michiyo Kogure	F
+nm0267912	William Farnum	M
+nm0372016	Sami Hazinses	M
+nm0628806	Man-Tat Ng	M
+nm0991887	Kôji Makimura	M
+nm0000919	Senta Berger	F
+nm0646037	Daniel Olbrychski	M
+nm0620291	Eiji Nakano	M
+nm0234809	Jon Dough	M
+nm1591450	Chi-Sing Chow	M
+nm0056438	Lucien Baroux	M
+nm0782837	Misao Seki	M
+nm1789366	Aiko Takatsu	F
+nm0002161	Hans Albers	M
+nm1665429	Yasuro Shiga	M
+nm1654497	Shin'ichi Akita	M
+nm0267916	Franklyn Farnum	M
+nm0388554	Arthur Hoerl	?
+nm1846851	Akane Hisano	F
+nm0001033	Lon Chaney Jr.	M
+nm1800631	Tsuruko Matsueda	F
+nm0039596	Asokan	M
+nm0000125	Sean Connery	M
+nm0000721	Victoria Abril	F
+nm0694918	Rudolf Prack	M
+nm0140504	Leo Carrillo	M
+nm0066075	Rakesh Bedi	M
+nm0670271	Heinrich Peer	M
+nm1800303	Jun Kosugi	F
+nm0432466	Víctor Junco	M
+nm1292277	Rintarô Fujima	M
+nm0959872	Nebahat Çehre	F
+nm0303715	Karine Gambier	F
+nm0192117	Sharon Cuneta	F
+nm0000174	Val Kilmer	M
+nm0002048	Melvyn Douglas	M
+nm0594257	Tomokazu Miura	M
+nm1139300	Major Sundarrajan	M
+nm0895279	Kurt Vespermann	M
+nm0712546	Paresh Rawal	M
+nm0210295	Michael De Mesa	M
+nm0507752	Sheldon Lewis	M
+nm0945427	Kaichi Yamamoto	M
+nm0883697	Ronaldo Valdez	M
+nm0332709	Olivier Gourmet	M
+nm0455181	Rey Malonzo	M
+nm1035406	Tito Galla	M
+nm0273561	Jorge Fernández	M
+nm0797827	Vic Silayan	M
+nm0004625	Daniel Gélin	M
+nm0409869	John Ireland	M
+nm1955178	Luquan Gao	M
+nm0836979	Kemi Ichiboshi	F
+nm0004365	Fred Williamson	M
+nm0868381	Joel Torre	M
+nm0000920	Patrick Bergin	M
+nm0474774	Akshay Kumar	M
+nm0864603	Tiwari	M
+nm0251122	Süheyl Egriboz	M
+nm2359179	Kakô Ichikawa	M
+nm0147436	Roberto Cañedo	M
+nm0842485	Jo Swerling	?
+nm0347650	Serpil Gül	F
+nm0848672	Jirô Tamiya	M
+nm0946621	Ismail Yassin	M
+nm0759252	Phillip Salvador	M
+nm0236980	Oliver Drake	M
+nm0105482	Pierre Brasseur	M
+nm0682074	Walter Pidgeon	M
+nm0602167	Barbara Moose	F
+nm0094023	Rene Bond	F
+nm0310221	Gautami	F
+nm0004487	Juhi Chawla	F
+nm1156358	Michisaburo Segawa	M
+nm0311677	Geetha	F
+nm0945101	Lala Yaqoob	M
+nm0787630	Shakila	F
+nm1737442	Fred Navarro	?
+nm1129966	Goundamani	M
+nm0657185	Tapas Pal	M
+nm0847654	Hisako Takihana	F
+nm0000011	Gary Cooper	M
+nm0938893	Anthony Chau-Sang Wong	M
+nm0024259	Ambarish	M
+nm1001243	Kushboo	F
+nm0000964	Charles Boyer	M
+nm0751834	Ruben Rustia	M
+nm0708274	Cesar Ramirez	M
+nm0136579	René Cardona	M
+nm0440383	Ryôzô Kasahara	?
+nm0569645	J.P. McGowan	M
+nm0908624	Edgar Wallace	?
+nm0534867	Madhu	M
+nm0707803	Esther Ralston	F
+nm0509573	Harry Liedtke	M
+nm0438501	Rishi Kapoor	M
+nm0150952	Jordan Chan	M
+nm0735959	Lolita Rodriguez	F
+nm0590055	John Mills	M
+nm0475070	Kunchan	M
+nm0001948	Charles Bickford	M
+nm0900266	Vivek	M
+nm0154108	Abhishek Chatterjee	M
+nm1398478	Lopito	M
+nm0000115	Nicolas Cage	M
+nm1182418	Mansour Sepehrnia	M
+nm0172822	Alberto Collo	M
+nm0158101	Chiquito	M
+nm0793766	Takashi Shimura	M
+nm0000929	Corbin Bernsen	M
+nm0408476	Rafael Inclán	M
+nm0880893	K.P. Ummer	M
+nm2888268	Ryûko Azuma	F
+nm1334389	Jayasurya	M
+nm0624075	Ni Tien	F
+nm1521002	Ramón Obón	?
+nm0482285	Lakshmi	F
+nm0440378	Kazuo Kasahara	?
+nm0943978	Keenan Wynn	M
+nm1173060	M.R. Radha	M
+nm0786447	Gloria Sevilla	F
+nm0158332	Leela Chitnis	F
+nm0542343	Kalabhavan Mani	M
+nm0235848	Joseph J. Dowling	M
+nm0872456	Claire Trevor	F
+nm0438477	Kamal Kapoor	M
+nm0792727	J. Barney Sherry	M
+nm0090283	Kunchacko Boban	M
+nm0875362	Yôko Tsukasa	F
+nm0001120	Vittorio De Sica	M
+nm0247624	Jon Martin	M
+nm0442886	Hiroko Kawasaki	F
+nm1679254	Rangayana Raghu	M
+nm0208375	Peppino De Filippo	M
+nm0000821	Amitabh Bachchan	M
+nm0001001	James Caan	M
+nm0015658	Abdulsalam El-Nabulsi	M
+nm0784988	Gustavo Serena	M
+nm2373718	Kitsuraku Arashi	M
+nm0137770	Luciano B. Carlos	M
+nm0626259	Franco Nero	M
+nm0000910	Joan Bennett	F
+nm0000514	Michael Madsen	M
+nm1289141	Lauro Delgado	M
+nm5083762	Bun'ei Shô	F
+nm0768029	Kunitarô Sawamura	M
+nm0158336	Chitra	F
+nm1794199	Rokurô Akashi	M
+nm0894494	Ruel Vernal	M
+nm0347729	Yalçin Gülhan	M
+nm0199087	Viola Dana	F
+nm0896215	Ray Victory	M
+nm0595194	Shahu Modak	M
+nm1164544	Firdous	F
+nm0908914	Dee Wallace	F
+nm0477209	Aaron Kwok	M
+nm0747365	Guy Royer	M
+nm0531759	J. Farrell MacDonald	M
+nm0811794	Shobana	F
+nm0218626	Albert DeMond	?
+nm0796221	Jose Flores Sibal	?
+nm0533102	Willard Mack	M
+nm1138888	Ying Cheung	M
+nm0878494	Mark Twain	M
+nm0849107	Yasuo Tanami	?
+nm0005033	Sammo Kam-Bo Hung	M
+nm0675729	Roland Pertwee	M
+nm0033136	Kanjûrô Arashi	M
+nm0201173	Colette Darfeuil	F
+nm0266234	Karl Falkenberg	M
+nm0897715	Paolo Villaggio	M
+nm0527002	Federico Luppi	M
+nm0139794	Mary Carr	F
+nm0329722	Gope	M
+nm1298052	Raghu Babu	M
+nm0348122	Selma Güneri	F
+nm0840679	Sumiko Suzuki	F
+nm0798130	Milton Sills	M
+nm1027829	Tarô Araki	M
+nm0007781	Rushdi Abazah	M
+nm0002154	Alfred Abel	M
+nm0523791	Antonella Lualdi	F
+nm0223521	Anil Dhawan	M
+nm0654843	Antonio Ozores	M
+nm0848396	Rumi Tama	F
+nm0657874	Eugene Pallette	M
+nm0831290	Bram Stoker	?
+nm0154139	Moushumi Chatterjee	F
+nm0340084	Cathy Stewart	F
+nm0846619	Ayumi Taguchi	F
+nm0560962	Carmen Maura	F
+nm0095108	César Bono	M
+nm0654679	Vahi Öz	M
+nm0000859	Lionel Barrymore	M
+nm0001055	Claudette Colbert	F
+nm6563624	Tamer Yigit	M
+nm0228715	Richard Dix	M
+nm0473134	Hanns Kräly	M
+nm2398970	Jusaburô Ichikawa	M
+nm0814489	Rosemarie Sonora	F
+nm1044840	Norma Blancaflor	F
+nm0000951	Joan Blondell	F
+nm0415612	Gajanan Jagirdar	M
+nm0000420	Valeria Golino	F
+nm0836687	Joe Stöckel	M
+nm0001884	Max von Sydow	M
+nm0620700	Hong Nan	F
+nm0025627	Tinnu Anand	M
+nm0219971	Sunny Deol	M
+nm0214348	Unni Mary	F
+nm0313876	Gerald Geraghty	?
+nm1550223	Pappanamkodu Lakshmanan	M
+nm0211565	Christian De Sica	M
+nm1984183	Shirôgorô Sawamura	M
+nm2681040	Masao Ômura	M
+nm0793731	Shirô Shimomoto	M
+nm0297687	Fuji Yahiro	?
+nm0639563	George O'Brien	M
+nm0462679	Kokuten Kôdô	M
+nm0095072	Bernard Bonnin	M
+nm1256435	Dündar Aydinli	M
+nm0000329	Jackie Chan	M
+nm0735636	Ramón Rodríguez Granada	?
+nm0471443	Manmohan Krishna	M
+nm0269493	George Fawcett	M
+nm0145061	Eric del Castillo	M
+nm0643350	Suresh Oberoi	M
+nm0013487	Antonio Aguilar	M
+nm0589316	Seton I. Miller	?
+nm0466159	Tanju Korel	M
+nm0297843	Susumu Fujita	M
+nm0041656	Carl Auen	M
+nm0605299	Shizuko Mori	F
+nm0463953	Esref Kolçak	M
+nm0316284	Giancarlo Giannini	M
+nm0739867	Aliye Rona	F
+nm0207023	Rodolfo de Anda	M
+nm0810342	William Smith	M
+nm0355653	Huntz Hall	M
+nm0724586	Jack Richardson	M
+nm1142519	Ramon 'Bong' Revilla Jr.	M
+nm0474907	Uttam Kumar	M
+nm0004570	Sunil Dutt	M
+nm1006879	Dolphy	M
+nm0082201	Tevhid Bilge	M
+nm0321216	Wyndham Gittens	?
+nm0897201	Joseph Vijay	M
+nm0415756	Adolf Jahr	M
+nm0000194	Julianne Moore	F
+nm0297670	Sumiko Fuji	F
+nm0603402	Jeanne Moreau	F
+nm2260417	Raymond Pak-Ming Wong	M
+nm0795851	Harold Shumate	?
+nm0103977	Brahmanandam	M
+nm0739360	Chanda Romero	F
+nm0619758	Kottarakkara Sridharan Nair	M
+nm0466977	Sylva Koscina	F
+nm0430772	Jose Prakash	M
+nm0082848	Bindu	F
+nm0430482	Jaclyn Jose	F
+nm5985135	Suet-Fei Leong	M
+nm0642988	Jack Oakie	M
+nm0493719	Norma Lazareno	F
+nm0038232	Muazzez Arçay	F
+nm0121083	Élisabeth Buré	F
+nm0621197	Shin'yô Nara	M
+nm0417837	Emil Jannings	M
+nm0001409	Tchéky Karyo	M
+nm1390180	Harue Koike	F
+nm2794335	Sadhu Kokila	M
+nm0002094	Vittorio Gassman	M
+nm0847361	Akira Takarada	M
+nm0529876	Carlos López Moctezuma	M
+nm0081175	Jean-Luc Bideau	M
+nm0456832	Salih Kirmizi	M
+nm0735019	Ric Rodrigo	M
+nm0001648	Charlotte Rampling	F
+nm0001791	Robert Taylor	M
+nm0001195	Douglas Fairbanks Jr.	M
+nm1072795	Kum-Bong Do	F
+nm0396071	Suad Husni	F
+nm1693209	Ramesh Bhat	M
+nm0124973	Jerry Butler	M
+nm3394756	Siddhanta Mahapatra	M
+nm0579445	Menaka	F
+nm0945189	Simon Yam	M
+nm0154152	Sabitri Chatterjee	F
+nm0006348	Rajendra Kumar	M
+nm0271826	Feng-Jiao Lin	F
+nm0879556	Mari Töröcsik	F
+nm1077932	Bong-seung Shin	?
+nm0348018	Sanath Gunathilake	M
+nm0051304	Honoré de Balzac	?
+nm0283780	Ladislas Fodor	?
+nm0795517	Qi Shu	F
+nm1166534	Venniradai Moorthy	M
+nm0893147	Relangi Venkatramaiah	M
+nm0474890	Shyam Kumar	M
+nm1066229	No-shik Park	M
+nm0407411	Ryô Ikebe	M
+nm0879186	Richard Tyson	M
+nm5083230	Ken'ichirô Sugiyama	M
+nm0814355	Hans Söhnker	M
+nm0014558	Shô Aikawa	M
+nm1065460	Jang-kang Heo	M
+nm1796032	Jôji Ichimura	M
+nm0000032	Charlton Heston	M
+nm2462840	Sudhir	M
+nm0047962	Chieko Baishô	F
+nm0000817	Lew Ayres	M
+nm0410902	Renji Ishibashi	M
+nm1375534	Trisha Krishnan	F
+nm0707398	Rajendra Nath	M
+nm2956557	Fei-Fei Chao	M
+nm0708479	Mitsusaburô Ramon	M
+nm1333453	Lap Ban Chan	F
+nm0408458	Bilal Inci	M
+nm0000457	John Hurt	M
+nm0222426	Ajay Devgn	M
+nm0524306	Wilfred Lucas	M
+nm0593192	Cameron Mitchell	M
+nm0837989	C. Gardner Sullivan	?
+nm0128880	Sharon Kane	F
+nm0311497	Ihsan Gedik	M
+nm0019382	Ali	M
+nm0185568	Buster Crabbe	M
+nm0654807	Fuat Özlüer	?
+nm0158112	Chiranjeevi	M
+nm0137226	Tahiyyah Karyuka	F
+nm0155519	J. Benton Cheney	?
+nm3183374	Balkrishna	M
+nm0000945	Jane Birkin	F
+nm1835962	Sanae Shiba	F
+nm0856194	Nubar Terziyan	M
+nm0793548	Kôji Shima	M
+nm0031832	Tomio Aoki	M
+nm0165691	Ethel Clayton	F
+nm0430460	Victor Jory	M
+nm0874781	Olga Tschechowa	F
+nm0223563	Poonam Dhillon	F
+nm5079362	Mari Shimokawa	F
+nm0508293	Thierry Lhermitte	M
+nm0211847	Alessandro De Stefani	?
+nm0890645	Romeo Vasquez	M
+nm0654712	Eitarô Ozawa	M
+nm0504897	Tony Chiu-Wai Leung	M
+nm0707425	Rajinikanth	M
+nm0729461	Dante Rivero	M
+nm0043396	Keiko Awaji	F
+nm0660362	Dionysis Papagiannopoulos	M
+nm0365121	Mildred Harris	F
+nm0592882	Hibari Misora	F
+nm0406545	Abdel Moneim Ibrahim	M
+nm0448696	Crauford Kent	M
+nm0548094	Ernst Marischka	?
+nm0317822	Mark Gil	M
+nm0866243	Leo Tolstoy	?
+nm0000686	Christopher Walken	M
+nm0545298	Fredric March	M
+nm0511276	Anita Linda	F
+nm0576454	Mehmood	M
+nm0059631	Çetin Basaran	M
+nm0001012	Claudia Cardinale	F
+nm0021718	Fernando Almada	M
+nm0701633	Antal Páger	M
+nm0309567	Harvey Gates	?
+nm1923635	Kikujirô Honda	M
+nm1031561	Rie Nakano	F
+nm0272794	Fernandel	M
+nm0530244	Marga López	F
+nm0755087	Achala Sachdev	F
+nm0247982	Nabila Ebeid	F
+nm0386229	Hiralal	M
+nm0000518	John Malkovich	M
+nm0691995	Henny Porten	F
+nm0000553	Liam Neeson	M
+nm0002040	Vanessa del Rio	F
+nm0611617	Mukri	M
+nm0814734	Türkan Soray	F
+nm0764821	Kovai Sarala	F
+nm0015459	Nagarjuna Akkineni	M
+nm0594702	Michitarô Mizushima	M
+nm1679372	Sudeep	M
+nm0322299	James Gleason	M
+nm0336339	Ralph Graves	M
+nm0001016	David Carradine	M
+nm0847028	Kôkichi Takada	M
+nm0604656	Frank Morgan	M
+nm0946672	Toshio Yasumi	?
+nm0139541	Tito Carpi	?
+nm1313029	Jose Leonardo	?
+nm0371025	George 'Gabby' Hayes	M
+nm0945692	Iwao Yamazaki	?
+nm0001041	Maggie Cheung	F
+nm0440590	Ilyas Kashmiri	M
+nm0949130	Dorothy Yost	?
+nm0891998	Conrad Veidt	M
+nm0862479	Lung Ti	M
+nm0361697	Setsuko Hara	F
+nm0007106	Shakti Kapoor	M
+nm1031814	Dencio Padilla	M
+nm0560943	Guy de Maupassant	?
+nm0433853	Balan K. Nair	M
+nm0618628	Behçet Nacar	M
+nm0448906	Hulusi Kentmen	M
+nm0412615	Shima Iwashita	F
+nm1064945	Mu-ryong Choi	M
+nm0001698	John Savage	M
+nm0401076	Victor Hugo	?
+nm0701090	Alexander Pushkin	?
+nm2153938	Naminosuke Horikawa	M
+nm0515292	Robert Livingston	M
+nm0003267	Oskar Sima	M
+nm0380965	Jean Hersholt	M
+nm0460906	Fuzzy Knight	M
+nm0151827	Sylvia Chang	F
+nm0193617	James Oliver Curwood	?
+nm0828583	Marc Stevens	M
+nm0951019	Reha Yurdakul	M
+nm0122470	Smiley Burnette	M
+nm0465503	Louis Koo	M
+nm0193354	Jack Curtis	M
+nm0695170	Om Prakash	M
+nm0555494	Jaroslav Marvan	M
+nm0731502	Ralph Arthur Roberts	M
+nm0007102	Tabu	F
+nm0731623	Theodore Roberts	M
+nm0249892	Paul Thomas	M
+nm0098376	Hobart Bosworth	M
+nm0632757	Kô Nishimura	M
+nm0219666	Reginald Denny	M
+nm0080445	Bharat Bhushan	M
+nm1340316	Rogelio de la Rosa	M
+nm0001128	Alain Delon	M
+nm0407572	Jay Ilagan	M
+nm0057488	Kristara Barrington	F
+nm0081788	Earl Derr Biggers	?
+nm0297793	Hideo Fujino	M
+nm0913911	Tetsuya Watari	M
+nm0045119	Aruna Irani	F
+nm1509215	Kaloor Dennis	?
+nm0621263	M.S. Narayana	M
+nm0010799	Buck Adams	M
+nm0955954	Werner P. Zibaso	?
+nm0867538	Regis Toomey	M
+nm0350884	Ernesto Gómez Cruz	M
+nm0001766	Barbara Stanwyck	F
+nm0600628	Jeong-suk Moon	F
+nm0363218	Kenneth Harlan	M
+nm0282767	Bella Flores	F
+nm0667152	Albert Paulig	M
+nm0051812	Kôtarô Bandô	M
+nm0193005	Frank Currier	M
+nm0889542	Vishnuvardhan	M
+nm0775419	Raymond L. Schrock	?
+nm0889024	Charles Vanel	M
+nm0692180	Julio Porter	?
+nm0024302	Ambika	F
+nm0000545	Helen Mirren	F
+nm0802107	Dara Singh	M
+nm0088297	Bunny Bleu	F
+nm0865787	Tugay Toksöz	M
+nm0001983	Rory Calhoun	M
+nm1272494	Taisuke Matsumoto	M
+nm0778306	Reinhold Schünzel	M
+nm0824009	Nikos Stavridis	M
+nm1063015	Hyeon-shil Tae	F
+nm0715723	Tom Reed	?
+nm0016321	Alban Ceray	M
+nm0882485	Yaeko Utagawa	F
+nm0661886	Geun-hyeong Park	M
+nm0021728	Mario Almada	M
+nm0586733	Rentarô Mikuni	M
+nm0889511	Victor Varconi	M
+nm2803981	Makoto Sugimoto	M
+nm0534863	Madhavi	F
+nm0603875	Antonio Moreno	M
+nm0040314	Dely Atay-atayan	F
+nm0543611	Manorama	F
+nm0547966	Frances Marion	F
+nm0396998	Adrian Hoven	M
+nm0249982	Eric Edwards	M
+nm0163776	Christoph Clark	M
+nm0419707	Jayasudha	F
+nm0000802	Mary Astor	F
+nm0595948	Uttam Mohanty	M
+nm0000175	Stephen King	M
+nm0726256	Johannes Riemann	M
+nm0033171	Michiyo Aratama	F
+nm0001229	Glenn Ford	M
+nm0765168	Muhsen Sarhan	M
+nm0080238	Tanikella Bharani	M
+nm0000438	Ed Harris	M
+nm0265813	Maryam Fakhruddin	F
+nm0107756	Lou Breslow	M
+nm0910089	Mary Walter	F
+nm0473041	Nikolay Kryuchkov	M
+nm0644823	Hideo Oguni	?
+nm0271763	Edwige Fenech	F
+nm0088396	Bernard Blier	M
+nm0038355	Tadanobu Asano	M
+nm0001695	George Sanders	M
+nm0957652	Émile Zola	?
+nm1970216	Shizuko Tsuga	F
+nm0881540	Kumeko Urabe	F
+nm0438467	Bharat Kapoor	M
+nm1131932	Nellikode Bhaskaran	M
+nm0000499	Bai Ling	F
+nm1045131	Marlene Dauden	F
+nm0759453	Rafael J. Salvia	?
+nm0406733	Momonosuke Ichikawa	M
+nm0359034	Orville H. Hampton	?
+nm0897227	Vijayshanti	F
+nm0874676	Eric Tsang	M
+nm0781323	Zinat Sidqi	F
+nm0910400	Henry B. Walthall	M
+nm0437147	Kanchana	F
+nm0694893	Prabhu	M
+nm0618679	Kurt Nachmann	M
+nm0154118	Biplab Chatterjee	M
+nm0713592	Rahi Masoom Reza	?
+nm0392442	Jack Holt	M
+nm0824496	Bob Steele	M
+nm0776456	Franz Schulz	?
+nm0052332	Kali Bannerjee	M
+nm0313888	Thomas J. Geraghty	?
+nm0879945	Ken Uehara	M
+nm0540504	Roberto Malone	M
+nm0596807	Ángela Molina	F
+nm0544424	Edu Manzano	M
+nm0330265	Huntley Gordon	M
+nm0004660	Rajkumar	M
+nm2885848	Sôzabruô Matsuyama	M
+nm0764762	Sharada	F
+nm0474820	Kiran Kumar	M
+nm0812919	Andrés Soler	M
+nm0616102	T.S. Muthaiah	M
+nm0158804	Eun-hie Choi	F
+nm0000579	Ron Perlman	M
+nm1049183	John Regala	M
+nm0015526	Mehmet Ali Akpinar	M
+nm0024589	Mario Amendola	M
+nm0721073	Fernando Rey	M
+nm0659250	Pandharibai	F
+nm0889403	Enrico Vanzina	?
+nm0444822	Oscar Keesee	M
+nm0594105	Mehar Mittal	M
+nm0749505	Max Ruhbeck	M
+nm0386944	Adolf Hitler	M
+nm0004429	Dharmendra	M
+nm0720763	Revathy	F
+nm0246150	Armen Dzhigarkhanyan	M
+nm0347901	Rakhee Gulzar	F
+nm0569747	Walter McGrail	M
+nm0638150	Muhterem Nur	F
+nm0440986	Bruno Kastner	M
+nm0080755	Oreste Biancoli	?
+nm0950902	Jeong-hie Yun	F
+nm0000509	Bela Lugosi	M
+nm0001651	Basil Rathbone	M
+nm0787183	Shadia	F
+nm0848426	Utako Tamaki	F
+nm0595897	Mohan	M
+nm0419986	Henri Jeanson	M
+nm1138228	Thengai Srinivasan	M
+nm0001560	Ornella Muti	F
+nm0612334	Ranjit Mallick	M
+nm0000587	Donald Pleasence	M
+nm0474864	Ravi Kumar	M
+nm0613669	Noé Murayama	M
+nm0038377	Ruriko Asaoka	F
+nm1665855	Kikuko Tachibana	F
+nm0510857	Brigitte Lin	F
+nm0716701	Piero Regnoli	?
+nm0878605	John Twist	?
+nm0765026	Victorien Sardou	?
+nm0324845	Vikram Gokhale	M
+nm0453472	Hee-ra Kim	M
+nm0258674	Sadettin Erbil	M
+nm0271792	Fung Fung	M
+nm0913912	Tsunehiko Watase	M
+nm0152362	Edythe Chapman	F
+nm2750565	Hataya Ichikawa	M
+nm0369058	Raymond Hatton	M
+nm0618981	Orlando Nadres	M
+nm0267868	Joseph Farnham	?
+nm0066455	Beena Banerjee	F
+nm0004469	Srinivasa Rao Kota	M
+nm3454756	Bijaya Mishra	?
+nm0437786	Kannamba	F
+nm0710564	Kanta Rao	M
+nm0453523	Jin Kyu Kim	M
+nm0361676	Kensaku Hara	M
+nm0579240	Bert R. Mendoza	?
+nm0430803	Mohan Joshi	M
+nm0000974	Walter Brennan	M
+nm1404343	Tôshi Yanagi	M
+nm0000215	Susan Sarandon	F
+nm0194742	Arturo de Córdova	M
+nm0433887	K.R. Vijaya	F
+nm0151539	Chandrashekhar	M
+nm0467557	Isamu Kosugi	M
+nm0307326	William Gargan	M
+nm0001929	Josiane Balasko	F
+nm0320988	Massimo Girotti	M
+nm0948634	Philip Yordan	?
+nm0482289	Jyothi Lakshmi	F
+nm0463539	Manisha Koirala	F
+nm0443221	Bülent Kayabas	M
+nm0658137	Blake Palmer	M
+nm0746946	Bikash Roy	M
+nm0299761	Olaf Fønss	M
+nm0048075	Manoj Bajpayee	M
+nm0181334	Amado Cortez	M
+nm0004464	Heinz Rühmann	M
+nm0536948	Mahipal	M
+nm0137829	Fanny Carlsen	?
+nm0332417	Dardano Sacchetti	M
+nm0419653	Jayabharati	F
+nm0802366	Mala Sinha	F
+nm0549385	Percy Marmont	M
+nm0057467	Michael Barringer	?
+nm0641776	Pat O'Malley	M
+nm0752796	Rachel Ryan	F
+nm0455938	Teinosuke Kinugasa	M
+nm0285922	Wallace Ford	M
+nm0023096	Alummoodan	M
+nm0006842	Julio Alemán	M
+nm0752813	Robert Ryan	M
+nm0523529	Ike Lozada	M
+nm0256937	Mümtaz Ener	M
+nm0764168	Lina Santos	F
+nm0463803	Neriman Köksal	F
+nm1687619	Jai Ganesh	M
+nm0661038	Joaquín Pardavé	M
+nm0906226	Zarina Wahab	F
+nm0812929	Domingo Soler	M
+nm0024301	Ambika	F
+nm1167045	Aranmulla Ponnamma	F
+nm0000071	James Stewart	M
+nm0000164	Anthony Hopkins	M
+nm0301556	Michel Galabru	M
+nm0739124	Lina Romay	F
+nm0168746	Vicente Coello	M
+nm0768025	Haruko Sawamura	F
+nm0909145	Marc Wallice	M
+nm0000897	Ralph Bellamy	M
+nm0520602	Liza Lorena	F
+nm0523046	Sherman L. Lowe	?
+nm0315917	Rabi Ghosh	M
+nm0784292	Rituparna Sengupta	F
+nm0473325	Lung Ku	?
+nm0894063	Ace Vergel	M
+nm1035848	Tomohiro Okada	M
+nm0170401	Anthony Coldeway	?
+nm0160865	Norman Chu	M
+nm2518312	Anwar Hossain	M
+nm0580648	Bess Meredyth	F
+nm0741147	Françoise Rosay	F
+nm0306071	Eleazar García	M
+nm0080330	Urmila Bhatt	F
+nm0000608	Burt Reynolds	M
+nm0403636	Paul Hurst	M
+nm0008961	P.K. Abraham	M
+nm0864217	Jerry O. Tirazona	?
+nm0019699	Sadri Alisik	M
+nm0436914	Gustav Kampendonk	?
+nm0225905	Wilhelm Diegelmann	M
+nm0252880	Nour El-Sherif	M
+nm0411757	Takeshi Itô	M
+nm0757104	Takeshi Sakamoto	M
+nm0416075	Jalaja	F
+nm0882577	Ken Utsui	M
+nm5985138	Hark-Suen Lau	M
+nm0880419	Ulhas	M
+nm0087126	Francis Blanche	M
+nm1970291	Lemon Hanazawa	F
+nm0155599	Mark Cheng	M
+nm1045911	Jess Lapid	M
+nm0001428	Klaus Kinski	M
+nm0943138	Wu Ma	M
+nm0288003	Preston Foster	M
+nm0595934	Mohan Babu	M
+nm0755421	S.L. Puram Sadanandan	?
+nm2884462	Riri Kôda	F
+nm0252843	Mahmoud Al Meleji	M
+nm0784521	Senthil	M
+nm0810426	Silk Smitha	F
+nm0768416	Leyla Sayar	F
+nm1049059	Tommy C. David	?
+nm0191002	Cuckoo	F
+nm1294453	Mars Ravelo	?
+nm0687596	Cyril Val	M
+nm0644557	Mami Ogawa	F
+nm0317863	Rosemarie Gil	F
+nm0442848	Reikichi Kawamura	M
+nm0907404	Hal Taliaferro	M
+nm0370577	Ryôji Hayama	M
+nm0516316	Lieh Lo	M
+nm1000331	Rima Aono	F
+nm0815018	Maricel Soriano	F
+nm0559385	Chieko Matsubara	F
+nm0848533	Tetsurô Tanba	M
+nm0084428	Biswajit Chatterjee	M
+nm0477553	Machiko Kyô	F
+nm0349412	Tonton Gutierrez	M
+nm0624052	Antonie Nedosinská	F
+nm1031555	Anil Nagrath	M
+nm0015081	Tarik Akan	M
+nm0361757	Yoshio Harada	M
+nm0661262	Gina Pareño	F
+nm2516110	Vijay Chavan	M
+nm0004435	Rajesh Khanna	M
+nm1150184	R. Muthuraman	M
+nm0462013	Keiju Kobayashi	M
+nm0739182	Stewart Rome	M
+nm0611794	Clarence E. Mulford	?
+nm1223449	Krishna Bhagavan	M
+nm0805538	Piotr Stanislas	M
+nm0357491	Imad Hamdi	M
+nm0167395	Andy Clyde	M
+nm0655368	Amit Pachori	M
+nm0928492	Oscar Wilde	?
+nm0351565	Salih Güney	M
+nm0522871	Edward T. Lowe Jr.	?
+nm0415851	Paidi Jairaj	M
+nm0047720	Mary Brian	F
+nm0007173	Rabindranath Tagore	?
+nm1070013	Am Park	M
+nm0660658	Kuthiravattam Pappu	M
+nm0400763	Lloyd Hughes	M
+nm0000598	Dennis Quaid	M
+nm0407426	Ichirô Ikeda	?
+nm0640784	Joseph O'Donnell	?
+nm0265761	Eduardo Fajardo	M
+nm0034889	Ichirô Arishima	M
+nm0014955	Yumeko Aizome	F
+nm0101071	John Bowers	M
+nm1045417	Pablo S. Gomez	?
+nm0007147	Dev Anand	M
+nm0683477	Maniyanpilla Raju	M
+nm0251507	Bruno Eichgrün	M
+nm0645011	Minoru Ôki	M
+nm0869451	Totò	M
+nm0936728	Grant Withers	M
+nm5646207	Siu-Ying Chow	F
+nm0442709	Tamio Kawaji	M
+nm0673451	Ben Perez	M
+nm0434595	Ryôsuke Kagawa	M
+nm0171442	Feridun Çölgeçen	M
+nm0006763	Jackie Shroff	M
+nm0001935	Noah Beery	M
+nm0393291	Kôjirô Hongô	M
+nm0897206	Vijayakumar	M
+nm0212141	Nestor de Villa	M
+nm0437561	Suphi Kaner	M
+nm1577389	Ying-Seong Fung	M
+nm2671390	Alamgir	M
+nm0006982	Adoor Bhasi	M
+nm0174720	William Conklin	M
+nm0299345	Naoe Fushimi	F
+nm0721270	Efren Reyes	M
+nm0849437	Naomi Tani	F
+nm0893099	Thanasis Vengos	M
+nm0052835	Hüseyin Baradan	M
+nm0619309	Nagesh	M
+nm1071598	Connie Chan	F
+nm0035877	Robert Armstrong	M
+nm0621937	Nassar	M
+nm0952707	Ramon Zamora	M
+nm0003501	Jamie Gillis	M
+nm0396876	Norman Houston	?
+nm0603090	Laura Morante	F
+nm0558923	June Mathis	?
+nm0327861	Luis Gonzales	M
+nm0017274	Luis Alcoriza	M
+nm4025258	Setsu Shimizu	F
+nm0460337	Eugen Klöpfer	M
+nm0712437	Nizhalgal Ravi	M
+nm0139213	Mario Carotenuto	M
+nm0004486	Bruno Ganz	M
+nm0157971	Paul Chun	M
+nm0619938	Tatsuya Nakadai	M
+nm0000047	Sophia Loren	F
+nm0577281	Ahmet Mekin	M
+nm0101570	T.T. Boy	M
+nm0348004	Milind Gunaji	M
+nm0013023	Agha	M
+nm0560857	W. Somerset Maugham	?
+nm0754177	Varalakshmi S.	F
+nm0411714	Kiyomi Itô	F
+nm0000640	Martin Sheen	M
+nm0784857	Massimo Serato	M
+nm0000252	Robert Ellis	M
+nm0066247	Ford Beebe	?
+nm1156207	Riaz	M
+nm0448839	Robert E. Kent	?
+nm1411429	Kan'ichi Hiraga	M
+nm0000230	Sylvester Stallone	M
+nm0043247	Vasilis Avlonitis	M
+nm1283423	Yôtarô Katsumi	M
+nm0008354	Kusuo Abe	M
+nm0812286	Minoru Takase	M
+nm0767800	Savitri	F
+nm0000308	Ernest Borgnine	M
+nm0820607	Al St. John	M
+nm0694884	Prabhakar Reddy	M
+nm0209615	Lisa De Leeuw	F
+nm0451234	Irrfan Khan	M
+nm0402113	Ediz Hun	M
+nm0767491	Perihan Savas	F
+nm0420203	L.V. Jefferson	?
+nm0252309	Ali Ekdal	M
+nm0042820	Suzan Avci	F
+nm0225042	Romy Diaz	M
+nm0134435	Feri Cansel	F
+nm0453667	Seung-ho Kim	M
+nm0350104	Roberto 'Flaco' Guzmán	M
+nm0764877	Sarath Kumar	M
+nm0708792	Sergio Ramos	M
+nm0000440	Nina Hartley	F
+nm0998011	Satomi Shinozaki	F
+nm0144240	Rick Cassidy	M
