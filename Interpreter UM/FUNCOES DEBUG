@@ -1,0 +1,241 @@
+
+/**
+ * \brief Funcao para mostrar a stack com os tokens
+ *
+ * Esta funcao recebe os dados e mostra a stack por meio de um ciclo for e algumas verificacoes em relacao ao token
+ * Esta funcao foi muito usada para desbugar o pograma em algumas situacoes
+ *
+ * @param dados receber a stack
+ */
+void DISPLAYwTOKEN(stack *dados)
+{
+  int i;
+  int len = lastPosition(dados);
+  printf("\n\n====ESTRUTURA DE DADOS=====\n\n");
+  for (i = 0; i < len; i++)
+  {
+    if (dados[i].tag == stacks)
+    {
+      printf("%s -> STACK\n", dados[i].caracter);
+    }
+    if (dados[i].tag == numInteiro)
+    {
+      int j = atof(dados[i].caracter);
+      printf("%d -> NUMERO INTEIRO\n", j);
+    }
+    if (dados[i].tag == numFloat)
+    {
+      double j = atof(dados[i].caracter);
+      printf("%lf -> NUMERO FLOAT\n", j);
+    }
+    if (dados[i].tag == numInteiroFunc)
+    {
+      double j = atof(dados[i].caracter);
+      printf("%lf -> NUMERO INTEIRO Funcao\n", j);
+    }
+    if (dados[i].tag == numFloatFunc)
+    {
+      double j = atof(dados[i].caracter);
+      printf("%lf -> NUMERO FLOAT Funcao\n", j);
+    }
+    if (dados[i].tag == expressaoMat)
+    {
+      printf("%s -> EXPRESSAO MATEMATICA\n", dados[i].caracter);
+    }
+    if (dados[i].tag == logica)
+    {
+      printf("%s -> LOGICA\n", dados[i].caracter);
+    }
+    if (dados[i].tag == inputOutput_Conversoes)
+    {
+      printf("%s -> INPUT/OUTPUT_Conversoes\n", dados[i].caracter);
+    }
+    if (dados[i].tag == string)
+    {
+      printf("%s -> STRING\n", dados[i].caracter);
+    }
+    if (dados[i].tag == variavel)
+    {
+      lerVariaveilFanstasma(dados, i);
+      printf("%s -> VARIAVEL COM VALOR: %s \n", dados[i].caracter, dados[i].variavel);
+    }
+    if (dados[i].tag == limite)
+    {
+      printf("%s -> LIMITE \n", dados[i].caracter);
+    }
+    if (dados[i].tag == nothing)
+    {
+      printf("%s -> NOTHING \n", dados[i].caracter);
+    }
+    if (dados[i].tag == variavelFantasma)
+    {
+      printf("%s -> VARIAVEL FANTASMA COM VALOR: %s \n", dados[i].caracter, dados[i].variavel);
+    }
+    if (dados[i].tag == bloco)
+    {
+      printf("%s -> Bloco\n", dados[i].caracter);
+    }
+    if (dados[i].tag == trash)
+    {
+      printf("%s -> Lixo \n", dados[i].caracter);
+    }
+  }
+}
+
+
+void reduzirEspacoString(stack *dados)
+{
+  int i, y, t;
+  for (i = 0; dados[i].caracter; i++)
+  {
+    for (y = 0; dados[i].caracter[y]; y++)
+    {
+      if (dados[i].caracter[y] == ' ' && dados[i].caracter[y + 1] == ' ')
+      {
+        for (t = y; dados[i].caracter[t]; t++)
+        {
+          dados[t] = dados[t + 1];
+          y--;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+/**
+ * \brief Funcao para dar token as parcelas da stack
+ *
+ * Esta funcao recebe os dados e tokeniza-la
+ *
+ * @param dados receber a stack
+ * @param c receber a string atual da estrutura de dados para uma facilidade na verificacao
+ * @param i posicao atual da stack
+ */
+void tokenFunc(char *c, stack *dados, int i)
+{
+  if (dados[i].tag == string)
+  {
+    dados[i].tag = string;
+  }
+  else if (dados[i].tag == nothing)
+  {
+    dados[i].tag = nothing;
+  }
+  else if (dados[i].tag == variavelFantasma)
+  {
+    dados[i].tag = variavelFantasma;
+  }
+  else if (c[0] == '[' || c[0] == ']')
+  {
+    dados[i].tag = limite;
+  }
+  else if (c[0] == '+' || c[0] == '-' || c[0] == '*' || c[0] == '/' || c[0] == '(' || c[0] == ')' || c[0] == '%' || c[0] == '#' || c[0] == '&' || c[0] == '|' || c[0] == '^' || c[0] == '~')
+  {
+    if (c[0] == '-' && isdigit(c[1]) != 0)
+    {
+      if (dados[i].tag == numFloat || isfloat(dados[i].caracter) != 0)
+      {
+        dados[i].tag = numFloat;
+      }
+      else
+      {
+        dados[i].tag = numInteiro;
+      }
+    }
+    else
+    {
+      dados[i].tag = expressaoMat;
+    }
+  }
+  else if (c[0] == '_' || c[0] == ';' || c[0] == '\\' || c[0] == '@' || c[0] == '$' || (c[0] == 'S' && c[1] == '/') || (c[0] == 'N' && c[1] == '/'))
+  {
+    dados[i].tag = stacks;
+  }
+  else if (c[0] == '=' || c[0] == '<' || c[0] == '>' || c[0] == '!' || (c[0] == 'e' && c[1] == '&') || (c[0] == 'e' && c[1] == '|') || (c[0] == 'e' && c[1] == '<') || (c[0] == 'e' && c[1] == '>') || c[0] == '?') /* está em falta o Falso e Verdadeiro */
+  {                                                                                                                                                                                                                 /*Manipular os char individualmente-------------------------------------------------------------------------------------------*/
+    dados[i].tag = logica;
+  }
+  else if (((c[0] == 'l' || c[0] == 't' || c[0] == 'p' || c[0] == 'i' || c[0] == 'f' || c[0] == 'c' || c[0] == 's') && !c[1]) || (c[0] == ':' && (c[1] >= 'A' && c[1] <= 'Z') && !c[2]) || c[0] == ',')
+  {
+    dados[i].tag = inputOutput_Conversoes;
+  }
+  else if (((isalpha(c[0]) != 0 && (c[0] >= 'A' && c[0] <= 'Z')) && !c[1]) || c[0] == ':')
+  {
+    dados[i].tag = variavel;
+  }
+  else if (c[0] == '"')
+  {
+    dados[i].tag = string;
+  }
+  else if (dados[i].tag == numFloatFunc || dados[i].tag == numInteiroFunc)
+  {
+    if (dados[i].tag == numFloatFunc)
+    {
+      dados[i].tag = numFloatFunc;
+    }
+    else
+    {
+      dados[i].tag = numInteiroFunc;
+    }
+  }
+  else if (dados[i].tag == numFloat || isfloat(dados[i].caracter) != 0)
+  {
+    dados[i].tag = numFloat;
+  }
+  else if (isdigit(c[0]) != 0)
+  {
+    dados[i].tag = numInteiro;
+  }
+  else
+  {
+    dados[i].tag = nothing;
+  }
+}
+
+
+
+
+
+POSSO PRECISAR CARALHO
+
+void condicional(stack *dados, int pos)
+{
+  double x;
+  int j = 0;
+  stack *auxStack = malloc(SIZE);
+  char *c = malloc(SIZE);
+  x = PUSH(dados, pos - 3);
+  if (dados[pos - 3].tag == limite)
+  {
+    j = 1;
+    x = PUSH(dados, pos - 4);
+  }
+  auxStack[0].caracter = dados[pos - 1].caracter;
+  auxStack[0].tag = dados[pos - 1].tag;
+  /*c = dados[pos - 1].caracter;*/
+  if (x != 0)
+  {
+    auxStack[0].caracter = dados[pos - 2].caracter;
+    auxStack[0].tag = dados[pos - 2].tag;
+    /* c = dados[pos - 2].caracter;*/
+  }
+  POP(dados, pos - 1);
+  POP(dados, pos - 2);
+  POP(dados, pos - 3);
+  dados[pos - 3].caracter = auxStack[0].caracter;
+  dados[pos - 3].tag = auxStack[0].tag;
+  if (j != 0)
+  {
+    if (x != 0)
+    {
+      POP_ARRAY(dados, pos - 3);
+    }
+    else
+    {
+      POP(dados, pos - 4);
+    }
+  }
+}
