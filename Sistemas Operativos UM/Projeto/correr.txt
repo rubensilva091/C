@@ -1,0 +1,7 @@
+Server
+/bin/sdstored etc/sdstored.conf sdstore-transformations 
+
+Clientes
+/bin/sdstore proc-file files/test.txt files/save.txt nop encrypt bcompress
+
+/bin/sdstore status
